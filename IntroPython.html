@@ -129,7 +129,7 @@ Economic Growth and Comparative Development            </a>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Python</strong> is a powerful and easy to use programming language. It has a large community of developers and given its open source nature, you can find many solutions, scripts, and help all over the web. It is easy to learn and code, and faster than other high-level programming languages...and did I mention it is <em>free</em> because it is <strong>open source</strong></p>
 <p><strong>IPython</strong> is a very powerful extension to Python that provides:
-Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="">Jupyter</a>).</p>
+Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="http://jupyter.org/">Jupyter</a>).</p>
 <ul>
 <li>A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.</li>
 <li>Support for interactive data visualization and use of GUI toolkits.</li>
@@ -154,6 +154,21 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>You can download and install Python and its packages for free for your computer from <a href="http:www.python.org">Python.org</a>. While this is the official site, which offers the basic installer and you can try do add any packages you require yourself, a much easier approach, which is almost foolproof is to use <a href="https://www.continuum.io/downloads">Continuum Anaconda</a> or <a href="https://www.enthought.com/products/canopy">Enthought Canopy</a>. Both of these distributions offer academic licenses (<a href="https://www.enthought.com/products/canopy/academic/">Canopy</a>), which allow you to use a larger set of packages.</p>
+<h2 id="Installing-(I)Python-&amp;-Jupyter">Installing (I)Python & Jupyter<a class="anchor-link" href="#Installing-(I)Python-&amp;-Jupyter">¶</a></h2><p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.continuum.io/downloads">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="../notebooks/CondaInstall.sh">this script</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. Then download the following scripts (<a href="../notebooks/GeoPython2env.yml">GeoPythonenv2</a>, <a href="../notebooks/GeoPython3env.yml">GeoPythonenv3</a>) and execute</p>
+<pre><code>conda update conda
+conda-env create -f GeoPython2env.yml
+conda-env create -f GeoPython3env.yml
+
+</code></pre>
+<p>This will create two environments with all the packages you will require for this course (and more!). To start using one of the <code>Python 2.7</code> environment you will need to exectute the following command</p>
+<pre><code>source activate GeoPython2env
+
+</code></pre>
+<p>and for <code>Python 3.x</code></p>
+<pre><code>source activate GeoPython3env
+
+</code></pre>
+<p>I would suggest using <code>Python 3.x</code>, since it is the latest and most uptodate version.</p>
 </div>
 </div>
 </div>
@@ -162,7 +177,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h4><p>I use Canopy on OSX, so the rest of this tutorial will assume you are using that distribution. Everything that is done should work on any distribution that has the required packages, since the Python scripts should run (in rinciple) on any of these distributions.</p>
+<h4 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h4><p>I assume you have followed the steps above and have installed <code>Anaconda</code>. Everything that is done should work on any distribution that has the required packages, since the Python scripts should run (in principle) on any of these distributions.</p>
 <p>We will use IPython as our computing environment.</p>
 </div>
 </div>
@@ -186,12 +201,12 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="
 <li>Open the Canopy program and work there</li>
 <li>From the Terminal prompt (command-line in Windows) execute one of the following commands:<ul>
 <li><code>ipython</code></li>
-<li><code>ipython qtconsole</code></li>
-<li><code>ipython notebook</code></li>
+<li><code>jupyter qtconsole</code></li>
+<li><code>jupyter notebook</code></li>
 </ul>
 </li>
 </ul>
-<p>While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (<a href="http://macromates.com/">TextMate</a>) and the <code>ipython qtconsole</code>. Although after seeing the power of Ipython's notebooks (see this excellent and in-depth <a href="http://youtu.be/xe_ATRmw0KM">presentation</a> by its creators), I might consider shifting towards the notebook. As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.</p>
+<p>While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (<a href="http://macromates.com/">TextMate</a>, <a href="https://atom.io/">Atom</a>, <a href="http://www.sublimetext.com/">Sublime</a>) and the <code>jupyter qtconsole</code> or the <code>jupyter notebook</code>. To see the power of <code>Jupter notebooks</code> (see this excellent and in-depth <a href="http://youtu.be/xe_ATRmw0KM">presentation</a> by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.</p>
 </div>
 </div>
 </div>
@@ -200,7 +215,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h4><p>You can pass some additional commands to <code>ipython</code> in order to change colors and rendering of plots. I usually use <code>ipython qtconsole --color=linux --pylab=inline</code>. You can create profiles to manage many options within IPython.</p>
+<h4 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h4><p>You can pass some additional commands to <code>ipython</code> in order to change colors and rendering of plots. I usually use <code>jupyter qtconsole --color=linux --pylab=inline</code>. You can create profiles to manage many options within <code>IPython</code> and <code>JuPyter</code>.</p>
 </div>
 </div>
 </div>
@@ -313,7 +328,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on <a href="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Notce that this answer is wrong if $1,2\in\mathbb{R}$, but Python thinks they are integers, so it forces and integer. In order to have a more natural behavior of division we need</p>
+<p>If you are in <code>Python 2.7</code> you will notice that this answer is wrong if $1,2\in\mathbb{R}$, but Python thinks they are integers, so it forces and integer. In order to have a more natural behavior of division we need</p>
 </div>
 </div>
 </div>
@@ -1094,7 +1109,7 @@ print 'Hello World!'
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">¶</a></h4><p>Write a simple script that simulates and plots random walks. In particular, create a function randomwalk(x0,T,mu,sigma) that simulates the random walk starting at $x_0=x0$ until $t=T$ where the shock is distributed $\mathcal{N}(\mu,\sigma^2)$</p>
+<h4 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">¶</a></h4><p>Write a simple script that simulates and plots random walks. In particular, create a function <code>randomwalk(x0,T,mu,sigma)</code> that simulates the random walk starting at $x_0=x0$ until $t=T$ where the shock is distributed $\mathcal{N}(\mu,\sigma^2)$</p>
 </div>
 </div>
 </div>
@@ -1775,6 +1790,11 @@ First we merge the data using the pd.merge command, which allows us to merge two
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-0">
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-0">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
                         </a>
@@ -1782,11 +1802,6 @@ First we merge the data using the pd.merge command, which allows us to merge two
                     <li class="list-group-item tag-0">
                         <a href="https://econgrowth.github.io/tag/macroeconomics.html">
                             Macroeconomics
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-0">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">

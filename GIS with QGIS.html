@@ -177,8 +177,9 @@ Economic Growth and Comparative Development            </a>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Using-Anaconda-(easy)">Using Anaconda (easy)<a class="anchor-link" href="#Using-Anaconda-(easy)">¶</a></h2><p>If you have installed <a href="">Anaconda</a></p>
-<h2 id="Not-using-Anaconda-(more-freedom,-but-more-technical)">Not using Anaconda (more freedom, but more technical)<a class="anchor-link" href="#Not-using-Anaconda-(more-freedom,-but-more-technical)">¶</a></h2><p>Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed <a href="https://www.enthought.com/products/canopy/academic/">Canopy</a> with all the pakages provided by Enthought. Additionally, you will need to install <a href="http://grass.osgeo.org">GRASS</a>, <a href="https://www.qgis.org">QGIS</a>, and <a href="http://www.gdal.org/">GDAL/OGR</a>.</p>
+<h2 id="QGIS">QGIS<a class="anchor-link" href="#QGIS">¶</a></h2><p>Install <a href="https://www.qgis.org">QGIS</a> using their installers. On OSX you may need to follow the instructions below.</p>
+<h2 id="Anaconda">Anaconda<a class="anchor-link" href="#Anaconda">¶</a></h2><p>If you followed the steps for installing the Continuum Anaconda Python Distribution and for creating the <code>GeoPythonXenv</code> (<a href="https://econgrowth.github.io/pages/Computation.html">presented here</a>), then you are basically set for working with GIS in Python.</p>
+<h2 id="Non-Anaconda-installation">Non Anaconda installation<a class="anchor-link" href="#Non-Anaconda-installation">¶</a></h2><p>Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed <a href="https://www.enthought.com/products/canopy/academic/">Canopy</a> with all the pakages provided by Enthought. Additionally, you will need to install <a href="http://grass.osgeo.org">GRASS</a>, <a href="https://www.qgis.org">QGIS</a>, and <a href="http://www.gdal.org/">GDAL/OGR</a>.</p>
 <h3 id="Windows">Windows<a class="anchor-link" href="#Windows">¶</a></h3><p>Download the installers in each of these websites and you should be done!</p>
 <h3 id="Mac-OSX">Mac OSX<a class="anchor-link" href="#Mac-OSX">¶</a></h3><p>There are various methods of getting these on your computer.</p>
 <ol>
@@ -205,7 +206,7 @@ brew tap homebrew/science
 <pre><code> brew tap osgeo/osgeo4mac
  brew tap --repair
  brew tap homebrew/science
- brew install osgeo/osgeo4mac/qgis-2x
+ brew install qgis2
  brew linkapps
  sudo easy_install psycopg2
 
@@ -330,7 +331,7 @@ brew tap homebrew/science
 <li><a href="http://ngdc.noaa.gov/eog/data/web_data/v4composites/F182012.v4.tar">Lights Data for 2012</a></li>
 </ol>
 <p>Now, open QGIS. You should see something like this</p>
-<p><a href="./pics/GIS/QGIS-main.png"><img alt="QGIS open" src="./pics/GIS/QGIS-main.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-main.png"><img alt="QGIS open" src="../images/pics/GIS/QGIS-main.png" style="width: 1000px;" /></a></p>
 </div>
 </div>
 </div>
@@ -344,11 +345,11 @@ brew tap homebrew/science
 <li>Use <code>Finder</code> or <code>Windows Explorer</code> to navigate to the file and <code>double-click</code> on it.</li>
 <li>Use the <code>Layer</code> menu in QGIS</li>
 </ul>
-<p><a href="./pics/GIS/QGIS-Layer-menu.png"><img alt="QGIS Layer Menu" src="./pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Layer-menu.png"><img alt="QGIS Layer Menu" src="../images/pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /></a></p>
 <ul>
 <li>Use the toolbar on the left</li>
 </ul>
-<p><a href="./pics/GIS/QGIS-file-toolbar.png"><img alt="QGIS File Toolbar" src="./pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /></a></p>
+<p><a href="./images./pics/GIS/QGIS-file-toolbar.png"><img alt="QGIS File Toolbar" src="../images/pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /></a></p>
 </div>
 </div>
 </div>
@@ -367,7 +368,7 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's start by adding the vector file for your country of origin using the <code>add vector layer</code> button in the toolbar.</p>
-<p><a href="./pics/GIS/QGIS-add-vector-layer.png"><img alt="QGIS add vector layer" src="./pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-add-vector-layer.png"><img alt="QGIS add vector layer" src="../images/pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /></a></p>
 </div>
 </div>
 </div>
@@ -377,7 +378,7 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I have added the full GADM dataset, so it looks like this</p>
-<p><a href="./pics/GIS/QGIS-GADM.png"><img alt="GADM layer in QGIS" src="./pics/GIS/QGIS-GADM.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-GADM.png"><img alt="GADM layer in QGIS" src="../images/pics/GIS/QGIS-GADM.png" style="width: 1000px;" /></a></p>
 </div>
 </div>
 </div>
@@ -388,22 +389,22 @@ brew tap homebrew/science
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now we can use various tools available within QGIS to learn about the data, select the data, analyze the data, etc.</p>
 <ol>
-<li><p>The handtool for panning: <a href="./pics/GIS/QGIS-handtool.png"><img alt="QGIS-handtool" src="./pics/GIS/QGIS-handtool.png" /></a></p>
+<li><p>The handtool for panning: <a href="../images/pics/GIS/QGIS-handtool.png"><img alt="QGIS-handtool" src="../images/pics/GIS/QGIS-handtool.png" /></a></p>
 <ul>
 <li>Try it out, use the tool to move your country around the screen.</li>
 </ul>
 </li>
-<li><p>Zoom in/out/to selection/full: <a href="./pics/GIS/QGIS-zoom-toolbar.png"><img alt="QGIS-Zoom" src="./pics/GIS/QGIS-zoom-toolbar.png" /></a></p>
+<li><p>Zoom in/out/to selection/full: <a href="../images/pics/GIS/QGIS-zoom-toolbar.png"><img alt="QGIS-Zoom" src="../images/pics/GIS/QGIS-zoom-toolbar.png" /></a></p>
 <ul>
 <li>Try it out, by zooming around your city of birth.</li>
 </ul>
 </li>
-<li><p>Identify Features: <a href="./pics/GIS/QGIS-identify-features.png"><img alt="QGIS-identify-features" src="./pics/GIS/QGIS-identify-features.png" /></a></p>
+<li><p>Identify Features: <a href="../images/pics/GIS/QGIS-identify-features.png"><img alt="QGIS-identify-features" src="../images/pics/GIS/QGIS-identify-features.png" /></a></p>
 <ul>
 <li>Try it out, click on the feature you just zoomed into. Did you zoom into the correct feature?</li>
 </ul>
 </li>
-<li><p>Select Features: <a href="./pics/GIS/QGIS-select-features.png"><img alt="QGIS-select-features" src="./pics/GIS/QGIS-select-features.png" /></a></p>
+<li><p>Select Features: <a href="../images/pics/GIS/QGIS-select-features.png"><img alt="QGIS-select-features" src="../images/pics/GIS/QGIS-select-features.png" /></a></p>
 <ul>
 <li>Try it out, select the feature of the region where you were born.</li>
 </ul>
@@ -411,10 +412,10 @@ brew tap homebrew/science
 </ol>
 <p>Besides the geometrical information that we observe, most Shape files have other information relating to each feature. This information is contained in the <em>Attribute Table</em>, which can be accessed with</p>
 <ul>
-<li>the <code>Open Attribute Table</code> button <a href="./pics/GIS/QGIS-attribute-table.png"><img alt="QGIS-attribute-table" src="./pics/GIS/QGIS-attribute-table.png" /></a></li>
+<li>the <code>Open Attribute Table</code> button <a href="../images/pics/GIS/QGIS-attribute-table.png"><img alt="QGIS-attribute-table" src="../images/pics/GIS/QGIS-attribute-table.png" /></a></li>
 <li>By <code>right-clicking</code> on the name of the layer in the left panel</li>
 </ul>
-<p><a href="./pics/GIS/QGIS-attribute-table2.png"><img alt="QGIS-attribute-table2" src="./pics/GIS/QGIS-attribute-table2.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-attribute-table2.png"><img alt="QGIS-attribute-table2" src="../images/pics/GIS/QGIS-attribute-table2.png" /></a></p>
 <p>Doing so shows you the additional information contained in the shape file. For the GADM file it includes</p>
 <ul>
 <li>the identification number of the feature <code>OBJECTID</code></li>
@@ -424,23 +425,23 @@ brew tap homebrew/science
 <li>the identification number of the region in the country (Administrative Level 1) to which the feature belongs <code>ID_1</code></li>
 </ul>
 <p>etc.</p>
-<p><a href="./pics/GIS/QGIS-attribute-table3.png"><img alt="QGIS-attribute-table3" src="./pics/GIS/QGIS-attribute-table3.png" /></a></p>
-<p>We can use this information to color our maps, or to select features for further analysis. I will use the <code>select feature using an expression</code> button <a href="./pics/GIS/QGIS-select-feature-attributes-button.png"><img ;="" alt="QGIS-select-feature-attributes-button" src="./pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /></a> to select all features which have the ISO-3 code for Kenya. Once you click on the <a href="./pics/GIS/QGIS-select-feature-attributes-button.png"><img ;="" alt="QGIS-select-feature-attributes-button" src="./pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /></a> button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression</p>
+<p><a href="../images/pics/GIS/QGIS-attribute-table3.png"><img alt="QGIS-attribute-table3" src="../images/pics/GIS/QGIS-attribute-table3.png" /></a></p>
+<p>We can use this information to color our maps, or to select features for further analysis. I will use the <code>select feature using an expression</code> button <a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"><img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /></a> to select all features which have the ISO-3 code for Kenya. Once you click on the <a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"><img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /></a> button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression</p>
 <pre><code>'ISO'='KEN'
 
 </code></pre>
 <p>to select all features with Kenya's ISO-3 code.</p>
-<p><a href="./pics/GIS/QGIS-select-features-by-ISO.png"><img alt="QGIS-select-features-by-ISO" src="./pics/GIS/QGIS-select-features-by-ISO.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"><img alt="QGIS-select-features-by-ISO" src="../images/pics/GIS/QGIS-select-features-by-ISO.png" /></a></p>
 <p>Sometimes we will want to work with a subset of features, especially if the data we are working has many features, like the GADM data. To select a subset of the features and only work with those, use the <code>Layer->Query</code> option in the <code>Menu</code> as shown below</p>
-<p><a href="./pics/GIS/QGIS-Query.png"><img alt="QGIS-Query" src="./pics/GIS/QGIS-Query.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Query.png"><img alt="QGIS-Query" src="../images/pics/GIS/QGIS-Query.png" /></a></p>
 <p>This opens a window where you can write expression as the previous one, to select features by their attributes. These are <code>SQL</code> expressions and have to conform to <code>SQL</code>'s grammar (we will not go into this at this point). Once I execute the same expression as above</p>
 <pre><code>'ISO'='KEN'
 
 </code></pre>
 <p>QGIS leaves only the features in Kenya for analysis.</p>
-<p><a href="./pics/GIS/QGIS-Query-KEN.png"><img alt="QGIS-Query-KEN" src="./pics/GIS/QGIS-Query-KEN.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Query-KEN.png"><img alt="QGIS-Query-KEN" src="../images/pics/GIS/QGIS-Query-KEN.png" /></a></p>
 <p>Let us zoom into these features by <code>right-clicking</code> on the name of the layer and choosing <code>Zoom to Layer Extent</code>. This shows the extent of Kenya alone.</p>
-<p><a href="./pics/GIS/QGIS-zoomed-KEN.png"><img alt="QGIS-zoomed-KEN" src="./pics/GIS/QGIS-zoomed-KEN.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-zoomed-KEN.png"><img alt="QGIS-zoomed-KEN" src="../images/pics/GIS/QGIS-zoomed-KEN.png" /></a></p>
 </div>
 </div>
 </div>
@@ -482,7 +483,7 @@ brew tap homebrew/science
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The <code>Vector</code> menu has many tools that can be applied to vector layers. Let's use some of these to create new layers.</p>
 <p>Using the <code>Vector -> Geometry Tools -> Singlepart to Mutliparts</code> we can generate a new layer and shape file where features are aggregated according to some characteristic. Let us use this tool to aggregate administrative level 2 features to the administrative level 0 (Country) level. Thus,  each feature will be a country (administrative level 0) instead of the current administrative level 2.</p>
-<p><a href="./pics/GIS/QGIS-SinglePart-MultiPart.png"><img alt="QGIS-SinglePart-MultiPart" src="./pics/GIS/QGIS-SinglePart-MultiPart.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"><img alt="QGIS-SinglePart-MultiPart" src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png" /></a></p>
 </div>
 </div>
 </div>
@@ -492,7 +493,7 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Using the <code>Vector -> Geometry Tools -> Mutliparts to singlepart</code> we can generate a new layer and shape file where features are disaggregated.</p>
-<p><a href="./pics/GIS/QGIS-MultiPart-SinglePart.png"><img alt="QGIS-MultiPart-SinglePart" src="./pics/GIS/QGIS-MultiPart-SinglePart.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"><img alt="QGIS-MultiPart-SinglePart" src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png" /></a></p>
 </div>
 </div>
 </div>
@@ -515,11 +516,11 @@ brew tap homebrew/science
 <li>Select the cities that belong to your country and create a new shape file with the selection named <code>your_country_places.shp</code>.</li>
 <li>Load the <code>your_country.shp</code> file you had created in the previous exercise and compute the centroid for each Adminitrative level 1 in your country and export the layer to the file <code>your_country_centroids1.shp</code>.</li>
 <li><p>Search for your place of birth among the most populated places. Where you born in a populated place? If not, identify the closest most populated place. To do so, use <a href="https://www.google.com">Google</a> or <a href="http://www.wikipedia.org/">Wikipedia</a> to find the latitude and longitude of your place of birth. Using your mouse and the <code>coordinate</code> window at the bottom</p>
-<p><a href="./pics/GIS/QGIS-Coordinates.png"><img alt="QGIS-Coordinates" src="./pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Coordinates.png"><img alt="QGIS-Coordinates" src="../images/pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /></a></p>
 <p>to search for your location of birth. Better yet, using the <code>Plugins->Manage and Install Plugins</code> menu, install the <code>ZoomToCoordinates</code> plugin</p>
-<p><a href="./pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"><img alt="QGIS-ZoomToCoordinatesPlugin" src="./pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"><img alt="QGIS-ZoomToCoordinatesPlugin" src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /></a></p>
 <p>and use it to find your place of birth as shown below</p>
-<p><a href="./pics/GIS/QGIS-ZoomToCoordinates.png"><img alt="QGIS-ZoomToCoordinates" src="./pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"><img alt="QGIS-ZoomToCoordinates" src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /></a></p>
 </li>
 <li><p>Compute the distance between your place of birth and both the closest centroid and the closest most populated place. If needed find a Plugin that will do the job for you. I recommend installing among many <code>realcentroid</code>, <code>mmqgis</code>, <code>coordinate capture</code>.</p>
 </li>
@@ -545,11 +546,11 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let us load the Ramankutty raster using the <code>add raster layer</code> button in the toolbar.</p>
-<p><a href="./pics/GIS/QGIS-add-raster-layer.png"><img alt="QGIS add raster layer" src="./pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-add-raster-layer.png"><img alt="QGIS add raster layer" src="../images/pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /></a></p>
 <p><code>Double-click</code> on the name of the raster in order to change the coloring scheme.</p>
-<p><a href="./pics/GIS/QGIS-raster-color-scheme.png"><img alt="QGIS-raster-color-scheme" src="./pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-raster-color-scheme.png"><img alt="QGIS-raster-color-scheme" src="../images/pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /></a></p>
 <p>So it looks something like this</p>
-<p><a href="./pics/GIS/QGIS-raster-with-color.png"><img alt="QGIS-raster-with-color" src="./pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-raster-with-color.png"><img alt="QGIS-raster-with-color" src="../images/pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /></a></p>
 </div>
 </div>
 </div>
@@ -559,11 +560,11 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Load your <code>your_country.shp</code> and <code>your_country_places.shp</code> on top of the Ramankutty data. It might look something like this.</p>
-<p><a href="./pics/GIS/QGIS-Raster-KEN.png"><img alt="QGIS-Raster-KEN" src="./pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Raster-KEN.png"><img alt="QGIS-Raster-KEN" src="../images/pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /></a></p>
 <p>Since we do not want to work with all the Ramankutty data, but only with the data for our country, let us <code>clip</code> the part of the Ramankutty data that belongs to our country. To do this, use the <code>Raster->Extraction->Clipper</code> tool.</p>
-<p><a href="./pics/GIS/QGIS-Clipper.png"><img alt="QGIS-Clipper" src="./pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Clipper.png"><img alt="QGIS-Clipper" src="../images/pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /></a></p>
 <p>In the window that comes up, choose a name for the clipped raster <code>suit_your_country</code> and choose the <code>save as GeoTiff</code> option, so that your file is saved as in GeoTiff format. Then click on the <code>Mask layer</code> button, make sure <code>your_country</code> layer is chosen as the mask. If you want choose a different <code>No data value</code>. Then click <code>ok</code>.</p>
-<p><a href="./pics/GIS/QGIS-clip-KEN.png"><img alt="QGIS-clip-KEN" src="./pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-clip-KEN.png"><img alt="QGIS-clip-KEN" src="../images/pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /></a></p>
 <p>This will clip the Ramankutty data to the extent of your country of origin. Notice that in the big text box there is a command written, something like</p>
 <pre><code>gdalwarp -q -cutline "gadm2.shp|layerid=0|subset=\"ISO\" = 'KEN'" -crop_to_cutline -of GTiff "suit/w001001.adf" GitHub/CompEcon/notebooks/QGIS/suit-KEN.tif
 
@@ -579,19 +580,19 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The output should look like this</p>
-<p><a href="./pics/GIS/QGIS-KEN-Raster.png"><img alt="QGIS-KEN-Raster" src="./pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-KEN-Raster.png"><img alt="QGIS-KEN-Raster" src="../images/pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /></a></p>
 <p>Notice that given the large size of the cells in the raster, the clipping tool creates a lot of measurement error. It might be better to decrease the size of cells an then clip, so that the clipping is less erroneous. Let's try setting the cell size to $5''$ instead of $0.5^o$. To do so, <code>right-click</code> on the raster name and select <code>Save as</code>. Then set the <em>Resolution</em> to $5''=1/12=0.08333$ for both <code>Horizontal</code> and <code>Vertical</code>.</p>
-<p><a href="./pics/GIS/QGIS-change-raster-size.png"><img alt="QGIS-change-raster-size" src="./pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-change-raster-size.png"><img alt="QGIS-change-raster-size" src="../images/pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /></a></p>
 <p>Now use the clip tool again. Much better!OBviously, the smaller the cell size, the more similar the clipped raster and the polygon will look like.</p>
-<p><a href="./pics/GIS/QGIS-KEN-Raster5.png"><img alt="QGIS-KEN-Raster5" src="./pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-KEN-Raster5.png"><img alt="QGIS-KEN-Raster5" src="../images/pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /></a></p>
 <h3 id="Note:">Note:<a class="anchor-link" href="#Note:">¶</a></h3><p><em>Care has to be taken when converting raster's cells size, since values have to be interpolated. QGIS seems to have taken away your choice for setting it. Luckily, GDAL can help out. You can use its tools to change the cells size, the projection, clip, etc. We will see some tools in another lecture.</em></p>
 <p>Let us use this raster to assign the average suitability in each administrative region. But before doing so, we need to reproject both the raster and shape files to a format that ensures the areas are correctly take into account. One such projection is the equal area projection. Right click on the raster or shape and select <code>save as...</code>. Then in the <code>CRS</code> option choose <code>Selected CRS</code> and click on <code>browse</code> and choose the following CRS (or create it if not present by using the <code>Settings->Custom CRS</code> menu)</p>
 <pre><code>+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
 
 </code></pre>
-<p><a href="./pics/GIS/QGIS-Cylindrical.png"><img alt="QGIS-Cylindrical" src="./pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Cylindrical.png"><img alt="QGIS-Cylindrical" src="../images/pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /></a></p>
 <p>Now save the file adding the postfix <code>cyl</code> so that you know it is the cylindrical equal area rojected one. Now, select <code>Raster->Zonal Statistics->Zonal Statistics</code>.</p>
-<p><a href="./pics/GIS/QGIS-Zonal-Stats.png"><img alt="QGIS-Zonal-Stats" src="./pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Zonal-Stats.png"><img alt="QGIS-Zonal-Stats" src="../images/pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /></a></p>
 <p>Select the cylindrical versions of the raster and shape files and <code>suitcyl</code> as the <code>Output column prefix</code>. Now, in the attribute table you will find three new columns with the prefix <code>suitcyl</code> that show the <code>sum</code>, <code>count</code>, and <code>mean</code> suitability in in each feature. If you repeat the analysis with the unprojected (non-cyl) versions of the raster and shape files, you will see that the results vary (sometimes significantly). Whenever you do this type of analysis, it is important to make sure you are using the correct rojection for the analysis.</p>
 </div>
 </div>
@@ -651,24 +652,13 @@ brew tap homebrew/science
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now that you have the average agricultural suitability for each administrative region. Let's color code it so we can visually observe the regional differences. For this double-click on the <code>your_country_cyl</code> layer, which should open a new window in the <code>style</code> tab of the <code>Layer->Properties</code> menu.</p>
-<p><a href="./pics/GIS/QGIS-Style-Properties.png"><img alt="QGIS-Style-Properties" src="./pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Style-Properties.png"><img alt="QGIS-Style-Properties" src="../images/pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /></a></p>
 <p>Now, click on <code>Single Symbol</code> and choose <code>Graduated</code>. This allows us to use colors to show the different values of a field/variable of interest.</p>
-<p><a href="./pics/GIS/QGIS-Style-Category.png"><img alt="QGIS-Style-Category" src="./pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Style-Category.png"><img alt="QGIS-Style-Category" src="../images/pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /></a></p>
 <p>Next let us select the field of interest in the attribues table, namely, <code>suitmean</code>. To do so, click on <code>column</code> and choose the variable/field of interest, inthis case <code>suitmean</code>.</p>
-<p><a href="./pics/GIS/QGIS-Style-Field.png"><img alt="QGIS-Style-Field" src="./pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Style-Field.png"><img alt="QGIS-Style-Field" src="../images/pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /></a></p>
 <p>You can choose how many gradations to draw, e.g. increasing it from 5 to 10; change the color ramp, or the mode of creating the gradation. Try it out. You should get something like this</p>
-<p><a href="./pics/GIS/QGIS-KEN-Graduated-suit.png"><img alt="QGIS-KEN-Graduated-suit" src="./pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /></a></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
-</div>
+<p><a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"><img alt="QGIS-KEN-Graduated-suit" src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /></a></p>
 </div>
 </div>
 </div>
@@ -753,6 +743,11 @@ brew tap homebrew/science
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-0">
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-0">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
                         </a>
@@ -760,11 +755,6 @@ brew tap homebrew/science
                     <li class="list-group-item tag-0">
                         <a href="https://econgrowth.github.io/tag/macroeconomics.html">
                             Macroeconomics
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-0">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">

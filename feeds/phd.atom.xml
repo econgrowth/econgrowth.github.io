@@ -6385,8 +6385,9 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Using-Anaconda-(easy)"&gt;Using Anaconda (easy)&lt;a class="anchor-link" href="#Using-Anaconda-(easy)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you have installed &lt;a href=""&gt;Anaconda&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="Not-using-Anaconda-(more-freedom,-but-more-technical)"&gt;Not using Anaconda (more freedom, but more technical)&lt;a class="anchor-link" href="#Not-using-Anaconda-(more-freedom,-but-more-technical)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed &lt;a href="https://www.enthought.com/products/canopy/academic/"&gt;Canopy&lt;/a&gt; with all the pakages provided by Enthought. Additionally, you will need to install &lt;a href="http://grass.osgeo.org"&gt;GRASS&lt;/a&gt;, &lt;a href="https://www.qgis.org"&gt;QGIS&lt;/a&gt;, and &lt;a href="http://www.gdal.org/"&gt;GDAL/OGR&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="QGIS"&gt;QGIS&lt;a class="anchor-link" href="#QGIS"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Install &lt;a href="https://www.qgis.org"&gt;QGIS&lt;/a&gt; using their installers. On OSX you may need to follow the instructions below.&lt;/p&gt;
+&lt;h2 id="Anaconda"&gt;Anaconda&lt;a class="anchor-link" href="#Anaconda"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you followed the steps for installing the Continuum Anaconda Python Distribution and for creating the &lt;code&gt;GeoPythonXenv&lt;/code&gt; (&lt;a href="https://econgrowth.github.io/pages/Computation.html"&gt;presented here&lt;/a&gt;), then you are basically set for working with GIS in Python.&lt;/p&gt;
+&lt;h2 id="Non-Anaconda-installation"&gt;Non Anaconda installation&lt;a class="anchor-link" href="#Non-Anaconda-installation"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed &lt;a href="https://www.enthought.com/products/canopy/academic/"&gt;Canopy&lt;/a&gt; with all the pakages provided by Enthought. Additionally, you will need to install &lt;a href="http://grass.osgeo.org"&gt;GRASS&lt;/a&gt;, &lt;a href="https://www.qgis.org"&gt;QGIS&lt;/a&gt;, and &lt;a href="http://www.gdal.org/"&gt;GDAL/OGR&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id="Windows"&gt;Windows&lt;a class="anchor-link" href="#Windows"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Download the installers in each of these websites and you should be done!&lt;/p&gt;
 &lt;h3 id="Mac-OSX"&gt;Mac OSX&lt;a class="anchor-link" href="#Mac-OSX"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are various methods of getting these on your computer.&lt;/p&gt;
 &lt;ol&gt;
@@ -6413,7 +6414,7 @@ brew tap homebrew/science
 &lt;pre&gt;&lt;code&gt; brew tap osgeo/osgeo4mac
  brew tap --repair
  brew tap homebrew/science
- brew install osgeo/osgeo4mac/qgis-2x
+ brew install qgis2
  brew linkapps
  sudo easy_install psycopg2
 
@@ -6538,7 +6539,7 @@ brew tap homebrew/science
 &lt;li&gt;&lt;a href="http://ngdc.noaa.gov/eog/data/web_data/v4composites/F182012.v4.tar"&gt;Lights Data for 2012&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Now, open QGIS. You should see something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-main.png"&gt;&lt;img alt="QGIS open" src="./pics/GIS/QGIS-main.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-main.png"&gt;&lt;img alt="QGIS open" src="../images/pics/GIS/QGIS-main.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6552,11 +6553,11 @@ brew tap homebrew/science
 &lt;li&gt;Use &lt;code&gt;Finder&lt;/code&gt; or &lt;code&gt;Windows Explorer&lt;/code&gt; to navigate to the file and &lt;code&gt;double-click&lt;/code&gt; on it.&lt;/li&gt;
 &lt;li&gt;Use the &lt;code&gt;Layer&lt;/code&gt; menu in QGIS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Layer-menu.png"&gt;&lt;img alt="QGIS Layer Menu" src="./pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Layer-menu.png"&gt;&lt;img alt="QGIS Layer Menu" src="../images/pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the toolbar on the left&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-file-toolbar.png"&gt;&lt;img alt="QGIS File Toolbar" src="./pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./images./pics/GIS/QGIS-file-toolbar.png"&gt;&lt;img alt="QGIS File Toolbar" src="../images/pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6575,7 +6576,7 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let's start by adding the vector file for your country of origin using the &lt;code&gt;add vector layer&lt;/code&gt; button in the toolbar.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-add-vector-layer.png"&gt;&lt;img alt="QGIS add vector layer" src="./pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-vector-layer.png"&gt;&lt;img alt="QGIS add vector layer" src="../images/pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6585,7 +6586,7 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;I have added the full GADM dataset, so it looks like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-GADM.png"&gt;&lt;img alt="GADM layer in QGIS" src="./pics/GIS/QGIS-GADM.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-GADM.png"&gt;&lt;img alt="GADM layer in QGIS" src="../images/pics/GIS/QGIS-GADM.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6596,22 +6597,22 @@ brew tap homebrew/science
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Now we can use various tools available within QGIS to learn about the data, select the data, analyze the data, etc.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The handtool for panning: &lt;a href="./pics/GIS/QGIS-handtool.png"&gt;&lt;img alt="QGIS-handtool" src="./pics/GIS/QGIS-handtool.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;The handtool for panning: &lt;a href="../images/pics/GIS/QGIS-handtool.png"&gt;&lt;img alt="QGIS-handtool" src="../images/pics/GIS/QGIS-handtool.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, use the tool to move your country around the screen.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Zoom in/out/to selection/full: &lt;a href="./pics/GIS/QGIS-zoom-toolbar.png"&gt;&lt;img alt="QGIS-Zoom" src="./pics/GIS/QGIS-zoom-toolbar.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Zoom in/out/to selection/full: &lt;a href="../images/pics/GIS/QGIS-zoom-toolbar.png"&gt;&lt;img alt="QGIS-Zoom" src="../images/pics/GIS/QGIS-zoom-toolbar.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, by zooming around your city of birth.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Identify Features: &lt;a href="./pics/GIS/QGIS-identify-features.png"&gt;&lt;img alt="QGIS-identify-features" src="./pics/GIS/QGIS-identify-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Identify Features: &lt;a href="../images/pics/GIS/QGIS-identify-features.png"&gt;&lt;img alt="QGIS-identify-features" src="../images/pics/GIS/QGIS-identify-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, click on the feature you just zoomed into. Did you zoom into the correct feature?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select Features: &lt;a href="./pics/GIS/QGIS-select-features.png"&gt;&lt;img alt="QGIS-select-features" src="./pics/GIS/QGIS-select-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Select Features: &lt;a href="../images/pics/GIS/QGIS-select-features.png"&gt;&lt;img alt="QGIS-select-features" src="../images/pics/GIS/QGIS-select-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, select the feature of the region where you were born.&lt;/li&gt;
 &lt;/ul&gt;
@@ -6619,10 +6620,10 @@ brew tap homebrew/science
 &lt;/ol&gt;
 &lt;p&gt;Besides the geometrical information that we observe, most Shape files have other information relating to each feature. This information is contained in the &lt;em&gt;Attribute Table&lt;/em&gt;, which can be accessed with&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;Open Attribute Table&lt;/code&gt; button &lt;a href="./pics/GIS/QGIS-attribute-table.png"&gt;&lt;img alt="QGIS-attribute-table" src="./pics/GIS/QGIS-attribute-table.png" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;Open Attribute Table&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-attribute-table.png"&gt;&lt;img alt="QGIS-attribute-table" src="../images/pics/GIS/QGIS-attribute-table.png" /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;By &lt;code&gt;right-clicking&lt;/code&gt; on the name of the layer in the left panel&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-attribute-table2.png"&gt;&lt;img alt="QGIS-attribute-table2" src="./pics/GIS/QGIS-attribute-table2.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table2.png"&gt;&lt;img alt="QGIS-attribute-table2" src="../images/pics/GIS/QGIS-attribute-table2.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Doing so shows you the additional information contained in the shape file. For the GADM file it includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the identification number of the feature &lt;code&gt;OBJECTID&lt;/code&gt;&lt;/li&gt;
@@ -6632,23 +6633,23 @@ brew tap homebrew/science
 &lt;li&gt;the identification number of the region in the country (Administrative Level 1) to which the feature belongs &lt;code&gt;ID_1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;etc.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-attribute-table3.png"&gt;&lt;img alt="QGIS-attribute-table3" src="./pics/GIS/QGIS-attribute-table3.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We can use this information to color our maps, or to select features for further analysis. I will use the &lt;code&gt;select feature using an expression&lt;/code&gt; button &lt;a href="./pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="./pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; to select all features which have the ISO-3 code for Kenya. Once you click on the &lt;a href="./pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="./pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table3.png"&gt;&lt;img alt="QGIS-attribute-table3" src="../images/pics/GIS/QGIS-attribute-table3.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We can use this information to color our maps, or to select features for further analysis. I will use the &lt;code&gt;select feature using an expression&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; to select all features which have the ISO-3 code for Kenya. Once you click on the &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;'ISO'='KEN'
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;to select all features with Kenya's ISO-3 code.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-select-features-by-ISO.png"&gt;&lt;img alt="QGIS-select-features-by-ISO" src="./pics/GIS/QGIS-select-features-by-ISO.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"&gt;&lt;img alt="QGIS-select-features-by-ISO" src="../images/pics/GIS/QGIS-select-features-by-ISO.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sometimes we will want to work with a subset of features, especially if the data we are working has many features, like the GADM data. To select a subset of the features and only work with those, use the &lt;code&gt;Layer-&gt;Query&lt;/code&gt; option in the &lt;code&gt;Menu&lt;/code&gt; as shown below&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Query.png"&gt;&lt;img alt="QGIS-Query" src="./pics/GIS/QGIS-Query.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query.png"&gt;&lt;img alt="QGIS-Query" src="../images/pics/GIS/QGIS-Query.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This opens a window where you can write expression as the previous one, to select features by their attributes. These are &lt;code&gt;SQL&lt;/code&gt; expressions and have to conform to &lt;code&gt;SQL&lt;/code&gt;'s grammar (we will not go into this at this point). Once I execute the same expression as above&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;'ISO'='KEN'
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;QGIS leaves only the features in Kenya for analysis.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Query-KEN.png"&gt;&lt;img alt="QGIS-Query-KEN" src="./pics/GIS/QGIS-Query-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query-KEN.png"&gt;&lt;img alt="QGIS-Query-KEN" src="../images/pics/GIS/QGIS-Query-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let us zoom into these features by &lt;code&gt;right-clicking&lt;/code&gt; on the name of the layer and choosing &lt;code&gt;Zoom to Layer Extent&lt;/code&gt;. This shows the extent of Kenya alone.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-zoomed-KEN.png"&gt;&lt;img alt="QGIS-zoomed-KEN" src="./pics/GIS/QGIS-zoomed-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-zoomed-KEN.png"&gt;&lt;img alt="QGIS-zoomed-KEN" src="../images/pics/GIS/QGIS-zoomed-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6690,7 +6691,7 @@ brew tap homebrew/science
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;The &lt;code&gt;Vector&lt;/code&gt; menu has many tools that can be applied to vector layers. Let's use some of these to create new layers.&lt;/p&gt;
 &lt;p&gt;Using the &lt;code&gt;Vector -&gt; Geometry Tools -&gt; Singlepart to Mutliparts&lt;/code&gt; we can generate a new layer and shape file where features are aggregated according to some characteristic. Let us use this tool to aggregate administrative level 2 features to the administrative level 0 (Country) level. Thus,  each feature will be a country (administrative level 0) instead of the current administrative level 2.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-SinglePart-MultiPart.png"&gt;&lt;img alt="QGIS-SinglePart-MultiPart" src="./pics/GIS/QGIS-SinglePart-MultiPart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"&gt;&lt;img alt="QGIS-SinglePart-MultiPart" src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6700,7 +6701,7 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Using the &lt;code&gt;Vector -&gt; Geometry Tools -&gt; Mutliparts to singlepart&lt;/code&gt; we can generate a new layer and shape file where features are disaggregated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-MultiPart-SinglePart.png"&gt;&lt;img alt="QGIS-MultiPart-SinglePart" src="./pics/GIS/QGIS-MultiPart-SinglePart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"&gt;&lt;img alt="QGIS-MultiPart-SinglePart" src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6723,11 +6724,11 @@ brew tap homebrew/science
 &lt;li&gt;Select the cities that belong to your country and create a new shape file with the selection named &lt;code&gt;your_country_places.shp&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Load the &lt;code&gt;your_country.shp&lt;/code&gt; file you had created in the previous exercise and compute the centroid for each Adminitrative level 1 in your country and export the layer to the file &lt;code&gt;your_country_centroids1.shp&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Search for your place of birth among the most populated places. Where you born in a populated place? If not, identify the closest most populated place. To do so, use &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt; or &lt;a href="http://www.wikipedia.org/"&gt;Wikipedia&lt;/a&gt; to find the latitude and longitude of your place of birth. Using your mouse and the &lt;code&gt;coordinate&lt;/code&gt; window at the bottom&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Coordinates.png"&gt;&lt;img alt="QGIS-Coordinates" src="./pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Coordinates.png"&gt;&lt;img alt="QGIS-Coordinates" src="../images/pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;to search for your location of birth. Better yet, using the &lt;code&gt;Plugins-&gt;Manage and Install Plugins&lt;/code&gt; menu, install the &lt;code&gt;ZoomToCoordinates&lt;/code&gt; plugin&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"&gt;&lt;img alt="QGIS-ZoomToCoordinatesPlugin" src="./pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"&gt;&lt;img alt="QGIS-ZoomToCoordinatesPlugin" src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;and use it to find your place of birth as shown below&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-ZoomToCoordinates.png"&gt;&lt;img alt="QGIS-ZoomToCoordinates" src="./pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"&gt;&lt;img alt="QGIS-ZoomToCoordinates" src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Compute the distance between your place of birth and both the closest centroid and the closest most populated place. If needed find a Plugin that will do the job for you. I recommend installing among many &lt;code&gt;realcentroid&lt;/code&gt;, &lt;code&gt;mmqgis&lt;/code&gt;, &lt;code&gt;coordinate capture&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
@@ -6753,11 +6754,11 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let us load the Ramankutty raster using the &lt;code&gt;add raster layer&lt;/code&gt; button in the toolbar.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-add-raster-layer.png"&gt;&lt;img alt="QGIS add raster layer" src="./pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-raster-layer.png"&gt;&lt;img alt="QGIS add raster layer" src="../images/pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Double-click&lt;/code&gt; on the name of the raster in order to change the coloring scheme.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-raster-color-scheme.png"&gt;&lt;img alt="QGIS-raster-color-scheme" src="./pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-color-scheme.png"&gt;&lt;img alt="QGIS-raster-color-scheme" src="../images/pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;So it looks something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-raster-with-color.png"&gt;&lt;img alt="QGIS-raster-with-color" src="./pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-with-color.png"&gt;&lt;img alt="QGIS-raster-with-color" src="../images/pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6767,11 +6768,11 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Load your &lt;code&gt;your_country.shp&lt;/code&gt; and &lt;code&gt;your_country_places.shp&lt;/code&gt; on top of the Ramankutty data. It might look something like this.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Raster-KEN.png"&gt;&lt;img alt="QGIS-Raster-KEN" src="./pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Raster-KEN.png"&gt;&lt;img alt="QGIS-Raster-KEN" src="../images/pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Since we do not want to work with all the Ramankutty data, but only with the data for our country, let us &lt;code&gt;clip&lt;/code&gt; the part of the Ramankutty data that belongs to our country. To do this, use the &lt;code&gt;Raster-&gt;Extraction-&gt;Clipper&lt;/code&gt; tool.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Clipper.png"&gt;&lt;img alt="QGIS-Clipper" src="./pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Clipper.png"&gt;&lt;img alt="QGIS-Clipper" src="../images/pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In the window that comes up, choose a name for the clipped raster &lt;code&gt;suit_your_country&lt;/code&gt; and choose the &lt;code&gt;save as GeoTiff&lt;/code&gt; option, so that your file is saved as in GeoTiff format. Then click on the &lt;code&gt;Mask layer&lt;/code&gt; button, make sure &lt;code&gt;your_country&lt;/code&gt; layer is chosen as the mask. If you want choose a different &lt;code&gt;No data value&lt;/code&gt;. Then click &lt;code&gt;ok&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-clip-KEN.png"&gt;&lt;img alt="QGIS-clip-KEN" src="./pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-clip-KEN.png"&gt;&lt;img alt="QGIS-clip-KEN" src="../images/pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This will clip the Ramankutty data to the extent of your country of origin. Notice that in the big text box there is a command written, something like&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;gdalwarp -q -cutline "gadm2.shp|layerid=0|subset=\"ISO\" = 'KEN'" -crop_to_cutline -of GTiff "suit/w001001.adf" GitHub/CompEcon/notebooks/QGIS/suit-KEN.tif
 
@@ -6787,19 +6788,19 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;The output should look like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-KEN-Raster.png"&gt;&lt;img alt="QGIS-KEN-Raster" src="./pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster.png"&gt;&lt;img alt="QGIS-KEN-Raster" src="../images/pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notice that given the large size of the cells in the raster, the clipping tool creates a lot of measurement error. It might be better to decrease the size of cells an then clip, so that the clipping is less erroneous. Let's try setting the cell size to $5''$ instead of $0.5^o$. To do so, &lt;code&gt;right-click&lt;/code&gt; on the raster name and select &lt;code&gt;Save as&lt;/code&gt;. Then set the &lt;em&gt;Resolution&lt;/em&gt; to $5''=1/12=0.08333$ for both &lt;code&gt;Horizontal&lt;/code&gt; and &lt;code&gt;Vertical&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-change-raster-size.png"&gt;&lt;img alt="QGIS-change-raster-size" src="./pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-change-raster-size.png"&gt;&lt;img alt="QGIS-change-raster-size" src="../images/pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now use the clip tool again. Much better!OBviously, the smaller the cell size, the more similar the clipped raster and the polygon will look like.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-KEN-Raster5.png"&gt;&lt;img alt="QGIS-KEN-Raster5" src="./pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster5.png"&gt;&lt;img alt="QGIS-KEN-Raster5" src="../images/pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="Note:"&gt;Note:&lt;a class="anchor-link" href="#Note:"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Care has to be taken when converting raster's cells size, since values have to be interpolated. QGIS seems to have taken away your choice for setting it. Luckily, GDAL can help out. You can use its tools to change the cells size, the projection, clip, etc. We will see some tools in another lecture.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let us use this raster to assign the average suitability in each administrative region. But before doing so, we need to reproject both the raster and shape files to a format that ensures the areas are correctly take into account. One such projection is the equal area projection. Right click on the raster or shape and select &lt;code&gt;save as...&lt;/code&gt;. Then in the &lt;code&gt;CRS&lt;/code&gt; option choose &lt;code&gt;Selected CRS&lt;/code&gt; and click on &lt;code&gt;browse&lt;/code&gt; and choose the following CRS (or create it if not present by using the &lt;code&gt;Settings-&gt;Custom CRS&lt;/code&gt; menu)&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Cylindrical.png"&gt;&lt;img alt="QGIS-Cylindrical" src="./pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Cylindrical.png"&gt;&lt;img alt="QGIS-Cylindrical" src="../images/pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now save the file adding the postfix &lt;code&gt;cyl&lt;/code&gt; so that you know it is the cylindrical equal area rojected one. Now, select &lt;code&gt;Raster-&gt;Zonal Statistics-&gt;Zonal Statistics&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Zonal-Stats.png"&gt;&lt;img alt="QGIS-Zonal-Stats" src="./pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Zonal-Stats.png"&gt;&lt;img alt="QGIS-Zonal-Stats" src="../images/pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Select the cylindrical versions of the raster and shape files and &lt;code&gt;suitcyl&lt;/code&gt; as the &lt;code&gt;Output column prefix&lt;/code&gt;. Now, in the attribute table you will find three new columns with the prefix &lt;code&gt;suitcyl&lt;/code&gt; that show the &lt;code&gt;sum&lt;/code&gt;, &lt;code&gt;count&lt;/code&gt;, and &lt;code&gt;mean&lt;/code&gt; suitability in in each feature. If you repeat the analysis with the unprojected (non-cyl) versions of the raster and shape files, you will see that the results vary (sometimes significantly). Whenever you do this type of analysis, it is important to make sure you are using the correct rojection for the analysis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6859,24 +6860,13 @@ brew tap homebrew/science
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Now that you have the average agricultural suitability for each administrative region. Let's color code it so we can visually observe the regional differences. For this double-click on the &lt;code&gt;your_country_cyl&lt;/code&gt; layer, which should open a new window in the &lt;code&gt;style&lt;/code&gt; tab of the &lt;code&gt;Layer-&gt;Properties&lt;/code&gt; menu.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Style-Properties.png"&gt;&lt;img alt="QGIS-Style-Properties" src="./pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Properties.png"&gt;&lt;img alt="QGIS-Style-Properties" src="../images/pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now, click on &lt;code&gt;Single Symbol&lt;/code&gt; and choose &lt;code&gt;Graduated&lt;/code&gt;. This allows us to use colors to show the different values of a field/variable of interest.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Style-Category.png"&gt;&lt;img alt="QGIS-Style-Category" src="./pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Category.png"&gt;&lt;img alt="QGIS-Style-Category" src="../images/pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Next let us select the field of interest in the attribues table, namely, &lt;code&gt;suitmean&lt;/code&gt;. To do so, click on &lt;code&gt;column&lt;/code&gt; and choose the variable/field of interest, inthis case &lt;code&gt;suitmean&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-Style-Field.png"&gt;&lt;img alt="QGIS-Style-Field" src="./pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Field.png"&gt;&lt;img alt="QGIS-Style-Field" src="../images/pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can choose how many gradations to draw, e.g. increasing it from 5 to 10; change the color ramp, or the mode of creating the gradation. Try it out. You should get something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="./pics/GIS/QGIS-KEN-Graduated-suit.png"&gt;&lt;img alt="QGIS-KEN-Graduated-suit" src="./pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython2"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"&gt;&lt;img alt="QGIS-KEN-Graduated-suit" src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6940,7 +6930,7 @@ brew tap homebrew/science
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is a powerful and easy to use programming language. It has a large community of developers and given its open source nature, you can find many solutions, scripts, and help all over the web. It is easy to learn and code, and faster than other high-level programming languages...and did I mention it is &lt;em&gt;free&lt;/em&gt; because it is &lt;strong&gt;open source&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;IPython&lt;/strong&gt; is a very powerful extension to Python that provides:
-Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a href=""&gt;Jupyter&lt;/a&gt;).&lt;/p&gt;
+Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a href="http://jupyter.org/"&gt;Jupyter&lt;/a&gt;).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.&lt;/li&gt;
 &lt;li&gt;Support for interactive data visualization and use of GUI toolkits.&lt;/li&gt;
@@ -6965,6 +6955,21 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;You can download and install Python and its packages for free for your computer from &lt;a href="http:www.python.org"&gt;Python.org&lt;/a&gt;. While this is the official site, which offers the basic installer and you can try do add any packages you require yourself, a much easier approach, which is almost foolproof is to use &lt;a href="https://www.continuum.io/downloads"&gt;Continuum Anaconda&lt;/a&gt; or &lt;a href="https://www.enthought.com/products/canopy"&gt;Enthought Canopy&lt;/a&gt;. Both of these distributions offer academic licenses (&lt;a href="https://www.enthought.com/products/canopy/academic/"&gt;Canopy&lt;/a&gt;), which allow you to use a larger set of packages.&lt;/p&gt;
+&lt;h2 id="Installing-(I)Python-&amp;amp;-Jupyter"&gt;Installing (I)Python &amp; Jupyter&lt;a class="anchor-link" href="#Installing-(I)Python-&amp;amp;-Jupyter"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using &lt;a href="https://www.continuum.io/downloads"&gt;Continuum's Anaconda Distribution&lt;/a&gt;. You can install following the instructions in that website, or if you can just run &lt;a href="../notebooks/CondaInstall.sh"&gt;this script&lt;/a&gt;. After installing the latest version of Anaconda, add the &lt;code&gt;Anaconda/bin&lt;/code&gt; directory to your &lt;code&gt;PATH&lt;/code&gt; variable. Then download the following scripts (&lt;a href="../notebooks/GeoPython2env.yml"&gt;GeoPythonenv2&lt;/a&gt;, &lt;a href="../notebooks/GeoPython3env.yml"&gt;GeoPythonenv3&lt;/a&gt;) and execute&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;conda update conda
+conda-env create -f GeoPython2env.yml
+conda-env create -f GeoPython3env.yml
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will create two environments with all the packages you will require for this course (and more!). To start using one of the &lt;code&gt;Python 2.7&lt;/code&gt; environment you will need to exectute the following command&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;source activate GeoPython2env
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and for &lt;code&gt;Python 3.x&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;source activate GeoPython3env
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I would suggest using &lt;code&gt;Python 3.x&lt;/code&gt;, since it is the latest and most uptodate version.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6973,7 +6978,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Note"&gt;Note&lt;a class="anchor-link" href="#Note"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;I use Canopy on OSX, so the rest of this tutorial will assume you are using that distribution. Everything that is done should work on any distribution that has the required packages, since the Python scripts should run (in rinciple) on any of these distributions.&lt;/p&gt;
+&lt;h4 id="Note"&gt;Note&lt;a class="anchor-link" href="#Note"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;I assume you have followed the steps above and have installed &lt;code&gt;Anaconda&lt;/code&gt;. Everything that is done should work on any distribution that has the required packages, since the Python scripts should run (in principle) on any of these distributions.&lt;/p&gt;
 &lt;p&gt;We will use IPython as our computing environment.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6997,12 +7002,12 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;li&gt;Open the Canopy program and work there&lt;/li&gt;
 &lt;li&gt;From the Terminal prompt (command-line in Windows) execute one of the following commands:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ipython&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ipython qtconsole&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ipython notebook&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jupyter qtconsole&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jupyter notebook&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (&lt;a href="http://macromates.com/"&gt;TextMate&lt;/a&gt;) and the &lt;code&gt;ipython qtconsole&lt;/code&gt;. Although after seeing the power of Ipython's notebooks (see this excellent and in-depth &lt;a href="http://youtu.be/xe_ATRmw0KM"&gt;presentation&lt;/a&gt; by its creators), I might consider shifting towards the notebook. As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.&lt;/p&gt;
+&lt;p&gt;While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (&lt;a href="http://macromates.com/"&gt;TextMate&lt;/a&gt;, &lt;a href="https://atom.io/"&gt;Atom&lt;/a&gt;, &lt;a href="http://www.sublimetext.com/"&gt;Sublime&lt;/a&gt;) and the &lt;code&gt;jupyter qtconsole&lt;/code&gt; or the &lt;code&gt;jupyter notebook&lt;/code&gt;. To see the power of &lt;code&gt;Jupter notebooks&lt;/code&gt; (see this excellent and in-depth &lt;a href="http://youtu.be/xe_ATRmw0KM"&gt;presentation&lt;/a&gt; by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7011,7 +7016,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Note"&gt;Note&lt;a class="anchor-link" href="#Note"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;You can pass some additional commands to &lt;code&gt;ipython&lt;/code&gt; in order to change colors and rendering of plots. I usually use &lt;code&gt;ipython qtconsole --color=linux --pylab=inline&lt;/code&gt;. You can create profiles to manage many options within IPython.&lt;/p&gt;
+&lt;h4 id="Note"&gt;Note&lt;a class="anchor-link" href="#Note"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;You can pass some additional commands to &lt;code&gt;ipython&lt;/code&gt; in order to change colors and rendering of plots. I usually use &lt;code&gt;jupyter qtconsole --color=linux --pylab=inline&lt;/code&gt;. You can create profiles to manage many options within &lt;code&gt;IPython&lt;/code&gt; and &lt;code&gt;JuPyter&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7124,7 +7129,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Notce that this answer is wrong if $1,2\in\mathbb{R}$, but Python thinks they are integers, so it forces and integer. In order to have a more natural behavior of division we need&lt;/p&gt;
+&lt;p&gt;If you are in &lt;code&gt;Python 2.7&lt;/code&gt; you will notice that this answer is wrong if $1,2\in\mathbb{R}$, but Python thinks they are integers, so it forces and integer. In order to have a more natural behavior of division we need&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7905,7 +7910,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Exercise"&gt;Exercise&lt;a class="anchor-link" href="#Exercise"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Write a simple script that simulates and plots random walks. In particular, create a function randomwalk(x0,T,mu,sigma) that simulates the random walk starting at $x_0=x0$ until $t=T$ where the shock is distributed $\mathcal{N}(\mu,\sigma^2)$&lt;/p&gt;
+&lt;h4 id="Exercise"&gt;Exercise&lt;a class="anchor-link" href="#Exercise"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Write a simple script that simulates and plots random walks. In particular, create a function &lt;code&gt;randomwalk(x0,T,mu,sigma)&lt;/code&gt; that simulates the random walk starting at $x_0=x0$ until $t=T$ where the shock is distributed $\mathcal{N}(\mu,\sigma^2)$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
