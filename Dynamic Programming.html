@@ -13,7 +13,7 @@
 <link rel="canonical" href="https://econgrowth.github.io/Dynamic Programming.html">
 
         <meta name="author" content="Ömer Özak" />
-        <meta name="keywords" content="Macroeconomics,IPython,Notebooks" />
+        <meta name="keywords" content="Economic Growth,Macroeconomics,IPython,Notebooks" />
         <meta name="description" content="Introduction to Dynamic Programming¶ We have studied the theory of dynamic programming in discrete time under certainty. Let&#39;s review what we know so far, so that we can start thinking about how to take to the computer. The Problem¶ We want to find a sequence $\{x_t\}_{t=0}^\infty$ and a function $V^*:X\to\mathbb{R}$ such that $$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$" />
 
         <meta property="og:site_name" content="Economic Growth and Comparative Development" />
@@ -23,6 +23,7 @@
         <meta property="og:description" content="Introduction to Dynamic Programming¶ We have studied the theory of dynamic programming in discrete time under certainty. Let&#39;s review what we know so far, so that we can start thinking about how to take to the computer. The Problem¶ We want to find a sequence $\{x_t\}_{t=0}^\infty$ and a function $V^*:X\to\mathbb{R}$ such that $$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$"/>
         <meta property="article:published_time" content="2016-12-29" />
             <meta property="article:section" content="Ph.D." />
+            <meta property="article:tag" content="Economic Growth" />
             <meta property="article:tag" content="Macroeconomics" />
             <meta property="article:tag" content="IPython" />
             <meta property="article:tag" content="Notebooks" />
@@ -104,6 +105,8 @@ Economic Growth and Comparative Development            </a>
 
 
 <span class="label label-default">Tags</span>
+	<a href="https://econgrowth.github.io/tag/economic-growth.html">Economic Growth</a>
+        /
 	<a href="https://econgrowth.github.io/tag/macroeconomics.html">Macroeconomics</a>
         /
 	<a href="https://econgrowth.github.io/tag/ipython.html">IPython</a>
@@ -344,13 +347,13 @@ $$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } 
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">LinInterp</span><span class="p">:</span>
     <span class="s2">"Provides linear interpolation in one dimension."</span>
 
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">):</span>
         <span class="sd">"""Parameters: X and Y are sequences or arrays</span>
 <span class="sd">        containing the (x,y) interpolation points.</span>
 <span class="sd">        """</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">Y</span> <span class="o">=</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span>
 
-    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
         <span class="sd">"""Parameters: z is a number, sequence or array.</span>
 <span class="sd">        This method makes an instance f of LinInterp callable,</span>
 <span class="sd">        so f(z) returns the interpolation value(s) at z.</span>
@@ -964,19 +967,24 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
-                    <li class="list-group-item tag-1">
+                    <li class="list-group-item tag-0">
+                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
+                            Macroeconomics
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-0">
+                        <a href="https://econgrowth.github.io/tag/notebooks.html">
+                            Notebooks
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-0">
                         <a href="https://econgrowth.github.io/tag/ipython.html">
                             IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
-                            Macroeconomics
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/notebooks.html">
-                            Notebooks
+                        <a href="https://econgrowth.github.io/tag/economic-growth.html">
+                            Economic Growth
                         </a>
                     </li>
                 </ul>
