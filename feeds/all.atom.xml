@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Economic Growth and Comparative Development</title><link href="https://econgrowth.github.io/" rel="alternate"></link><link href="https://econgrowth.github.io/feeds/all.atom.xml" rel="self"></link><id>https://econgrowth.github.io/</id><updated>2016-12-29T10:20:00-06:00</updated><entry><title>Dynamic Programming in Python</title><link href="https://econgrowth.github.io/Dynamic%20Programming.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/Dynamic Programming.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -9,8 +8,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -18,8 +16,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -27,15 +24,13 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;We want to find a sequence $\{x_t\}_{t=0}^\infty$ and a function $V^*:X\to\mathbb{R}$ such that&lt;/p&gt;
-$$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$&lt;p&gt;&lt;/p&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;p&gt;$$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$&lt;/p&gt;</summary><content type="html">
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -43,8 +38,7 @@ $$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -52,8 +46,7 @@ $$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -61,21 +54,19 @@ $$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;We want to find a sequence $\{x_t\}_{t=0}^\infty$ and a function $V^*:X\to\mathbb{R}$ such that&lt;/p&gt;
-$$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;$$V^{\ast}\left(x_{0}\right)=\sup\limits _{\left\{ x_{t}\right\} _{t=0}^{\infty}}\sum\limits _{t=0}^{\infty}\beta^{t}U(x_{t},x_{t+1})$$&lt;/p&gt;
 &lt;p&gt;subject to $x_{t+1}\in G(x_{t})\subseteq X\subseteq\mathbb{R}^K$, for all $t\geq0$ and $x_0\in\mathbb{R}$ given. We assume $\beta\in(0,1)$.&lt;/p&gt;
 &lt;p&gt;We have seen that we can analyze this problem by solving instead the related problem&lt;/p&gt;
-$$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all }x\in X.$$
+&lt;p&gt;$$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all }x\in X.$$&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -83,8 +74,7 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -92,8 +82,7 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -115,8 +104,7 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -124,8 +112,7 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -133,8 +120,7 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -142,20 +128,19 @@ $$V(x)=\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\} ,\text{ for all
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Ok. Now that we know the conditions for the existence and uniqueness (plus other characteristics) of our problem, how do we go about solving it?&lt;/p&gt;
 &lt;p&gt;The idea is going to be simple and is based on what we saw when we proved the contraction mapping theorem and the proof of the previous theorem (Yes I know...we split this in various steps and intermediate results, which might have confused you).&lt;/p&gt;
 &lt;p&gt;Remember that our Bellman Operator $T: C(X)\to C(X)$ defined as&lt;/p&gt;
-$$T(V(x))\equiv\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;p&gt;assigns a continuous, strictly increasing, strictly concave function $T(V)$ to each continuous, increasing, and concave function $V$ defined on $X$. Since $T(V)$ is a contraction mapping, we know that if $V_0$ is any initial continuous, increasing, and concave function defined on $X$, then $T^n(V_0)\to V^*$. This is precisely what we are going to do using the computer (well we will also do it by hand for a couple of examples).&lt;/p&gt;
+&lt;p&gt;$$T(V(x))\equiv\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;/p&gt;
+&lt;p&gt;assigns a continuous, strictly increasing, strictly concave function $T(V)$ to each continuous, increasing, and concave function $V$ defined on $X$. Since $T(V)$ is a contraction mapping, we know that if $V_0$ is any initial continuous, increasing, and concave function defined on $X$, then $T^n(V_0)\to V^*$. This is precisely what we are going to do using the computer (well we will also do it by hand for a couple of examples).&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -163,8 +148,7 @@ $$T(V(x))\equiv\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;p&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -174,8 +158,7 @@ $$T(V(x))\equiv\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;p&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -183,15 +166,15 @@ $$T(V(x))\equiv\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;p&
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;So, now that we have a strategy to tackle the problem, and you have learned some basic Python at &lt;a href="http://codeacademy.com"&gt;Code Academy&lt;/a&gt; and IPython in our other &lt;a href="https://github.com/ozak/CompEcon/blob/master/notebooks/IntroPython.ipynb"&gt;notebook&lt;/a&gt;, we are ready to write some code and do some dynamic economic analysis.&lt;/p&gt;
 &lt;p&gt;But before we start, there is one issue I want to highlight. Notice that our state space $X$ is not assumed to be finite, and clearly the fact that our functions are continuous imply that we cannot be in a finite problem. So how do we represent such an infinite object in a computer, which only has finite memory? The solution is to take an approximation to the function, what Stachurski (2009) calls a fitted function. There are various methods to approximate functions (see Judd (1998) for an excellent presentation). The simplest method is a linear interpolation, which is what we will use here.&lt;/p&gt;
 &lt;p&gt;The idea behind linear interpolation is quite simple. Assume we want to approximate the function $V: X\to X$, $X\subseteq\mathbb{R}$. The only thing we need is a finite set $\{x_i\}_{i=0}^N\subseteq X$ for which we compute the value under $V$, i.e. we create the finite set of values $\{V_i=V(x_i)\}_{i=0}^N$. Then our approximate function $V$, $\hat V$, will be defined as&lt;/p&gt;
-$$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } x_{i-1}\le x &lt; x_i.$$&lt;p&gt;In principle we could construct our own interpolation function, but &lt;a href="http://www.scipy.org/"&gt;Scipy&lt;/a&gt; has already &lt;a href="http://docs.scipy.org/doc/scipy/reference/interpolate.html"&gt;optimized approximation algorithms&lt;/a&gt;, so let's use that package instead. Let's see what a linear interpolation of $\sin(x)$ would look like.&lt;/p&gt;
+&lt;p&gt;$$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } x_{i-1}\le x &lt; x_i.$$&lt;/p&gt;
+&lt;p&gt;In principle we could construct our own interpolation function, but &lt;a href="http://www.scipy.org/"&gt;Scipy&lt;/a&gt; has already &lt;a href="http://docs.scipy.org/doc/scipy/reference/interpolate.html"&gt;optimized approximation algorithms&lt;/a&gt;, so let's use that package instead. Let's see what a linear interpolation of $\sin(x)$ would look like.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -247,8 +230,7 @@ $$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -285,8 +267,7 @@ $$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -308,8 +289,7 @@ $$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -317,22 +297,21 @@ $$\hat V(x)=V_{i-1}+\frac{V_i-V_{i-1}}{x_i-x_{i-1}}(x-x_{i-1}) \quad\text{ if } 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let's start by computing the solution to an optimal growth problem, in which a social planner seeks to find paths $\{c_t,k_t\}$ such that&lt;/p&gt;
-\begin{align}
+&lt;p&gt;\begin{align}
 \max_{\{c_t,k_t\}}&amp;\sum_{t=0}^{\infty}\beta^{t}u(c_{t})\\[.2cm]
 \text{s.t.}&amp;k;_{t+1}\leq f(k_{t})+(1-\delta)k_{t}-c_{t}\\[.2cm]
 c_{t}\geq0,&amp;\ k_{t}\geq0,\ k_{0}\text{ is given}.
-\end{align}&lt;p&gt;As usual we assume that our utility function $u(\cdot)$ and production function $f(\cdot)$ are Neoclassical. Under these conditions we have seen that our problem satisfies the conditions of our previous theorem and thus we &lt;em&gt;know&lt;/em&gt; a unique solution exists.&lt;/p&gt;
+\end{align}&lt;/p&gt;
+&lt;p&gt;As usual we assume that our utility function $u(\cdot)$ and production function $f(\cdot)$ are Neoclassical. Under these conditions we have seen that our problem satisfies the conditions of our previous theorem and thus we &lt;em&gt;know&lt;/em&gt; a unique solution exists.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -340,17 +319,17 @@ c_{t}\geq0,&amp;\ k_{t}\geq0,\ k_{0}\text{ is given}.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let's assume that $u(c)=\ln(c)$, $f(k)=k^\alpha$, and $\delta=1$. For this case we have seen that the solution implies&lt;/p&gt;
-\begin{align}
+&lt;p&gt;\begin{align}
 &amp;\text{Value Function: } &amp;  V(k)=&amp;\frac{\ln(1-\alpha\beta)}{1-\beta}+\frac{\alpha\beta\ln(\alpha\beta)}{(1-\alpha\beta)(1-\beta)}+\frac{\alpha}{1-\alpha\beta}\ln(k)\\[.2cm]
 &amp;\text{Optimal Policy: } &amp; \pi\left(k\right)=&amp;\beta\alpha k^{\alpha} \\[.2cm]
 &amp;\text{Optimal Consumption Function: } &amp; c=&amp;\left(1-\beta\alpha\right)k^{\alpha}\\[.2cm]
-\end{align}&lt;p&gt;We will use these to compare the solution found by iteration of the Value function described above. Copy the Python functions you had defined in the previous notebook into the cell below and define Python functions for the actual optimal solutions given above.&lt;/p&gt;
+\end{align}&lt;/p&gt;
+&lt;p&gt;We will use these to compare the solution found by iteration of the Value function described above. Copy the Python functions you had defined in the previous notebook into the cell below and define Python functions for the actual optimal solutions given above.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -446,8 +425,7 @@ def opc(k,alpha=.3,beta=.9):
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -469,8 +447,7 @@ def opc(k,alpha=.3,beta=.9):
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -491,8 +468,7 @@ def opc(k,alpha=.3,beta=.9):
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -525,13 +501,13 @@ def opc(k,alpha=.3,beta=.9):
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Now we need a function, which for given $V_0$ solves&lt;/p&gt;
-$$\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}.$$&lt;p&gt;Let's use one of Scipy's optimizing routines&lt;/p&gt;
+&lt;p&gt;$$\sup\limits _{y\in G(x)}\left\{ U(x,y)+\beta V(y)\right\}.$$&lt;/p&gt;
+&lt;p&gt;Let's use one of Scipy's optimizing routines&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -547,13 +523,13 @@ fminbound&lt;span class="o"&gt;?&lt;/span&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Since &lt;code&gt;fminbound&lt;/code&gt; returns&lt;/p&gt;
-$$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;p&gt;we have to either replace our objective function for its negative or, better yet, define a function that uses &lt;code&gt;fminbound&lt;/code&gt; and returns the maximum and the maximizer&lt;/p&gt;
+&lt;p&gt;$$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}$$&lt;/p&gt;
+&lt;p&gt;we have to either replace our objective function for its negative or, better yet, define a function that uses &lt;code&gt;fminbound&lt;/code&gt; and returns the maximum and the maximizer&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -573,8 +549,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -582,8 +557,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -634,8 +608,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -659,8 +632,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -683,8 +655,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -710,8 +681,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -750,8 +720,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -790,8 +759,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -810,7 +778,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -827,6 +795,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -834,8 +803,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 }
 &lt;/script&gt;
 </content><category term="Economic Growth"></category><category term="Macroeconomics"></category><category term="IPython"></category><category term="Notebooks"></category></entry><entry><title>Faster Dynamic Programming with Numba</title><link href="https://econgrowth.github.io/Dynamic%20Programming%20Numba.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/Dynamic Programming Numba.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -843,8 +811,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -852,14 +819,12 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Altough Python is fast compared to other high-level languages, it still is noat as fast as C, C++ or Fortran. Luckily, two open source projects &lt;a href="http://numba.pydata.org/"&gt;Numba&lt;/a&gt; and &lt;a href="http://cython.org/"&gt;Cython&lt;/a&gt; can be used to speed-up computations. &lt;a href="http://numba.pydata.org/"&gt;Numba&lt;/a&gt; is sponsored by the producer of &lt;a href="https://store.continuum.io/cshop/anaconda/"&gt;Anaconda&lt;/a&gt;, &lt;a href="http://continuum.io/"&gt;Continuum Analytics&lt;/a&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -867,8 +832,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -876,8 +840,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -885,8 +848,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -894,8 +856,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -911,8 +872,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -979,8 +939,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1010,8 +969,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1030,8 +988,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1100,8 +1057,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1162,8 +1118,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1171,8 +1126,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1221,8 +1175,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1230,8 +1183,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1264,8 +1216,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1352,8 +1303,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1508,8 +1458,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -1517,8 +1466,7 @@ $$\arg\min\limits _{y\in [\underline x,\bar x]}\left\{ U(x,y)+\beta V(y)\right\}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2024,7 +1972,7 @@ c+f2um1I7jwdqOeeew5Lly6F1+vFsmXLhuUVMQBw//33Y/v27WhtbUV6ejpWrVqFhx56SO62ZLF7
 gKSkJDz22GPX/dsLb1AiIhIM/3hKRCQYBjsRkWAY7EREgmGwExEJhsFORCQYBjsRkWAY7EREgmGw
 ExEJ5v8DV5vUZp6T+oYAAAAASUVORK5CYII=
 "&gt;
-&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2197,7 +2145,7 @@ nTu32v9YbdH169fx+uuvo7y8HN7e3pgyZUrFkZi9s+dnNt28eRNDhgwBAHh6euLdd9+t9twJbwgi
 IhI5nuwkIhI5FjkRkcixyImIRI5FTkQkcixyIiKRY5ETEYkci5yISORY5EREIvd/I3zmsW6XItkA
 AAAASUVORK5CYII=
 "&gt;
-&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2255,7 +2203,7 @@ AAAASUVORK5CYII=
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -2272,6 +2220,7 @@ AAAASUVORK5CYII=
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -2279,8 +2228,7 @@ AAAASUVORK5CYII=
 }
 &lt;/script&gt;
 </content><category term="Economic Growth"></category><category term="Macroeconomics"></category><category term="IPython"></category><category term="Notebooks"></category></entry><entry><title>Economic Data Analysis in Python</title><link href="https://econgrowth.github.io/Economic%20Data%20Analysis.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/Economic Data Analysis.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2288,14 +2236,12 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;This notebook will introduce you to working with data in &lt;code&gt;Python&lt;/code&gt;. You can use packages like &lt;code&gt;Numpy&lt;/code&gt; to work with arrays, matrices, and such, and anipulate data (see my &lt;a href="./IntroPython.ipynb"&gt;Introduction to Python&lt;/a&gt;). But given the needs of economists it is better to use &lt;a href="http://pandas.pydata.org"&gt;Pandas&lt;/a&gt;. &lt;a href="http://pandas.pydata.org"&gt;Pandas&lt;/a&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2303,8 +2249,7 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2328,8 +2273,7 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2351,8 +2295,7 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2360,8 +2303,7 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2381,8 +2323,7 @@ AAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2414,8 +2355,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2423,8 +2363,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2432,8 +2371,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2463,8 +2401,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2472,8 +2409,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2492,8 +2428,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2512,8 +2447,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2532,8 +2466,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2588,8 +2521,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2631,8 +2563,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -2643,23 +2574,12 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython2"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -2676,6 +2596,7 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -2683,23 +2604,21 @@ Here we have created two dataframes based on an Excel file and a Stata file.&lt;
 }
 &lt;/script&gt;
 </content><category term="Economic Growth"></category><category term="Macroeconomics"></category><category term="IPython"></category><category term="Notebooks"></category></entry><entry><title>GIS with Python</title><link href="https://econgrowth.github.io/GIS%20with%20Python.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/GIS with Python.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1&gt;GIS with &lt;img alt="Python" src="./pics/python-logo.png"&gt; and &lt;img alt="IPython" src="./pics/IPy_header.png" /&gt;&lt;/img&gt;&lt;/h1&gt;
+&lt;h1&gt;GIS with &lt;img alt="Python" src="./pics/python-logo.png"&gt; and &lt;img alt="IPython" src="./pics/IPy_header.png"&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1&gt;GIS with &lt;img alt="Python" src="./pics/python-logo.png"&gt; and &lt;img alt="IPython" src="./pics/IPy_header.png" /&gt;&lt;/img&gt;&lt;/h1&gt;
+&lt;h1&gt;GIS with &lt;img alt="Python" src="./pics/python-logo.png"&gt; and &lt;img alt="IPython" src="./pics/IPy_header.png"&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -4394,7 +4313,7 @@ AfGVAyI3bdp0M9YhhBBCCCFucX19fVd9/KqBZW5uLuvWrRvQBQkhhBBCiKErNzf3Sx+7aoN0IYQQ
 Qggh+ktyLIUQQgghxICQwFIIIYQQQgwICSyFEEIIIcSAkMBSCCGEEEIMCAkshRBCCCHEgPg/nxCG
 k/u5hF4AAAAASUVORK5CYII=
 "&gt;
-&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6298,7 +6217,7 @@ SyGEEEII0SV+ckDkypUrr8Q6hBBCCCHEVa6jo+OCz18wsBw7diyPP/54ly5ICCGEEEL0XGPHjv3R
 5y7YIF0IIYQQQoiLJTmWQgghhBCiS0hgKYQQQgghuoQElkIIIYQQoktIYCmEEEIIIbqEBJZCCCGE
 EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 "&gt;
-&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6308,7 +6227,7 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -6325,6 +6244,7 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -6332,17 +6252,15 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 }
 &lt;/script&gt;
 </content><category term="Economic Growth"></category><category term="Macroeconomics"></category><category term="IPython"></category><category term="Notebooks"></category></entry><entry><title>GIS with QGIS</title><link href="https://econgrowth.github.io/GIS%20with%20QGIS.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/GIS with QGIS.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;Using Geographic Information Systems (GIS) in &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 60px;" /&gt;&lt;/a&gt;&lt;a href="http://www.qgis.org/"&gt;GIS&lt;/a&gt; and &lt;a href="http://www.python.org/"&gt;&lt;img alt="Python" src="../images/pics/python-logo.png" /&gt;&lt;/a&gt;&lt;a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;Using Geographic Information Systems (GIS) in &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 60px;"&gt;&lt;/a&gt;&lt;a href="http://www.qgis.org/"&gt;GIS&lt;/a&gt; and &lt;a href="http://www.python.org/"&gt;&lt;img alt="Python" src="../images/pics/python-logo.png"&gt;&lt;/a&gt;&lt;a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6350,23 +6268,20 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;GIS refers to methods of storing, displaying and analyzing geogaphical information. These methods have become essential in economic analysis (as you have noticed from the reading list for our Ph.D. course on economic growth). For this reason, it is good that you acquaint yourself with these methods. They will prove very useful when doing research, especially to show the spatial distribution of your variables of interest, contructing new measures, or doing spatial analysis.&lt;/p&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;Using Geographic Information Systems (GIS) in &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 60px;" /&gt;&lt;/a&gt;&lt;a href="http://www.qgis.org/"&gt;GIS&lt;/a&gt; and &lt;a href="http://www.python.org/"&gt;&lt;img alt="Python" src="../images/pics/python-logo.png" /&gt;&lt;/a&gt;&lt;a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;Using Geographic Information Systems (GIS) in &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 60px;"&gt;&lt;/a&gt;&lt;a href="http://www.qgis.org/"&gt;GIS&lt;/a&gt; and &lt;a href="http://www.python.org/"&gt;&lt;img alt="Python" src="../images/pics/python-logo.png"&gt;&lt;/a&gt;&lt;a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in-GIS-and-"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6374,8 +6289,7 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6383,8 +6297,7 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6392,19 +6305,17 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Commercial"&gt;Commercial&lt;a class="anchor-link" href="#Commercial"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are various GIS specialized programs and packages. &lt;a href="www.esri.com"&gt;ESRI&lt;/a&gt; produces ArcGIS, which is the most known and commonly used commercial software. It is very easy to use to produce maps and do simple computations. Most universities (including ours) offer it in their computer labs. The main disadvantages are that it requires a computer running Windows, it is costly, and extremely slow for computations.&lt;/p&gt;
 &lt;p&gt;For this reason I always suggest you use and learn open-source alternatives&lt;/p&gt;
-&lt;h3 id="Open-Source"&gt;Open Source&lt;a class="anchor-link" href="#Open-Source"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are many open source GIS projects, many of which are supported/gathered at &lt;a href="http://www.osgeo.org/"&gt;&lt;img alt="GRASS" src="../images/pics/OSGEO-logo.png" style="width: 80px;" /&gt;&lt;/a&gt;. The most known and widely used seem to be &lt;a href="http://grass.osgeo.org/"&gt;&lt;img alt="GRASS" src="../images/pics/Grass-logo.png" style="width: 100px;" /&gt;&lt;/a&gt; and &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 50px;" /&gt;&lt;/a&gt;, although Python is increasingly becoming the language of GIS. QGIS can be programmed in Python and many web-based GIS services and databases are programmed in Python. Furthermore, there are many new Python packages which allow you to import, export, analyze, visualize, etc. GIS data. THis notebook will serve as a basic introduction, which I hope to develop further with time. Many of the solutions provded here have been implemented by myself or taken from sources on the web (regretfully I did not keep track from where I took some ideas or snipplets of code, so I cannot provide due credit).&lt;/p&gt;
+&lt;h3 id="Open-Source"&gt;Open Source&lt;a class="anchor-link" href="#Open-Source"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are many open source GIS projects, many of which are supported/gathered at &lt;a href="http://www.osgeo.org/"&gt;&lt;img alt="GRASS" src="../images/pics/OSGEO-logo.png" style="width: 80px;"&gt;&lt;/a&gt;. The most known and widely used seem to be &lt;a href="http://grass.osgeo.org/"&gt;&lt;img alt="GRASS" src="../images/pics/Grass-logo.png" style="width: 100px;"&gt;&lt;/a&gt; and &lt;a href="http://www.qgis.org/"&gt;&lt;img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 50px;"&gt;&lt;/a&gt;, although Python is increasingly becoming the language of GIS. QGIS can be programmed in Python and many web-based GIS services and databases are programmed in Python. Furthermore, there are many new Python packages which allow you to import, export, analyze, visualize, etc. GIS data. THis notebook will serve as a basic introduction, which I hope to develop further with time. Many of the solutions provded here have been implemented by myself or taken from sources on the web (regretfully I did not keep track from where I took some ideas or snipplets of code, so I cannot provide due credit).&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6412,8 +6323,7 @@ EKJL/D9w/WAbTWl4LAAAAABJRU5ErkJggg==
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6457,8 +6367,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6466,8 +6375,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6507,8 +6415,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6516,8 +6423,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6549,8 +6455,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6558,8 +6463,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6571,12 +6475,11 @@ brew tap homebrew/science
 &lt;li&gt;&lt;a href="http://ngdc.noaa.gov/eog/data/web_data/v4composites/F182012.v4.tar"&gt;Lights Data for 2012&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Now, open QGIS. You should see something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-main.png"&gt;&lt;img alt="QGIS open" src="../images/pics/GIS/QGIS-main.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-main.png"&gt;&lt;img alt="QGIS open" src="../images/pics/GIS/QGIS-main.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6585,16 +6488,15 @@ brew tap homebrew/science
 &lt;li&gt;Use &lt;code&gt;Finder&lt;/code&gt; or &lt;code&gt;Windows Explorer&lt;/code&gt; to navigate to the file and &lt;code&gt;double-click&lt;/code&gt; on it.&lt;/li&gt;
 &lt;li&gt;Use the &lt;code&gt;Layer&lt;/code&gt; menu in QGIS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Layer-menu.png"&gt;&lt;img alt="QGIS Layer Menu" src="../images/pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Layer-menu.png"&gt;&lt;img alt="QGIS Layer Menu" src="../images/pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the toolbar on the left&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="./images./pics/GIS/QGIS-file-toolbar.png"&gt;&lt;img alt="QGIS File Toolbar" src="../images/pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./images./pics/GIS/QGIS-file-toolbar.png"&gt;&lt;img alt="QGIS File Toolbar" src="../images/pics/GIS/QGIS-file-toolbar.png" style="width: 20px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6602,49 +6504,46 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let's start by adding the vector file for your country of origin using the &lt;code&gt;add vector layer&lt;/code&gt; button in the toolbar.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-vector-layer.png"&gt;&lt;img alt="QGIS add vector layer" src="../images/pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-vector-layer.png"&gt;&lt;img alt="QGIS add vector layer" src="../images/pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;I have added the full GADM dataset, so it looks like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-GADM.png"&gt;&lt;img alt="GADM layer in QGIS" src="../images/pics/GIS/QGIS-GADM.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-GADM.png"&gt;&lt;img alt="GADM layer in QGIS" src="../images/pics/GIS/QGIS-GADM.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Now we can use various tools available within QGIS to learn about the data, select the data, analyze the data, etc.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The handtool for panning: &lt;a href="../images/pics/GIS/QGIS-handtool.png"&gt;&lt;img alt="QGIS-handtool" src="../images/pics/GIS/QGIS-handtool.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;The handtool for panning: &lt;a href="../images/pics/GIS/QGIS-handtool.png"&gt;&lt;img alt="QGIS-handtool" src="../images/pics/GIS/QGIS-handtool.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, use the tool to move your country around the screen.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Zoom in/out/to selection/full: &lt;a href="../images/pics/GIS/QGIS-zoom-toolbar.png"&gt;&lt;img alt="QGIS-Zoom" src="../images/pics/GIS/QGIS-zoom-toolbar.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Zoom in/out/to selection/full: &lt;a href="../images/pics/GIS/QGIS-zoom-toolbar.png"&gt;&lt;img alt="QGIS-Zoom" src="../images/pics/GIS/QGIS-zoom-toolbar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, by zooming around your city of birth.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Identify Features: &lt;a href="../images/pics/GIS/QGIS-identify-features.png"&gt;&lt;img alt="QGIS-identify-features" src="../images/pics/GIS/QGIS-identify-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Identify Features: &lt;a href="../images/pics/GIS/QGIS-identify-features.png"&gt;&lt;img alt="QGIS-identify-features" src="../images/pics/GIS/QGIS-identify-features.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, click on the feature you just zoomed into. Did you zoom into the correct feature?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Select Features: &lt;a href="../images/pics/GIS/QGIS-select-features.png"&gt;&lt;img alt="QGIS-select-features" src="../images/pics/GIS/QGIS-select-features.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Select Features: &lt;a href="../images/pics/GIS/QGIS-select-features.png"&gt;&lt;img alt="QGIS-select-features" src="../images/pics/GIS/QGIS-select-features.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try it out, select the feature of the region where you were born.&lt;/li&gt;
 &lt;/ul&gt;
@@ -6652,10 +6551,10 @@ brew tap homebrew/science
 &lt;/ol&gt;
 &lt;p&gt;Besides the geometrical information that we observe, most Shape files have other information relating to each feature. This information is contained in the &lt;em&gt;Attribute Table&lt;/em&gt;, which can be accessed with&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;Open Attribute Table&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-attribute-table.png"&gt;&lt;img alt="QGIS-attribute-table" src="../images/pics/GIS/QGIS-attribute-table.png" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;Open Attribute Table&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-attribute-table.png"&gt;&lt;img alt="QGIS-attribute-table" src="../images/pics/GIS/QGIS-attribute-table.png"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;By &lt;code&gt;right-clicking&lt;/code&gt; on the name of the layer in the left panel&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table2.png"&gt;&lt;img alt="QGIS-attribute-table2" src="../images/pics/GIS/QGIS-attribute-table2.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table2.png"&gt;&lt;img alt="QGIS-attribute-table2" src="../images/pics/GIS/QGIS-attribute-table2.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Doing so shows you the additional information contained in the shape file. For the GADM file it includes&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the identification number of the feature &lt;code&gt;OBJECTID&lt;/code&gt;&lt;/li&gt;
@@ -6665,28 +6564,27 @@ brew tap homebrew/science
 &lt;li&gt;the identification number of the region in the country (Administrative Level 1) to which the feature belongs &lt;code&gt;ID_1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;etc.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table3.png"&gt;&lt;img alt="QGIS-attribute-table3" src="../images/pics/GIS/QGIS-attribute-table3.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We can use this information to color our maps, or to select features for further analysis. I will use the &lt;code&gt;select feature using an expression&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; to select all features which have the ISO-3 code for Kenya. Once you click on the &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px" /&gt;&lt;/a&gt; button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-attribute-table3.png"&gt;&lt;img alt="QGIS-attribute-table3" src="../images/pics/GIS/QGIS-attribute-table3.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We can use this information to color our maps, or to select features for further analysis. I will use the &lt;code&gt;select feature using an expression&lt;/code&gt; button &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px"&gt;&lt;/a&gt; to select all features which have the ISO-3 code for Kenya. Once you click on the &lt;a href="../images/pics/GIS/QGIS-select-feature-attributes-button.png"&gt;&lt;img ;="" alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" style="width: 20px"&gt;&lt;/a&gt; button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;'ISO'='KEN'
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;to select all features with Kenya's ISO-3 code.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"&gt;&lt;img alt="QGIS-select-features-by-ISO" src="../images/pics/GIS/QGIS-select-features-by-ISO.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"&gt;&lt;img alt="QGIS-select-features-by-ISO" src="../images/pics/GIS/QGIS-select-features-by-ISO.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sometimes we will want to work with a subset of features, especially if the data we are working has many features, like the GADM data. To select a subset of the features and only work with those, use the &lt;code&gt;Layer-&gt;Query&lt;/code&gt; option in the &lt;code&gt;Menu&lt;/code&gt; as shown below&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query.png"&gt;&lt;img alt="QGIS-Query" src="../images/pics/GIS/QGIS-Query.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query.png"&gt;&lt;img alt="QGIS-Query" src="../images/pics/GIS/QGIS-Query.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This opens a window where you can write expression as the previous one, to select features by their attributes. These are &lt;code&gt;SQL&lt;/code&gt; expressions and have to conform to &lt;code&gt;SQL&lt;/code&gt;'s grammar (we will not go into this at this point). Once I execute the same expression as above&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;'ISO'='KEN'
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;QGIS leaves only the features in Kenya for analysis.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query-KEN.png"&gt;&lt;img alt="QGIS-Query-KEN" src="../images/pics/GIS/QGIS-Query-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Query-KEN.png"&gt;&lt;img alt="QGIS-Query-KEN" src="../images/pics/GIS/QGIS-Query-KEN.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Let us zoom into these features by &lt;code&gt;right-clicking&lt;/code&gt; on the name of the layer and choosing &lt;code&gt;Zoom to Layer Extent&lt;/code&gt;. This shows the extent of Kenya alone.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-zoomed-KEN.png"&gt;&lt;img alt="QGIS-zoomed-KEN" src="../images/pics/GIS/QGIS-zoomed-KEN.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-zoomed-KEN.png"&gt;&lt;img alt="QGIS-zoomed-KEN" src="../images/pics/GIS/QGIS-zoomed-KEN.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6694,8 +6592,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6707,8 +6604,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6716,29 +6612,26 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;The &lt;code&gt;Vector&lt;/code&gt; menu has many tools that can be applied to vector layers. Let's use some of these to create new layers.&lt;/p&gt;
 &lt;p&gt;Using the &lt;code&gt;Vector -&gt; Geometry Tools -&gt; Singlepart to Mutliparts&lt;/code&gt; we can generate a new layer and shape file where features are aggregated according to some characteristic. Let us use this tool to aggregate administrative level 2 features to the administrative level 0 (Country) level. Thus,  each feature will be a country (administrative level 0) instead of the current administrative level 2.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"&gt;&lt;img alt="QGIS-SinglePart-MultiPart" src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"&gt;&lt;img alt="QGIS-SinglePart-MultiPart" src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Using the &lt;code&gt;Vector -&gt; Geometry Tools -&gt; Mutliparts to singlepart&lt;/code&gt; we can generate a new layer and shape file where features are disaggregated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"&gt;&lt;img alt="QGIS-MultiPart-SinglePart" src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"&gt;&lt;img alt="QGIS-MultiPart-SinglePart" src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6746,8 +6639,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6756,11 +6648,11 @@ brew tap homebrew/science
 &lt;li&gt;Select the cities that belong to your country and create a new shape file with the selection named &lt;code&gt;your_country_places.shp&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Load the &lt;code&gt;your_country.shp&lt;/code&gt; file you had created in the previous exercise and compute the centroid for each Adminitrative level 1 in your country and export the layer to the file &lt;code&gt;your_country_centroids1.shp&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Search for your place of birth among the most populated places. Where you born in a populated place? If not, identify the closest most populated place. To do so, use &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt; or &lt;a href="http://www.wikipedia.org/"&gt;Wikipedia&lt;/a&gt; to find the latitude and longitude of your place of birth. Using your mouse and the &lt;code&gt;coordinate&lt;/code&gt; window at the bottom&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Coordinates.png"&gt;&lt;img alt="QGIS-Coordinates" src="../images/pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Coordinates.png"&gt;&lt;img alt="QGIS-Coordinates" src="../images/pics/GIS/QGIS-Coordinates.png" style="width: 300px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;to search for your location of birth. Better yet, using the &lt;code&gt;Plugins-&gt;Manage and Install Plugins&lt;/code&gt; menu, install the &lt;code&gt;ZoomToCoordinates&lt;/code&gt; plugin&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"&gt;&lt;img alt="QGIS-ZoomToCoordinatesPlugin" src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"&gt;&lt;img alt="QGIS-ZoomToCoordinatesPlugin" src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;and use it to find your place of birth as shown below&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"&gt;&lt;img alt="QGIS-ZoomToCoordinates" src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"&gt;&lt;img alt="QGIS-ZoomToCoordinates" src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Compute the distance between your place of birth and both the closest centroid and the closest most populated place. If needed find a Plugin that will do the job for you. I recommend installing among many &lt;code&gt;realcentroid&lt;/code&gt;, &lt;code&gt;mmqgis&lt;/code&gt;, &lt;code&gt;coordinate capture&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
@@ -6771,8 +6663,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6780,31 +6671,29 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Let us load the Ramankutty raster using the &lt;code&gt;add raster layer&lt;/code&gt; button in the toolbar.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-raster-layer.png"&gt;&lt;img alt="QGIS add raster layer" src="../images/pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-add-raster-layer.png"&gt;&lt;img alt="QGIS add raster layer" src="../images/pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Double-click&lt;/code&gt; on the name of the raster in order to change the coloring scheme.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-color-scheme.png"&gt;&lt;img alt="QGIS-raster-color-scheme" src="../images/pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-color-scheme.png"&gt;&lt;img alt="QGIS-raster-color-scheme" src="../images/pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;So it looks something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-with-color.png"&gt;&lt;img alt="QGIS-raster-with-color" src="../images/pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-raster-with-color.png"&gt;&lt;img alt="QGIS-raster-with-color" src="../images/pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Load your &lt;code&gt;your_country.shp&lt;/code&gt; and &lt;code&gt;your_country_places.shp&lt;/code&gt; on top of the Ramankutty data. It might look something like this.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Raster-KEN.png"&gt;&lt;img alt="QGIS-Raster-KEN" src="../images/pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Raster-KEN.png"&gt;&lt;img alt="QGIS-Raster-KEN" src="../images/pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Since we do not want to work with all the Ramankutty data, but only with the data for our country, let us &lt;code&gt;clip&lt;/code&gt; the part of the Ramankutty data that belongs to our country. To do this, use the &lt;code&gt;Raster-&gt;Extraction-&gt;Clipper&lt;/code&gt; tool.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Clipper.png"&gt;&lt;img alt="QGIS-Clipper" src="../images/pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Clipper.png"&gt;&lt;img alt="QGIS-Clipper" src="../images/pics/GIS/QGIS-Clipper.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In the window that comes up, choose a name for the clipped raster &lt;code&gt;suit_your_country&lt;/code&gt; and choose the &lt;code&gt;save as GeoTiff&lt;/code&gt; option, so that your file is saved as in GeoTiff format. Then click on the &lt;code&gt;Mask layer&lt;/code&gt; button, make sure &lt;code&gt;your_country&lt;/code&gt; layer is chosen as the mask. If you want choose a different &lt;code&gt;No data value&lt;/code&gt;. Then click &lt;code&gt;ok&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-clip-KEN.png"&gt;&lt;img alt="QGIS-clip-KEN" src="../images/pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-clip-KEN.png"&gt;&lt;img alt="QGIS-clip-KEN" src="../images/pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This will clip the Ramankutty data to the extent of your country of origin. Notice that in the big text box there is a command written, something like&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;gdalwarp -q -cutline "gadm2.shp|layerid=0|subset=\"ISO\" = 'KEN'" -crop_to_cutline -of GTiff "suit/w001001.adf" GitHub/CompEcon/notebooks/QGIS/suit-KEN.tif
 
@@ -6814,31 +6703,29 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;The output should look like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster.png"&gt;&lt;img alt="QGIS-KEN-Raster" src="../images/pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster.png"&gt;&lt;img alt="QGIS-KEN-Raster" src="../images/pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notice that given the large size of the cells in the raster, the clipping tool creates a lot of measurement error. It might be better to decrease the size of cells an then clip, so that the clipping is less erroneous. Let's try setting the cell size to $5''$ instead of $0.5^o$. To do so, &lt;code&gt;right-click&lt;/code&gt; on the raster name and select &lt;code&gt;Save as&lt;/code&gt;. Then set the &lt;em&gt;Resolution&lt;/em&gt; to $5''=1/12=0.08333$ for both &lt;code&gt;Horizontal&lt;/code&gt; and &lt;code&gt;Vertical&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-change-raster-size.png"&gt;&lt;img alt="QGIS-change-raster-size" src="../images/pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-change-raster-size.png"&gt;&lt;img alt="QGIS-change-raster-size" src="../images/pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now use the clip tool again. Much better!OBviously, the smaller the cell size, the more similar the clipped raster and the polygon will look like.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster5.png"&gt;&lt;img alt="QGIS-KEN-Raster5" src="../images/pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Raster5.png"&gt;&lt;img alt="QGIS-KEN-Raster5" src="../images/pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="Note:"&gt;Note:&lt;a class="anchor-link" href="#Note:"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Care has to be taken when converting raster's cells size, since values have to be interpolated. QGIS seems to have taken away your choice for setting it. Luckily, GDAL can help out. You can use its tools to change the cells size, the projection, clip, etc. We will see some tools in another lecture.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let us use this raster to assign the average suitability in each administrative region. But before doing so, we need to reproject both the raster and shape files to a format that ensures the areas are correctly take into account. One such projection is the equal area projection. Right click on the raster or shape and select &lt;code&gt;save as...&lt;/code&gt;. Then in the &lt;code&gt;CRS&lt;/code&gt; option choose &lt;code&gt;Selected CRS&lt;/code&gt; and click on &lt;code&gt;browse&lt;/code&gt; and choose the following CRS (or create it if not present by using the &lt;code&gt;Settings-&gt;Custom CRS&lt;/code&gt; menu)&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Cylindrical.png"&gt;&lt;img alt="QGIS-Cylindrical" src="../images/pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Cylindrical.png"&gt;&lt;img alt="QGIS-Cylindrical" src="../images/pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now save the file adding the postfix &lt;code&gt;cyl&lt;/code&gt; so that you know it is the cylindrical equal area rojected one. Now, select &lt;code&gt;Raster-&gt;Zonal Statistics-&gt;Zonal Statistics&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Zonal-Stats.png"&gt;&lt;img alt="QGIS-Zonal-Stats" src="../images/pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Zonal-Stats.png"&gt;&lt;img alt="QGIS-Zonal-Stats" src="../images/pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Select the cylindrical versions of the raster and shape files and &lt;code&gt;suitcyl&lt;/code&gt; as the &lt;code&gt;Output column prefix&lt;/code&gt;. Now, in the attribute table you will find three new columns with the prefix &lt;code&gt;suitcyl&lt;/code&gt; that show the &lt;code&gt;sum&lt;/code&gt;, &lt;code&gt;count&lt;/code&gt;, and &lt;code&gt;mean&lt;/code&gt; suitability in in each feature. If you repeat the analysis with the unprojected (non-cyl) versions of the raster and shape files, you will see that the results vary (sometimes significantly). Whenever you do this type of analysis, it is important to make sure you are using the correct rojection for the analysis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6846,8 +6733,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6855,8 +6741,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6864,8 +6749,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6877,8 +6761,7 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6886,19 +6769,18 @@ brew tap homebrew/science
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Now that you have the average agricultural suitability for each administrative region. Let's color code it so we can visually observe the regional differences. For this double-click on the &lt;code&gt;your_country_cyl&lt;/code&gt; layer, which should open a new window in the &lt;code&gt;style&lt;/code&gt; tab of the &lt;code&gt;Layer-&gt;Properties&lt;/code&gt; menu.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Properties.png"&gt;&lt;img alt="QGIS-Style-Properties" src="../images/pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Properties.png"&gt;&lt;img alt="QGIS-Style-Properties" src="../images/pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now, click on &lt;code&gt;Single Symbol&lt;/code&gt; and choose &lt;code&gt;Graduated&lt;/code&gt;. This allows us to use colors to show the different values of a field/variable of interest.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Category.png"&gt;&lt;img alt="QGIS-Style-Category" src="../images/pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Category.png"&gt;&lt;img alt="QGIS-Style-Category" src="../images/pics/GIS/QGIS-Style-Category.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Next let us select the field of interest in the attribues table, namely, &lt;code&gt;suitmean&lt;/code&gt;. To do so, click on &lt;code&gt;column&lt;/code&gt; and choose the variable/field of interest, inthis case &lt;code&gt;suitmean&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Field.png"&gt;&lt;img alt="QGIS-Style-Field" src="../images/pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-Style-Field.png"&gt;&lt;img alt="QGIS-Style-Field" src="../images/pics/GIS/QGIS-Style-Field.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can choose how many gradations to draw, e.g. increasing it from 5 to 10; change the color ramp, or the mode of creating the gradation. Try it out. You should get something like this&lt;/p&gt;
-&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"&gt;&lt;img alt="QGIS-KEN-Graduated-suit" src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"&gt;&lt;img alt="QGIS-KEN-Graduated-suit" src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -6907,7 +6789,7 @@ brew tap homebrew/science
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -6924,6 +6806,7 @@ brew tap homebrew/science
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -6931,32 +6814,28 @@ brew tap homebrew/science
 }
 &lt;/script&gt;
 </content><category term="Economic Growth"></category><category term="Macroeconomics"></category><category term="IPython"></category><category term="Notebooks"></category></entry><entry><title>Introduction to Python</title><link href="https://econgrowth.github.io/IntroPython.html" rel="alternate"></link><published>2016-12-29T10:20:00-06:00</published><updated>2016-12-29T10:20:00-06:00</updated><author><name>Ömer Özak</name></author><id>tag:econgrowth.github.io,2016-12-29:/IntroPython.html</id><summary type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1&gt;Introduction to &lt;img alt="Python" src="../images/pics/python-logo.png"&gt; and &lt;img alt="IPython" src="../images/pics/IPy_header.png" /&gt;&lt;/img&gt;&lt;/h1&gt;
+&lt;h1&gt;Introduction to &lt;img alt="Python" src="../images/pics/python-logo.png"&gt; and &lt;img alt="IPython" src="../images/pics/IPy_header.png"&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt; is a powerful and easy to use programming language. It has a large community of developers and given its open source nature, you can find many solutions, scripts, and help all over the web. It is easy to learn and code, and faster than other high-level programming languages...and did I mention it is &lt;em&gt;free&lt;/em&gt;</summary><content type="html">
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1&gt;Introduction to &lt;img alt="Python" src="../images/pics/python-logo.png"&gt; and &lt;img alt="IPython" src="../images/pics/IPy_header.png" /&gt;&lt;/img&gt;&lt;/h1&gt;
+&lt;h1&gt;Introduction to &lt;img alt="Python" src="../images/pics/python-logo.png"&gt; and &lt;img alt="IPython" src="../images/pics/IPy_header.png"&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6972,8 +6851,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -6981,8 +6859,7 @@ Powerful interactive shells (terminal, Qt-based and Notebooks based on &lt;a hre
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7005,8 +6882,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7015,8 +6891,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7024,8 +6899,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7043,8 +6917,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7052,8 +6925,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7061,8 +6933,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7136,8 +7007,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7156,8 +7026,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7177,8 +7046,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7186,8 +7054,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7195,8 +7062,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7226,8 +7092,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7268,8 +7133,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7277,8 +7141,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7297,8 +7160,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7319,8 +7181,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7342,8 +7203,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7375,8 +7235,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7417,8 +7276,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7426,8 +7284,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7435,8 +7292,7 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7471,8 +7327,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7516,8 +7371,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7541,8 +7395,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7564,8 +7417,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7617,8 +7469,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7681,8 +7532,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7734,8 +7584,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7743,8 +7592,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7776,8 +7624,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7807,8 +7654,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7862,8 +7708,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7871,8 +7716,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7892,8 +7736,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7901,8 +7744,7 @@ import matplotlib as plt
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7952,8 +7794,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7972,8 +7813,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -7994,8 +7834,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8003,8 +7842,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8024,8 +7862,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8045,8 +7882,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8054,8 +7890,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8085,8 +7920,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8116,8 +7950,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8147,8 +7980,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8202,8 +8034,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8222,8 +8053,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8265,8 +8095,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8296,8 +8125,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8338,8 +8166,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8358,8 +8185,7 @@ print 'Hello World!'
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8380,8 +8206,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8401,8 +8226,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8471,8 +8295,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8480,8 +8303,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8495,8 +8317,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8525,8 +8346,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8568,8 +8388,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -8582,7 +8401,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -8599,6 +8418,7 @@ First we merge the data using the pd.merge command, which allows us to merge two
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
