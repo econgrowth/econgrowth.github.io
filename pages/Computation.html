@@ -13,13 +13,13 @@
 <link rel="canonical" href="https://econgrowth.github.io/pages/Computation.html">
 
         <meta name="author" content="Ömer Özak" />
-        <meta name="description" content="We will be using (I)Python as our programming language. In order to use some of the material available on this website and to share your material with others you should create a GitHub account for yourself. This will be useful to you in the future to keep track of …" />
+        <meta name="description" content="We will be using (I)Python as our programming language and QGIS for basic GIS exploration. In order to use some of the material available on this website and to share your material with others you should create a GitHub account for yourself. This will be useful to you in …" />
 
     <meta property="og:site_name" content="Economic Growth and Comparative Development" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Computation"/>
     <meta property="og:url" content="https://econgrowth.github.io/pages/Computation.html"/>
-    <meta property="og:description" content="We will be using (I)Python as our programming language. In order to use some of the material available on this website and to share your material with others you should create a GitHub account for yourself. This will be useful to you in the future to keep track of …" />
+    <meta property="og:description" content="We will be using (I)Python as our programming language and QGIS for basic GIS exploration. In order to use some of the material available on this website and to share your material with others you should create a GitHub account for yourself. This will be useful to you in …" />
 
 
     <!-- Bootstrap -->
@@ -74,11 +74,35 @@ Economic Growth and Comparative Development            </a>
         <h1 class="entry-title">Computation</h1>
         
         <div class="entry-content">
-            <p>We will be using (I)Python as our programming language. In order to use some of the material available on this website and to share your material with others you should create a <a href="http://github.com/"><i class="fa fa-github fa-1x"></i>GitHub</a> account for yourself. This will be useful to you in the future to keep track of changes when you are writing papers. I also recommend creating a <a href="https://bitbucket.org/"><i class="fa fa-bitbucket fa-1x"></i>Bitbucket</a> account, which has similar functionality, but allows you to have unlimited private repositories for personal use. Additionally, I suggest you read <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf">Gentzkow &amp; Shapiro's <em>Code and Data for the Social Sciences: A Practitioner’s Guide</em></a> to familiarize yourself with good practices in coding and statistical analysis. We will cover additional topics in class.</p>
+            <p>We will be using (I)Python as our programming language and QGIS for basic GIS exploration. In order to use some of the material available on this website and to share your material with others you should create a <a href="http://github.com/"><i class="fa fa-github fa-1x"></i>GitHub</a> account for yourself. This will be useful to you in the future to keep track of changes when you are writing papers. I also recommend creating a <a href="https://bitbucket.org/"><i class="fa fa-bitbucket fa-1x"></i>Bitbucket</a> account, which has similar functionality, but allows you to have unlimited private repositories for personal use. Additionally, I suggest you read <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf">Gentzkow &amp; Shapiro's <em>Code and Data for the Social Sciences: A Practitioner’s Guide</em></a> to familiarize yourself with good practices in coding and statistical analysis. We will cover additional topics in class.</p>
+<hr>
+<h1>Installing QGIS</h1>
+<p>Download and install QGIS from their <a href="https://qgis.org/en/site/forusers/download.html">website</a>. </p>
+<hr>
+<h1>MacOS</h1>
+<h3>Homebrew</h3>
+<p>On <code>MacOS</code> you can also use <a href="https://brew.sh/">Homebrew</a>, which is an excellent tool for installing all kinds of open source software. First, download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>). Second, install <code>Homebrew</code></p>
+<div class="highlight"><pre><span></span>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</pre></div>
+
+
+<p>Third, install <code>qgis</code></p>
+<div class="highlight"><pre><span></span>brew tap osgeo/osgeo4mac
+brew install qgis
+</pre></div>
+
+
+<p>There are many tools that can be installed via <code>Homebrew</code> whenever needed. Try it out!</p>
+<h3>iTerm2</h3>
+<p>I highly recommend using <a href="https://www.iterm2.com/">iTerm2</a> instead of the terminal that comes with <code>OSX</code>. It is custumizable and very powerful. </p>
+<hr>
+<h1>Text Editor</h1>
+<p>You should have a good text editor, which hopefully has syntax highlighting for various languages, especially for <code>python</code>, <code>R</code> and <code>Stata</code>. I personally recommend <a href="https://atom.io/">atom</a>, which is free, custimizable and very flexible.</p>
+<hr>
 <h1>Installing (I)Python &amp; Jupyter</h1>
 <p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.anaconda.com/distribution/">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="https://www.dropbox.com/s/6st528ethbkmvv2/CondaInstall.sh?dl=0">this script (Mac/Linux)</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
 <p>In Windows install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
-<p>In OSX download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
+<p>In <code>MACOS</code> download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
 <p>Then download one of the following scripts </p>
 <ul>
 <li><a href="https://www.dropbox.com/s/d79ahsu3xz4632g/GeoPython3env2019B_nobuilds.yml?dl=0">GeoPython3env</a> (latest environment)</li>
@@ -136,6 +160,42 @@ conda install -c r r-PACKAGE_NAME
 </pre></div>
 
 
+<h2>Running Stata or R in Python</h2>
+<p>We can also use <code>Stata</code> or <code>R</code> directly within <code>Python</code>. You only need to use the <code>%magic</code> for each after installing the required packages. For example for <code>Stata</code> you need  <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code></a>. Install by executing</p>
+<div class="highlight"><pre><span></span>pip install ipystata
+</pre></div>
+
+
+<p>Then in <code>jupyter</code> execute</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ipystata</span> 
+<span class="kn">from</span> <span class="nn">ipystata.config</span> <span class="kn">import</span> <span class="n">config_stata</span>
+<span class="n">config_stata</span><span class="p">(</span><span class="s1">&#39;Path to your Stata executable&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Once configured you can use the <code>%%stata</code> magic. E.g.</p>
+<div class="highlight"><pre><span></span><span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="kn">import</span> <span class="nn">ipystata</span>  
+<span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="o">%%</span><span class="n">stata</span>  
+        <span class="n">display</span> <span class="s2">&quot;Hello, I am printed in Stata.&quot;</span>
+</pre></div>
+
+
+<p>More info in the <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code> website</a>.</p>
+<p>Similarly, we can use <code>R</code> using <a href="https://rpy2.bitbucket.io/"><code>rpy2</code></a>. Install by executing</p>
+<div class="highlight"><pre><span></span>pip install rpy2
+</pre></div>
+
+
+<p>Then in jupyter execute</p>
+<div class="highlight"><pre><span></span>In [1]: %load_ext rpy2.ipython
+In [2]: %%R
+
+        R.version
+</pre></div>
+
+
+<p>More info in the <a href="https://rpy2.bitbucket.io/"><code>rpy2</code> website</a>.</p>
+<hr>
 <h1>Notebooks</h1>
 <ul>
 <li>Notebook 1: Introduction <a href="/IntroPython.html">(html)</a> <a href="">(ipynb)</a></li>
@@ -187,11 +247,6 @@ conda install -c r r-PACKAGE_NAME
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
-                            Macroeconomics
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/ipython.html">
                             IPython
                         </a>
@@ -199,6 +254,11 @@ conda install -c r r-PACKAGE_NAME
                     <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
+                            Macroeconomics
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
