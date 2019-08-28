@@ -76,41 +76,74 @@ Economic Growth and Comparative Development            </a>
         <div class="entry-content">
             <p>We will be using (I)Python as our programming language. In order to use some of the material available on this website and to share your material with others you should create a <a href="http://github.com/"><i class="fa fa-github fa-1x"></i>GitHub</a> account for yourself. This will be useful to you in the future to keep track of changes when you are writing papers. I also recommend creating a <a href="https://bitbucket.org/"><i class="fa fa-bitbucket fa-1x"></i>Bitbucket</a> account, which has similar functionality, but allows you to have unlimited private repositories for personal use. Additionally, I suggest you read <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf">Gentzkow &amp; Shapiro's <em>Code and Data for the Social Sciences: A Practitioner’s Guide</em></a> to familiarize yourself with good practices in coding and statistical analysis. We will cover additional topics in class.</p>
 <h1>Installing (I)Python &amp; Jupyter</h1>
-<p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.continuum.io/downloads">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="../notebooks/CondaInstall.sh">this script</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
+<p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.anaconda.com/distribution/">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="https://www.dropbox.com/s/6st528ethbkmvv2/CondaInstall.sh?dl=0">this script (Mac/Linux)</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
 <p>In Windows install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
 <p>In OSX download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
-<p>Then download the following scripts (<a href="https://www.dropbox.com/s/mrr9qwyz7t6s2uu/GeoPython2env.yml?dl=0">GeoPython2env</a>, <a href="https://www.dropbox.com/s/38a7mcaziyzmovj/GeoPython3env.yml?dl=0">GeoPython3env</a>) and execute</p>
+<p>Then download one of the following scripts </p>
+<ul>
+<li><a href="https://www.dropbox.com/s/d79ahsu3xz4632g/GeoPython3env2019B_nobuilds.yml?dl=0">GeoPython3env</a> (latest environment)</li>
+<li><a href="https://www.dropbox.com/s/38a7mcaziyzmovj/GeoPython3env.yml?dl=0">GeoPython3env old</a>  (older Python 3 environment)</li>
+<li><a href="https://www.dropbox.com/s/mrr9qwyz7t6s2uu/GeoPython2env.yml?dl=0">GeoPython2env</a> (older Python 2 environment)</li>
+</ul>
+<p>and execute</p>
 <div class="highlight"><pre><span></span>conda update conda
-conda-env create -f GeoPython2env.yml
-conda-env create -f GeoPython3env.yml
+conda-env create -f GeoPython3env2019B_nobuilds.yml
+# Or uncomment one of these if you want to install the older versions
+#conda-env create -f GeoPython2env.yml
+#conda-env create -f GeoPython3env.yml
 </pre></div>
 
 
-<p>This will create two environments with all the packages you will require for this course (and more!). To start using one of the <code>Python 2.7</code> environment you will need to exectute the following command</p>
-<div class="highlight"><pre><span></span>source activate GeoPython2env
-</pre></div>
-
-
-<p>and for <code>Python 3.x</code></p>
+<p>This will create an environment with all the packages you will require for this course (and more!). To start using one of the environment you will need to exectute the following command</p>
 <div class="highlight"><pre><span></span>source activate GeoPython3env
 </pre></div>
 
 
-<p>I would suggest using <code>Python 3.x</code>, since it is the latest and most uptodate version.</p>
+<p>or for <code>Python 2.x</code></p>
+<div class="highlight"><pre><span></span>source activate GeoPython2env
+</pre></div>
+
+
+<p>I would suggest using <code>GeoPython3env</code>, since it is the latest and most uptodate version.</p>
 <h2>Parallel Computing</h2>
 <p>One of the advantages of <code>Jupyter Notebooks</code> is that they allow you to work (very easily) with multiple processors using <code>ipyparallel</code>. Once you have <code>ipyparallel</code> installed (automatically done for you with the scritps above), you will need to execute the following code once</p>
 <div class="highlight"><pre><span></span>ipcluster nbextension enable
 </pre></div>
 
 
+<h2>Stata Kernel</h2>
+<p>We can use <code>Stata</code> within Jupyter Notebooks with the <a href="https://kylebarron.dev/stata_kernel/">Stata kernel</a>. I recommend you make sure it is installed and you have highlighting. To install (in case you do not use the <code>YAML</code> environment file above), execute</p>
+<div class="highlight"><pre><span></span>pip install stata_kernel
+python -m stata_kernel.install
+</pre></div>
+
+
+<p>and then </p>
+<div class="highlight"><pre><span></span>conda install -c conda-forge nodejs -y
+jupyter labextension install jupyterlab-stata-highlight
+</pre></div>
+
+
+<h2>R kernel</h2>
+<p>We can also use <code>R</code> within Jupyter Notebooks with the <a href="https://irkernel.github.io/">R kernel</a>. The best way to install it (in case you do not use the <code>YAML</code> environment file above) is to use <code>conda</code> by executing</p>
+<div class="highlight"><pre><span></span>conda install -c r r-irkernel
+</pre></div>
+
+
+<p>You can also install <code>R</code> and <code>R</code> packages by using <code>conda</code>. Simply execute</p>
+<div class="highlight"><pre><span></span>conda install -c r r
+conda install -c r r-PACAKAGE_NAME
+</pre></div>
+
+
 <h1>Notebooks</h1>
 <ul>
-<li>Notebook 1: <a href="/IntroPython.html">Introduction</a></li>
-<li>Notebook 2: <a href="/Economic Data Analysis.html">Economic Data Analysis</a></li>
-<li>Notebook 3: <a href="/Dynamic Programming.html">Dynamic Programming in Python</a></li>
-<li>Notebook 4: <a href="/Dynamic Programming Numba.html">Faster Dynamic Programming with Numba</a></li>
-<li>Notebook 5: <a href="/GIS with QGIS.html">GIS with QGIS</a></li>
-<li>Notebook 6: <a href="/GIS with Python.html">GIS with Python</a></li>
+<li>Notebook 1: Introduction <a href="/IntroPython.html">html</a> <a href="">ipynb</a></li>
+<li>Notebook 2: Economic Data Analysis <a href="/Economic Data Analysis.html">html</a> <a href="">ipynb</a></li>
+<li>Notebook 3: Dynamic Programming in Python <a href="/Dynamic Programming.html">html</a> <a href="">ipynb</a></li>
+<li>Notebook 4: Faster Dynamic Programming with Numba <a href="/Dynamic Programming Numba.html">html</a> <a href="">ipynb</a></li>
+<li>Notebook 5: GIS with QGIS <a href="/GIS with QGIS.html">html</a> <a href="">ipynb</a></li>
+<li>Notebook 6: GIS with Python <a href="/GIS with Python.html">html</a> <a href="">ipynb</a></li>
 <li>Notebook 7: </li>
 </ul>
         </div>
