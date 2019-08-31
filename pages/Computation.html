@@ -118,7 +118,13 @@ conda-env create -f GeoPython3env2019B_nobuilds.yml
 </pre></div>
 
 
-<p>This will create an environment with all the packages you will require for this course (and more!). To start using one of the environment you will need to exectute the following command</p>
+<p>This should create an environment with all the packages you will require for this course (and more!). If this fails, which seems to happen often due to version conflicts, execute</p>
+<div class="highlight"><pre><span></span>conda create --name GeoPython3env -c conda-forge python=3.6 geopandas georasters pandas numpy matplotlib seaborn jupyter scikit-image scikit-learn scipy r rstudio r-irkernel ipykernel statsmodels pycountry networkx rpy2 rasterio r-tidyr r-tibble r-dplyr pandana urbanaccess dill
+</pre></div>
+
+
+<p>This should create an environment with some of the packages we need. We can always install others down the road.</p>
+<p>To start using one of the environment you will need to exectute the following command</p>
 <div class="highlight"><pre><span></span>source activate GeoPython3env
 </pre></div>
 
@@ -128,7 +134,13 @@ conda-env create -f GeoPython3env2019B_nobuilds.yml
 </pre></div>
 
 
-<p>I would suggest using <code>GeoPython3env</code>, since it is the latest and most uptodate version.</p>
+<p>I would suggest using <code>GeoPython3env</code>, since it is the latest and most up-to-date version (I'll try to keep adding new versions as time passes).</p>
+<h4>MacOS</h4>
+<p>Instead of the previous options, you can download <a href="https://www.dropbox.com/s/8hz368xsh48390i/GeoPython3env-spec-file.txt?dl=0">this file</a> and execute</p>
+<div class="highlight"><pre><span></span>conda create --name GeoPython3env --file GeoPython3env-spec-file.txt
+</pre></div>
+
+
 <h2>Parallel Computing</h2>
 <p>One of the advantages of <code>Jupyter Notebooks</code> is that they allow you to work (very easily) with multiple processors using <code>ipyparallel</code>. Once you have <code>ipyparallel</code> installed (automatically done for you with the scritps above), you will need to execute the following code once</p>
 <div class="highlight"><pre><span></span>ipcluster nbextension enable
