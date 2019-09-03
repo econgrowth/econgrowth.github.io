@@ -189,17 +189,20 @@ conda-env create -f GeoPython3env.yml
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Once you have your Python distribution installed you'll be ready to start working. You have two options:</p>
+<p>Once you have your Python distribution installed you'll be ready to start working. You have various options:</p>
 <ul>
-<li>Open the Canopy program and work there</li>
+<li>Open the <code>Canopy</code> program and work there</li>
+<li>Open <code>Anaconda Navigator</code> and open one of the apps from there (<code>python</code>, <code>ipython</code>, <code>jupyter console</code>, <code>jupyter notebook</code>, <code>jupyter lab</code>, <code>R</code>, <code>Stata</code> </li>
 <li>From the Terminal prompt (command-line in Windows) execute one of the following commands:<ul>
 <li><code>ipython</code></li>
+<li><code>jupyter console</code></li>
 <li><code>jupyter qtconsole</code></li>
 <li><code>jupyter notebook</code></li>
+<li><code>jupyter lab</code></li>
 </ul>
 </li>
 </ul>
-<p>While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (<a href="http://macromates.com/">TextMate</a>, <a href="https://atom.io/">Atom</a>, <a href="http://www.sublimetext.com/">Sublime</a>) and the <code>jupyter qtconsole</code> or the <code>jupyter notebook</code>. To see the power of <code>Jupter notebooks</code> (see this excellent and in-depth <a href="http://youtu.be/xe_ATRmw0KM">presentation</a> by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.</p>
+<p>While theses last are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (<a href="http://macromates.com/">TextMate</a>, <a href="https://atom.io/">Atom</a>, <a href="http://www.sublimetext.com/">Sublime</a>) and the <code>jupyter qtconsole</code> or the <code>jupyter notebook</code>. To see the power of <code>Jupter notebooks</code> (see this excellent and in-depth <a href="http://youtu.be/xe_ATRmw0KM">presentation</a> by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.</p>
 </div>
 </div>
 </div>
@@ -1074,7 +1077,7 @@ from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
 '''
-print 'Hello World!'
+print('Hello World!')
 </pre></div>
 </div>
 </div>
@@ -1113,8 +1116,8 @@ print 'Hello World!'
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
-<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="o">*</span><span class="mi">5</span><span class="p">)</span>
-<span class="nb">print</span> <span class="s2">"It's time"</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"It's time"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1667,8 +1670,20 @@ First we merge the data using the pd.merge command, which allows us to merge two
 <div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas.io</span> <span class="k">import</span> <span class="n">wb</span>
-<span class="n">wb</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">'cell*'</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas_datareader</span> <span class="k">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">wb</span>
+<span class="n">dfwbcountries</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">get_countries</span><span class="p">()</span>
+<span class="n">dfwbcountries</span><span class="p">[</span><span class="s1">'name'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dfwbcountries</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">popvars</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">string</span><span class="o">=</span><span class="s1">'population'</span><span class="p">)</span>
+<span class="n">popfields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'SP.POP.0014.FE.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.1564.MA.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.65UP.FE.IN'</span><span class="p">,</span>
+             <span class="s1">'SP.POP.0014.MA.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.1564.MA.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.65UP.MA.IN'</span><span class="p">,</span>
+             <span class="s1">'SP.POP.TOTL.FE.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.TOTL.MA.IN'</span><span class="p">,</span> <span class="s1">'SP.POP.TOTL'</span><span class="p">,</span>
+             <span class="s1">'EN.URB.MCTY'</span><span class="p">,</span> <span class="s1">'EN.URB.LCTY'</span><span class="p">]</span>
+<span class="n">wdi</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">indicator</span><span class="o">=</span><span class="n">popfields</span><span class="p">,</span> <span class="n">country</span><span class="o">=</span><span class="n">dfwbcountries</span><span class="o">.</span><span class="n">iso2c</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">2017</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">2017</span><span class="p">)</span>
+<span class="n">wdi</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">wdi</span> <span class="o">=</span> <span class="n">dfwbcountries</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">wdi</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="s1">'name'</span><span class="p">,</span> <span class="n">right_on</span><span class="o">=</span><span class="s1">'country'</span><span class="p">)</span>
+<span class="n">wdi</span><span class="p">[</span><span class="s1">'ISO_CODE'</span><span class="p">]</span> <span class="o">=</span> <span class="n">wdi</span><span class="o">.</span><span class="n">iso2c</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">wdi</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'ISO_CODE'</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">wdi</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'./WDI/wdipop.csv'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">'utf-8'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1764,13 +1779,13 @@ First we merge the data using the pd.merge command, which allows us to merge two
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
+                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
+                            Macroeconomics
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
-                            Macroeconomics
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">

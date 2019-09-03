@@ -6903,17 +6903,20 @@ conda-env create -f GeoPython3env.yml
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Once you have your Python distribution installed you'll be ready to start working. You have two options:&lt;/p&gt;
+&lt;p&gt;Once you have your Python distribution installed you'll be ready to start working. You have various options:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Open the Canopy program and work there&lt;/li&gt;
+&lt;li&gt;Open the &lt;code&gt;Canopy&lt;/code&gt; program and work there&lt;/li&gt;
+&lt;li&gt;Open &lt;code&gt;Anaconda Navigator&lt;/code&gt; and open one of the apps from there (&lt;code&gt;python&lt;/code&gt;, &lt;code&gt;ipython&lt;/code&gt;, &lt;code&gt;jupyter console&lt;/code&gt;, &lt;code&gt;jupyter notebook&lt;/code&gt;, &lt;code&gt;jupyter lab&lt;/code&gt;, &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Stata&lt;/code&gt; &lt;/li&gt;
 &lt;li&gt;From the Terminal prompt (command-line in Windows) execute one of the following commands:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ipython&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jupyter console&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;jupyter qtconsole&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;jupyter notebook&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jupyter lab&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;While they are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (&lt;a href="http://macromates.com/"&gt;TextMate&lt;/a&gt;, &lt;a href="https://atom.io/"&gt;Atom&lt;/a&gt;, &lt;a href="http://www.sublimetext.com/"&gt;Sublime&lt;/a&gt;) and the &lt;code&gt;jupyter qtconsole&lt;/code&gt; or the &lt;code&gt;jupyter notebook&lt;/code&gt;. To see the power of &lt;code&gt;Jupter notebooks&lt;/code&gt; (see this excellent and in-depth &lt;a href="http://youtu.be/xe_ATRmw0KM"&gt;presentation&lt;/a&gt; by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.&lt;/p&gt;
+&lt;p&gt;While theses last are all using IPython, each has its advantages and disadvantages. You should to play with them to get a better feeling of which you want to use for which purpose. In my own research I usually use a text editor (&lt;a href="http://macromates.com/"&gt;TextMate&lt;/a&gt;, &lt;a href="https://atom.io/"&gt;Atom&lt;/a&gt;, &lt;a href="http://www.sublimetext.com/"&gt;Sublime&lt;/a&gt;) and the &lt;code&gt;jupyter qtconsole&lt;/code&gt; or the &lt;code&gt;jupyter notebook&lt;/code&gt;. To see the power of &lt;code&gt;Jupter notebooks&lt;/code&gt; (see this excellent and in-depth &lt;a href="http://youtu.be/xe_ATRmw0KM"&gt;presentation&lt;/a&gt; by its creators). As you will see, this might prove an excellent environment to do research, homework, replicate papers, etc.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7788,7 +7791,7 @@ from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
 '''
-print 'Hello World!'
+print('Hello World!')
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -7827,8 +7830,8 @@ print 'Hello World!'
 &lt;div class="inner_cell"&gt;
 &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;time&lt;/span&gt;
-&lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;"It's time"&lt;/span&gt;
+&lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"It's time"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -8381,8 +8384,20 @@ First we merge the data using the pd.merge command, which allows us to merge two
 &lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pandas.io&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;wb&lt;/span&gt;
-&lt;span class="n"&gt;wb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'cell*'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pandas_datareader&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;wb&lt;/span&gt;
+&lt;span class="n"&gt;dfwbcountries&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;wb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get_countries&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;dfwbcountries&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'name'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dfwbcountries&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strip&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;popvars&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;wb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'population'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;popfields&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'SP.POP.0014.FE.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.1564.MA.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.65UP.FE.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+             &lt;span class="s1"&gt;'SP.POP.0014.MA.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.1564.MA.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.65UP.MA.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+             &lt;span class="s1"&gt;'SP.POP.TOTL.FE.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.TOTL.MA.IN'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'SP.POP.TOTL'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+             &lt;span class="s1"&gt;'EN.URB.MCTY'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'EN.URB.LCTY'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;wb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;download&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;indicator&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;popfields&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;country&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;dfwbcountries&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iso2c&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2017&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2017&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reset_index&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;inplace&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;dfwbcountries&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;merge&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;left_on&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'name'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;right_on&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'country'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'ISO_CODE'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;iso2c&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strip&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_index&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'ISO_CODE'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;inplace&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;wdi&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_csv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'./WDI/wdipop.csv'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;encoding&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;'utf-8'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
