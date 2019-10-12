@@ -105,7 +105,8 @@ brew install qgis
 <p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.anaconda.com/distribution/">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="https://www.dropbox.com/s/6st528ethbkmvv2/CondaInstall.sh?dl=0">this script (Mac/Linux)</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
 <p>In Windows install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
 <p>In <code>MACOS</code> download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
-<p>Then download one of the following scripts </p>
+<p>Then you can either:</p>
+<p>A. download one of the following scripts </p>
 <ul>
 <li><a href="https://www.dropbox.com/s/d79ahsu3xz4632g/GeoPython3env2019B_nobuilds.yml?dl=0">GeoPython3env</a> (latest environment)</li>
 <li><a href="https://www.dropbox.com/s/38a7mcaziyzmovj/GeoPython3env.yml?dl=0">GeoPython3env old</a>  (older Python 3 environment)</li>
@@ -120,8 +121,9 @@ conda-env create -f GeoPython3env2019B_nobuilds.yml
 </pre></div>
 
 
-<p>This should create an environment with all the packages you will require for this course (and more!). If this fails, which seems to happen often due to version conflicts, execute</p>
-<div class="highlight"><pre><span></span>conda create --name GeoPython3env -c conda-forge python=3.6 geopandas georasters pandas numpy matplotlib seaborn jupyter scikit-image scikit-learn scipy r rstudio r-irkernel ipykernel statsmodels pycountry networkx rpy2 rasterio r-tidyr r-tibble r-dplyr pandana urbanaccess dill xlrd pandas-datareader rise jupyterlab
+<p>This should create an environment with all the packages you will require for this course (and more!). </p>
+<p>B. If A. fails, which seems to happen often due to version conflicts, execute</p>
+<div class="highlight"><pre><span></span>conda create --name GeoPython3env -c conda-forge python=3.6 geopandas georasters pandas numpy matplotlib seaborn jupyter scikit-image scikit-learn scipy r rstudio r-irkernel ipykernel statsmodels pycountry networkx rpy2 rasterio r-tidyr r-tibble r-dplyr pandana urbanaccess dill xlrd pandas-datareader rise jupyterlab cython numba
 </pre></div>
 
 
