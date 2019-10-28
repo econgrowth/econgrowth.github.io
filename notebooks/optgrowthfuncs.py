@@ -17,7 +17,7 @@ def F(K, L=1, alpha=.3, A=1):
     Cobb-Douglas production function
     F(K,L)=K^alpha L^(1-alpha)
     '''
-    return K**alpha * L**(1-alpha)
+    return A * K**alpha * L**(1-alpha)
 
 def Va(k, alpha=.3, beta=.9):
     ab = alpha*beta
