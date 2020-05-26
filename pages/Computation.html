@@ -78,19 +78,19 @@ Economic Growth and Comparative Development            </a>
         <div class="entry-content">
             <p>We will be using (I)Python as our programming language and QGIS for basic GIS exploration. In order to use some of the material available on this website and to share your material with others you should create a <a href="http://github.com/"><i class="fa fa-github fa-1x"></i>GitHub</a> account for yourself. This will be useful to you in the future to keep track of changes when you are writing papers. I also recommend creating a <a href="https://bitbucket.org/"><i class="fa fa-bitbucket fa-1x"></i>Bitbucket</a> account, which has similar functionality, but allows you to have unlimited private repositories for personal use. Additionally, I suggest you read <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf">Gentzkow &amp; Shapiro's <em>Code and Data for the Social Sciences: A Practitioner’s Guide</em></a> to familiarize yourself with good practices in coding and statistical analysis. We will cover additional topics in class.</p>
 <hr>
-<h1>Installing QGIS</h1>
-<p>Download and install QGIS from their <a href="https://qgis.org/en/site/forusers/download.html">website</a>. </p>
-<hr>
 <h1>MacOS</h1>
 <h3>Homebrew</h3>
-<p>On <code>MacOS</code> you can also use <a href="https://brew.sh/">Homebrew</a>, which is an excellent tool for installing all kinds of open source software. First, download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>). Second, install <code>Homebrew</code></p>
-<div class="highlight"><pre><span></span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">ruby</span> <span class="o">-</span><span class="n">e</span> <span class="ss">&quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
+<p>On <code>MacOS</code> you can use <a href="https://brew.sh/">Homebrew</a>, which is an excellent tool for installing all kinds of open source software. First, download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>). Second, install <code>Homebrew</code></p>
+<div class="highlight"><pre><span></span><span class="err">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
 </pre></div>
 
 
-<p>Third, install <code>qgis</code></p>
-<div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">tap</span> <span class="n">osgeo</span><span class="o">/</span><span class="n">osgeo4mac</span>
-<span class="n">brew</span> <span class="n">install</span> <span class="n">qgis</span>
+<p>Third, install some of the software we will use, including <code>qgis</code>, <code>MacTeX</code>, <code>R</code>, <code>Rstudio</code></p>
+<div class="highlight"><pre><span></span><span class="err">brew tap osgeo/osgeo4mac</span>
+<span class="err">brew cask install qgis</span>
+<span class="err">brew cask install mactex</span>
+<span class="err">brew install r</span>
+<span class="err">brew cask install rstudio</span>
 </pre></div>
 
 
@@ -98,89 +98,128 @@ Economic Growth and Comparative Development            </a>
 <h3>iTerm2</h3>
 <p>I highly recommend using <a href="https://www.iterm2.com/">iTerm2</a> instead of the terminal that comes with <code>OSX</code>. It is custumizable and very powerful. </p>
 <hr>
+<h1>Installing QGIS</h1>
+<p>Download and install QGIS from their <a href="https://qgis.org/en/site/forusers/download.html">website</a>. </p>
+<hr>
 <h1>Text Editor</h1>
 <p>You should have a good text editor, which hopefully has syntax highlighting for various languages, especially for <code>python</code>, <code>R</code> and <code>Stata</code>. I personally recommend <a href="https://atom.io/">atom</a>, which is free, custimizable and very flexible.</p>
 <hr>
+<h1>LaTeX/LyX</h1>
+<p>Install the <code>LaTeX</code> distribution for your system from the <a href="https://www.latex-project.org/get/#tex-distributions">LaTeX website</a>. If <code>LyX</code> is not installed with your distribution and you want to use a WSIWYG front for <code>LaTeX</code>, download and install <a href="https://www.lyx.org/Download">LyX here</a>.</p>
+<hr>
+<h1>Stata Packages</h1>
+<p>It is useful to keep a list your Stata packages in case you need to reinstall or replicate your environment somewhere else. For this you can use <code>adolist</code></p>
+<div class="highlight"><pre><span></span><span class="err">net install adolist, from(http://fmwww.bc.edu/RePEc/bocode/a)</span>
+</pre></div>
+
+
+<p>To create a list of your packages</p>
+<div class="highlight"><pre><span></span><span class="err"> adolist store mystatapacks_latest.pkl</span>
+</pre></div>
+
+
+<p>To install the packages from the list</p>
+<div class="highlight"><pre><span></span><span class="err">adolist install mystatapacks_latest.pkl</span>
+</pre></div>
+
+
+<p>You can update an existing list by</p>
+<div class="highlight"><pre><span></span><span class="err"> adolist update mystatapacks_latest.pkl</span>
+</pre></div>
+
+
+<p><a href="https://www.dropbox.com/s/ryrskg415wkvyj5/mystatapacks_latest.pkl?dl=0">Here</a> is my latest <code>mystatapacks_latest.pkl</code> in case you want to have some useful packges installed.</p>
+<hr>
 <h1>Installing (I)Python &amp; Jupyter</h1>
 <p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.anaconda.com/distribution/">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="https://www.dropbox.com/s/6st528ethbkmvv2/CondaInstall.sh?dl=0">this script (Mac/Linux)</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
-<p>In Windows install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
+<p>In Windows you may need to install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
 <p>In <code>MACOS</code> download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
-<p>Then you can either:</p>
-<p>A. download one of the following scripts </p>
+<p>Since the basic installation may not have all the packages you need and it is always best to keep an environment for your work, after installation:</p>
+<p>A. <strong>(Recommended)</strong> In a terminal window execute</p>
+<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="k">create</span> <span class="c1">--name GeoPython37env -c conda-forge -c numba -c rapidsai -c mro -c r -c defaults python=3.7 asciitree autopep8 babel basemap beautifulsoup4 blas blaze bokeh bzip2 cartopy colorcet curl cython cytoolz dask dask-core datashader datashape descartes dill docutils earthengine-api fiona gcc gensim geographiclib geopandas geoplot geopy geotiff google-api-python-client google-auth google-auth-httplib2 georasters imageio imagesize ipykernel ipyparallel ipython ipython_genutils ipywidgets jupyter jupyterlab kiwisolver matplotlib markdown networkx nose numba numpy openpyxl pandas pandas-datareader pandasql pandoc pandocfilters pandana pelican pycountry pymc3 pysal python.app urbanaccess r rstudio r-irkernel  statsmodels sympy rpy2 rasterio r-tidyr r-tibble r-dplyr rise seaborn scikit-allel scikit-bio scikit-image scikit-learn scipy seaborn swifter theano unidecode urllib3 wikipedia xlrd jupyter_contrib_nbextensions</span>
+
+<span class="n">conda</span> <span class="n">activate</span> <span class="n">GeoPython37env</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">linearmodels</span> <span class="n">isounidecode</span> <span class="n">geonamescache</span> <span class="n">geocoder</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">jeetsukumaran</span><span class="o">/</span><span class="n">DendroPy</span><span class="p">.</span><span class="n">git</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">dmsul</span><span class="o">/</span><span class="n">econtools</span> <span class="n">ecopy</span> <span class="n">facebook</span><span class="o">-</span><span class="n">business</span> <span class="n">facebook</span><span class="o">-</span><span class="n">sdk</span> <span class="n">fontawesome</span><span class="o">-</span><span class="n">markdown</span> <span class="n">geocoder</span> <span class="n">geonamescache</span> <span class="n">googledrivedownloader</span> <span class="n">googletrans</span> <span class="n">ipystata</span> <span class="n">isodate</span> <span class="n">isounidecode</span> <span class="n">latexcodec</span> <span class="n">ldpred</span> <span class="n">linearmodels</span> <span class="n">lingpy</span> <span class="n">mccabe</span> <span class="n">ordered</span><span class="o">-</span><span class="k">set</span> <span class="n">plinkio</span> <span class="n">pyarrow</span> <span class="n">pybtex</span> <span class="n">pycldf</span> <span class="n">pycountry</span> <span class="n">pydocstyle</span> <span class="n">pyface</span> <span class="n">pyflakes</span> <span class="n">pylatex</span> <span class="n">pyparsing</span> <span class="n">pyreadstat</span> <span class="n">pytest</span><span class="o">-</span><span class="n">cov</span> <span class="n">python</span><span class="o">-</span><span class="n">jsonrpc</span><span class="o">-</span><span class="n">server</span> <span class="n">python</span><span class="o">-</span><span class="k">language</span><span class="o">-</span><span class="n">server</span> <span class="n">pytrends</span> <span class="n">quilt</span> <span class="n">ratelim</span> <span class="n">readme</span><span class="o">-</span><span class="n">renderer</span> <span class="n">rfc3986</span> <span class="n">rope</span> <span class="n">simpledbf</span> <span class="n">simplejson</span> <span class="n">smartypants</span> <span class="n">snowballstemmer</span> <span class="n">snuggs</span> <span class="n">stata</span><span class="o">-</span><span class="n">kernel</span> <span class="n">tabulate</span> <span class="n">tex2ipy</span> <span class="n">texsoup</span> <span class="n">toolz</span> <span class="n">traits</span> <span class="n">traitsui</span> <span class="n">twine</span> <span class="n">typogrify</span> <span class="n">uritemplate</span> <span class="n">w3lib</span> <span class="n">webencodings</span> <span class="n">wrapt</span> <span class="n">xlwt</span> <span class="n">yapf</span> <span class="n">modin</span> <span class="n">stargazer</span> <span class="n">covid</span> <span class="n">COVID19Py</span>
+
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">stata_kernel</span><span class="p">.</span><span class="n">install</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="k">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">nodejs</span> <span class="o">-</span><span class="n">y</span>
+<span class="n">jupyter</span> <span class="n">labextension</span> <span class="n">install</span> <span class="n">jupyterlab</span><span class="o">-</span><span class="n">stata</span><span class="o">-</span><span class="n">highlight</span>
+<span class="n">ipcluster</span> <span class="n">nbextension</span> <span class="n">enable</span>
+<span class="n">jupyter</span> <span class="n">contrib</span> <span class="n">nbextension</span> <span class="n">install</span> <span class="c1">--sys-prefix</span>
+<span class="n">jupyter</span> <span class="n">nbextension</span> <span class="n">enable</span> <span class="n">nbTranslate</span><span class="o">/</span><span class="n">main</span>
+</pre></div>
+
+
+<p>This should create an environment with most of the packages we need. We can always install others down the road.</p>
+<p>B. <strong>(Not recommended)</strong> download one of the following scripts </p>
 <ul>
-<li><a href="https://www.dropbox.com/s/d79ahsu3xz4632g/GeoPython3env2019B_nobuilds.yml?dl=0">GeoPython3env</a> (latest environment)</li>
+<li><a href="https://www.dropbox.com/s/xousjyaegz8px9c/latest_conda_env.yml?dl=0">Latest</a></li>
+<li><a href="https://www.dropbox.com/s/d79ahsu3xz4632g/GeoPython3env2019B_nobuilds.yml?dl=0">GeoPython35env</a> (older Python 3.5 environment)</li>
 <li><a href="https://www.dropbox.com/s/38a7mcaziyzmovj/GeoPython3env.yml?dl=0">GeoPython3env old</a>  (older Python 3 environment)</li>
 <li><a href="https://www.dropbox.com/s/mrr9qwyz7t6s2uu/GeoPython2env.yml?dl=0">GeoPython2env</a> (older Python 2 environment)</li>
 </ul>
 <p>and execute</p>
-<div class="highlight"><pre><span></span><span class="nv">conda</span> <span class="nv">update</span> <span class="nv">conda</span>
-<span class="nv">conda</span><span class="o">-</span><span class="nv">env</span> <span class="nv">create</span> <span class="o">-</span><span class="nv">f</span> <span class="nv">GeoPython3env2019B_nobuilds</span>.<span class="nv">yml</span>
-# <span class="nv">Or</span> <span class="nv">uncomment</span> <span class="nv">one</span> <span class="nv">of</span> <span class="nv">these</span> <span class="k">if</span> <span class="nv">you</span> <span class="nv">want</span> <span class="nv">to</span> <span class="nv">install</span> <span class="nv">the</span> <span class="nv">older</span> <span class="nv">versions</span>
-#<span class="nv">conda</span><span class="o">-</span><span class="nv">env</span> <span class="nv">create</span> <span class="o">-</span><span class="nv">f</span> <span class="nv">GeoPython2env</span>.<span class="nv">yml</span>
-#<span class="nv">conda</span><span class="o">-</span><span class="nv">env</span> <span class="nv">create</span> <span class="o">-</span><span class="nv">f</span> <span class="nv">GeoPython3env</span>.<span class="nv">yml</span>
+<div class="highlight"><pre><span></span><span class="err">conda update conda</span>
+<span class="err">conda-env create -f GeoPython3env2019B_nobuilds.yml</span>
+<span class="err"># Or uncomment one of these if you want to install the older versions</span>
+<span class="err">#conda-env create -f GeoPython2env.yml</span>
+<span class="err">#conda-env create -f GeoPython3env.yml</span>
 </pre></div>
 
 
+<h4>MacOS</h4>
+<p>Instead of the previous options, you can download <a href="https://www.dropbox.com/s/8hz368xsh48390i/GeoPython3env-spec-file.txt?dl=0">this file</a> and execute</p>
+<div class="highlight"><pre><span></span><span class="err">conda create --name GeoPython3env --file GeoPython3env-spec-file.txt</span>
+</pre></div>
+
+
+<h3>After Installation is complete</h3>
 <p>This should create an environment with all the packages you will require for this course (and more!). </p>
-<p>B. If A. fails, which seems to happen often due to version conflicts, execute</p>
-<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="k">create</span> <span class="c1">--name GeoPython3env -c conda-forge -c numba -c rapidsai -c mro -c r -c defaults python=3.6 geopandas georasters pandas numpy matplotlib seaborn jupyter scikit-image scikit-learn scipy r rstudio r-irkernel ipykernel ipyparallel statsmodels pycountry networkx rpy2 rasterio r-tidyr r-tibble r-dplyr pandana urbanaccess dill xlrd pandas-datareader rise jupyterlab cython numba openpyxl scikit-bio geoplot wikipedia swifter pelican datashader </span>
-<span class="n">conda</span> <span class="n">activate</span> <span class="n">GeoPython3env</span>
-<span class="n">pip</span> <span class="n">install</span> <span class="n">linearmodels</span> <span class="n">isounidecode</span> <span class="n">geonamescache</span> <span class="n">geocoder</span>
-</pre></div>
-
-
-<p>This should create an environment with some of the packages we need. We can always install others down the road.</p>
 <p>To start using one of the environment you will need to exectute the following command</p>
-<div class="highlight"><pre><span></span><span class="k">source</span> <span class="n">activate</span> <span class="n">GeoPython3env</span>
+<div class="highlight"><pre><span></span><span class="err">source activate GeoPython37env</span>
 </pre></div>
 
 
 <p>or for <code>Python 2.x</code></p>
-<div class="highlight"><pre><span></span><span class="k">source</span> <span class="n">activate</span> <span class="n">GeoPython2env</span>
+<div class="highlight"><pre><span></span><span class="err">source activate GeoPython2env</span>
 </pre></div>
 
 
-<p>I would suggest using <code>GeoPython3env</code>, since it is the latest and most up-to-date version (I'll try to keep adding new versions as time passes).</p>
-<h4>MacOS</h4>
-<p>Instead of the previous options, you can download <a href="https://www.dropbox.com/s/8hz368xsh48390i/GeoPython3env-spec-file.txt?dl=0">this file</a> and execute</p>
-<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="k">create</span> <span class="c1">--name GeoPython3env --file GeoPython3env-spec-file.txt</span>
-</pre></div>
-
-
+<p>I would suggest using <code>GeoPython37env</code>, since it is the latest and most up-to-date version (I'll try to keep adding new versions as time passes).</p>
 <h2>Parallel Computing</h2>
 <p>One of the advantages of <code>Jupyter Notebooks</code> is that they allow you to work (very easily) with multiple processors using <code>ipyparallel</code>. Once you have <code>ipyparallel</code> installed (automatically done for you with the scritps above), you will need to execute the following code once</p>
-<div class="highlight"><pre><span></span><span class="n">ipcluster</span> <span class="n">nbextension</span> <span class="n">enable</span>
+<div class="highlight"><pre><span></span><span class="err">ipcluster nbextension enable</span>
 </pre></div>
 
 
 <h2>Stata Kernel</h2>
 <p>We can use <code>Stata</code> within Jupyter Notebooks with the <a href="https://kylebarron.dev/stata_kernel/">Stata kernel</a>. I recommend you make sure it is installed and you have highlighting. To install (in case you do not use the <code>YAML</code> environment file above), execute</p>
-<div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">stata_kernel</span>
-<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">stata_kernel</span><span class="p">.</span><span class="n">install</span>
+<div class="highlight"><pre><span></span><span class="err">pip install stata_kernel</span>
+<span class="err">python -m stata_kernel.install</span>
 </pre></div>
 
 
 <p>and then </p>
-<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="k">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">nodejs</span> <span class="o">-</span><span class="n">y</span>
-<span class="n">jupyter</span> <span class="n">labextension</span> <span class="n">install</span> <span class="n">jupyterlab</span><span class="o">-</span><span class="n">stata</span><span class="o">-</span><span class="n">highlight</span>
+<div class="highlight"><pre><span></span><span class="err">conda install -c conda-forge nodejs -y</span>
+<span class="err">jupyter labextension install jupyterlab-stata-highlight</span>
 </pre></div>
 
 
 <h2>R kernel</h2>
 <p>We can also use <code>R</code> within Jupyter Notebooks with the <a href="https://irkernel.github.io/">R kernel</a>. The best way to install it (in case you do not use the <code>YAML</code> environment file above) is to use <code>conda</code> by executing</p>
-<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="k">c</span> <span class="n">r</span> <span class="n">r</span><span class="o">-</span><span class="n">irkernel</span>
+<div class="highlight"><pre><span></span><span class="err">conda install -c conda-forge -c r r-irkernel</span>
 </pre></div>
 
 
 <p>You can also install <code>R</code> and <code>R</code> packages by using <code>conda</code>. Simply execute</p>
-<div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="k">c</span> <span class="n">r</span> <span class="n">r</span>
-<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="k">c</span> <span class="n">r</span> <span class="n">r</span><span class="o">-</span><span class="n">PACKAGE_NAME</span>
+<div class="highlight"><pre><span></span><span class="err">conda install -c conda-forge -c r r</span>
+<span class="err">conda install -c conda-forge -c r r-PACKAGE_NAME</span>
 </pre></div>
 
 
 <h2>Running Stata or R in Python</h2>
 <p>We can also use <code>Stata</code> or <code>R</code> directly within <code>Python</code>. You only need to use the <code>%magic</code> for each after installing the required packages. For example for <code>Stata</code> you need  <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code></a>. Install by executing</p>
-<div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ipystata</span>
+<div class="highlight"><pre><span></span><span class="err">pip install ipystata</span>
 </pre></div>
 
 
@@ -200,7 +239,7 @@ Economic Growth and Comparative Development            </a>
 
 <p>More info in the <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code> website</a>.</p>
 <p>Similarly, we can use <code>R</code> using <a href="https://rpy2.bitbucket.io/"><code>rpy2</code></a>. Install by executing</p>
-<div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">rpy2</span>
+<div class="highlight"><pre><span></span><span class="err">conda install -c conda-forge -c r rpy2</span>
 </pre></div>
 
 
@@ -220,8 +259,8 @@ Economic Growth and Comparative Development            </a>
 <li>Notebook 2: Dynamic Programming in Python <a href="/Dynamic Programming.html">(html)</a> <a href="/notebooks/DynamicProgramming.ipynb">(ipynb)</a></li>
 <li>Notebook 3: Faster Dynamic Programming with Numba <a href="/Dynamic Programming Numba.html">(html)</a> <a href="Faster Computation with Numba.ipynb">ipynb</a></li>
 <li>Notebook 4: Economic Data Analysis <a href="/Economic Data Analysis.html">(html)</a> <a href="/notebooks/EconomicDataAnalysis.ipynb">(ipynb)</a></li>
-<li>Notebook 5: GIS with QGIS <a href="/GIS with QGIS.html">(html)</a> <a href="/notebooks/GIS with Python.ipynb">(ipynb)</a></li>
-<li>Notebook 6: GIS with Python <a href="/GIS with Python.html">(html)</a> <a href="/notebooks/GIS.ipynb">(ipynb)</a></li>
+<li>Notebook 5: GIS with QGIS <a href="/GIS with QGIS.html">(html)</a> <a href="/notebooks/GIS.ipynb">(ipynb)</a></li>
+<li>Notebook 6: GIS with Python <a href="/GIS with Python.html">(html)</a> <a href="/notebooks/GIS with Python.ipynb">(ipynb)</a></li>
 <li>Notebook 7: </li>
 </ul>
         </div>

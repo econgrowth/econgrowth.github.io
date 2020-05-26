@@ -191,7 +191,7 @@ Economic Growth and Comparative Development            </a>
 <div class="inner_cell">
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Let's import pandas and some other basic packages we will use </span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span>
 <span class="o">%</span><span class="k">pylab</span> --no-import-all
 <span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -221,8 +221,8 @@ Populating the interactive namespace from numpy and matplotlib
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># GIS packages</span>
 <span class="kn">import</span> <span class="nn">geopandas</span> <span class="k">as</span> <span class="nn">gpd</span>
-<span class="kn">from</span> <span class="nn">geopandas.tools</span> <span class="k">import</span> <span class="n">overlay</span>
-<span class="kn">from</span> <span class="nn">shapely.geometry</span> <span class="k">import</span> <span class="n">Polygon</span><span class="p">,</span> <span class="n">Point</span>
+<span class="kn">from</span> <span class="nn">geopandas.tools</span> <span class="kn">import</span> <span class="n">overlay</span>
+<span class="kn">from</span> <span class="nn">shapely.geometry</span> <span class="kn">import</span> <span class="n">Polygon</span><span class="p">,</span> <span class="n">Point</span>
 <span class="kn">import</span> <span class="nn">georasters</span> <span class="k">as</span> <span class="nn">gr</span>
 <span class="c1"># Alias for Geopandas</span>
 <span class="n">gp</span> <span class="o">=</span> <span class="n">gpd</span>
@@ -283,7 +283,7 @@ Populating the interactive namespace from numpy and matplotlib
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [5]:</div>
+<div class="prompt input_prompt">In [38]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">countries</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="s1">'https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip'</span><span class="p">)</span>
@@ -979,7 +979,7 @@ dtype: float64
 <div class="prompt input_prompt">In [16]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas_datareader</span> <span class="k">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">wb</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas_datareader</span> <span class="kn">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">wb</span>
 <span class="n">wbcountries</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">get_countries</span><span class="p">()</span>
 <span class="n">wbcountries</span><span class="p">[</span><span class="s1">'name'</span><span class="p">]</span> <span class="o">=</span> <span class="n">wbcountries</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
 <span class="n">wdi</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">indicator</span><span class="o">=</span><span class="p">[</span><span class="s1">'AG.LND.TOTL.K2'</span><span class="p">],</span> <span class="n">country</span><span class="o">=</span><span class="n">wbcountries</span><span class="o">.</span><span class="n">iso2c</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">2017</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="mi">2017</span><span class="p">)</span>
@@ -1264,7 +1264,7 @@ dtype: float64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's change the sahe of the data so we can plot it using <code>seaborn</code>.</p>
+<p>Let's change the shape of the data so we can plot it using <code>seaborn</code>.</p>
 </div>
 </div>
 </div>
@@ -2270,9 +2270,9 @@ Name: area, dtype: int64
             <span class="n">lower_bound</span> <span class="o">=</span> <span class="n">upper_bounds</span><span class="p">[</span><span class="n">index</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="c1"># format the numerical legend here</span>
         <span class="k">if</span> <span class="n">percent</span><span class="p">:</span>
-            <span class="n">bound</span> <span class="o">=</span> <span class="n">f</span><span class="s1">'</span><span class="si">{lower_bound:.0%}</span><span class="s1"> - </span><span class="si">{upper_bound:.0%}</span><span class="s1">'</span>
+            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{lower_bound:.0%}</span><span class="s1"> - </span><span class="si">{upper_bound:.0%}</span><span class="s1">'</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">bound</span> <span class="o">=</span> <span class="n">f</span><span class="s1">'{float(lower_bound):,.0f} - {float(upper_bound):,.0f}'</span>
+            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'{float(lower_bound):,.0f} - {float(upper_bound):,.0f}'</span>
         <span class="n">bounds</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bound</span><span class="p">)</span>
     <span class="n">legend_labels</span> <span class="o">=</span> <span class="n">bounds</span>
     <span class="c1">#Plot</span>
@@ -2431,7 +2431,7 @@ Name: area, dtype: int64
 <div class="prompt input_prompt">In [30]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">geopy.distance</span> <span class="k">import</span> <span class="n">geodesic</span><span class="p">,</span> <span class="n">great_circle</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">geopy.distance</span> <span class="kn">import</span> <span class="n">geodesic</span><span class="p">,</span> <span class="n">great_circle</span>
 <span class="kn">import</span> <span class="nn">itertools</span>
 <span class="n">centroids</span><span class="p">[</span><span class="s1">'xy'</span><span class="p">]</span> <span class="o">=</span> <span class="n">centroids</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">x</span><span class="p">])</span>
 </pre></div>
@@ -2829,13 +2829,13 @@ Name: area, dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's now use the cylindrical equal area projection and geopandas distance function to compute teh distance between centroids.</p>
+<p>Let's now use the cylindrical equal area projection and geopandas distance function to compute the distance between centroids.</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [34]:</div>
+<div class="prompt input_prompt">In [39]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">centroids_cea</span> <span class="o">=</span> <span class="n">countries_cea</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
