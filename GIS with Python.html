@@ -181,7 +181,7 @@ Economic Growth and Comparative Development            </a>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's import the packages we will use and set th epaths for outputs.</p>
+<p>Let's import the packages we will use and set the paths for outputs.</p>
 </div>
 </div>
 </div>
@@ -2270,9 +2270,9 @@ Name: area, dtype: int64
             <span class="n">lower_bound</span> <span class="o">=</span> <span class="n">upper_bounds</span><span class="p">[</span><span class="n">index</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="c1"># format the numerical legend here</span>
         <span class="k">if</span> <span class="n">percent</span><span class="p">:</span>
-            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{lower_bound:.0%}</span><span class="s1"> - </span><span class="si">{upper_bound:.0%}</span><span class="s1">'</span>
+            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">lower_bound</span><span class="si">:</span><span class="s1">.0%</span><span class="si">}</span><span class="s1"> - </span><span class="si">{</span><span class="n">upper_bound</span><span class="si">:</span><span class="s1">.0%</span><span class="si">}</span><span class="s1">'</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'{float(lower_bound):,.0f} - {float(upper_bound):,.0f}'</span>
+            <span class="n">bound</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">lower_bound</span><span class="p">)</span><span class="si">:</span><span class="s1">,.0f</span><span class="si">}</span><span class="s1"> - </span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">upper_bound</span><span class="p">)</span><span class="si">:</span><span class="s1">,.0f</span><span class="si">}</span><span class="s1">'</span>
         <span class="n">bounds</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bound</span><span class="p">)</span>
     <span class="n">legend_labels</span> <span class="o">=</span> <span class="n">bounds</span>
     <span class="c1">#Plot</span>
@@ -3334,11 +3334,6 @@ Name: area, dtype: int64
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/macroeconomics.html">
                             Macroeconomics
                         </a>
@@ -3346,6 +3341,11 @@ Name: area, dtype: int64
                     <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -3373,7 +3373,7 @@ Name: area, dtype: int64
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 Ömer Özak
+         <div class="col-xs-10">&copy; 2020 Ömer Özak
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
