@@ -114,6 +114,7 @@ Economic Growth and Comparative Development            </a>
 <li><a href="https://www.dropbox.com/s/r3s63czke0pb8ar/WPtemplate.tex?dl=0">Working Paper</a></li>
 <li><a href="https://www.dropbox.com/s/hkgcruoo6rm9ccy/slides.tex?dl=0">Slides</a></li>
 </ul>
+<p>You can find more templates <a href="https://www.latextemplates.com/">here</a> or <a href="https://www.overleaf.com/gallery/tagged/presentation">here</a>.</p>
 <hr>
 <h1>Markdown Editor</h1>
 <p>It is useful to have a markdown editor to edit files for <code>Github</code> as well as generating websites like this one. Here are a few options:</p>
@@ -151,8 +152,8 @@ Economic Growth and Comparative Development            </a>
 <hr>
 <h1>Installing (I)Python &amp; Jupyter</h1>
 <p>The easiest and most convenient way to install a working version of IPython with all the required packages and tools is using <a href="https://www.anaconda.com/distribution/">Continuum's Anaconda Distribution</a>. You can install following the instructions in that website, or if you can just run <a href="https://www.dropbox.com/s/6st528ethbkmvv2/CondaInstall.sh?dl=0">this script (Mac/Linux)</a>. After installing the latest version of Anaconda, add the <code>Anaconda/bin</code> directory to your <code>PATH</code> variable. </p>
-<p>In Windows you may need to install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a>, <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">Visual C++ 14</a> and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=47259">Microsoft MPI6</a>. </p>
-<p>In <code>MACOS</code> download and install XCode (from the Apple store) and command line tools (option within XCode or in a terminal execute <code>xcode-select --install</code>).</p>
+<p>In <code>Windows</code> you may need to install some version of <a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">Visual C++</a> (e.g. for <code>Python-2.7</code> you need <a href="https://www.microsoft.com/en-us/download/details.aspx?id=44266">Visual C++ 9.0</a> otherwise choose the most up-to-date version) and <a href="https://www.microsoft.com/en-us/download/details.aspx?id=57467">Microsoft MPI</a>. </p>
+<p>In <code>MACOS</code> download and install <code>XCode</code> (from the Apple store) and command line tools (option within <code>XCode</code> or in a terminal execute <code>xcode-select --install</code>).</p>
 <p>Since the basic installation may not have all the packages you need and it is always best to keep an environment for your work, after installation:</p>
 <p>A. <strong>(Recommended)</strong> In a terminal window execute</p>
 <div class="highlight"><pre><span></span><code><span class="n">conda</span> <span class="k">create</span> <span class="c1">--name GeoPython38env -c conda-forge -c r --override-channels python=3.8 asciitree autopep8 babel basemap beautifulsoup4 blas bokeh bzip2 cartopy colorcet curl cython cytoolz dask dask-core datashader datashape descartes dill docutils earthengine-api fiona gensim geographiclib geopandas geoplot geopy geotiff google-api-python-client google-auth google-auth-httplib2 georasters imageio imagesize ipykernel ipyparallel ipython ipython_genutils ipywidgets jupyter jupyterlab kiwisolver matplotlib-base matplotlib markdown networkx nose numba numpy openpyxl pandas pandas-datareader pandoc pandocfilters pandana pelican pycountry pymc3 pysal urbanaccess rasterstats r r-base r-irkernel statsmodels sympy rpy2 rasterio r-tidyr r-tibble r-dplyr rise seaborn scikit-allel scikit-bio scikit-image scikit-learn scipy seaborn swifter theano unidecode urllib3 wikipedia xlrd jupyter_contrib_nbextensions rstudio camelot-py html5lib</span>
@@ -166,6 +167,7 @@ Economic Growth and Comparative Development            </a>
 <span class="n">ipcluster</span> <span class="n">nbextension</span> <span class="n">enable</span>
 <span class="n">jupyter</span> <span class="n">contrib</span> <span class="n">nbextension</span> <span class="n">install</span> <span class="c1">--sys-prefix</span>
 <span class="n">jupyter</span> <span class="n">nbextension</span> <span class="n">enable</span> <span class="n">nbTranslate</span><span class="o">/</span><span class="n">main</span>
+<span class="n">r</span> <span class="o">-</span><span class="n">e</span> <span class="ss">&quot;IRkernel::installspec()&quot;</span>
 </code></pre></div>
 
 
@@ -234,6 +236,11 @@ Economic Growth and Comparative Development            </a>
 <p>You can also install <code>R</code> and <code>R</code> packages by using <code>conda</code>. Simply execute</p>
 <div class="highlight"><pre><span></span><code><span class="err">conda install -c conda-forge -c r r</span>
 <span class="err">conda install -c conda-forge -c r r-PACKAGE_NAME</span>
+</code></pre></div>
+
+
+<p>For the <code>R-kernel</code> to be available you need to open <code>R</code> and execute</p>
+<div class="highlight"><pre><span></span><code><span class="c">IRkernel::installspec()</span>
 </code></pre></div>
 
 
@@ -331,8 +338,8 @@ Economic Growth and Comparative Development            </a>
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
+                        <a href="https://econgrowth.github.io/tag/notebooks.html">
+                            Notebooks
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
@@ -341,8 +348,8 @@ Economic Growth and Comparative Development            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/notebooks.html">
-                            Notebooks
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
