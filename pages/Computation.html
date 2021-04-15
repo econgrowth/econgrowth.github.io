@@ -85,7 +85,6 @@ Economic Growth and Comparative Development            </a>
 <div class="highlight"><pre><span></span><code><span class="err">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
 </code></pre></div>
 
-
 <p>Third, install some of the software we will use, including <code>qgis</code>, <code>MacTeX</code>, <code>R</code>, <code>Rstudio</code></p>
 <div class="highlight"><pre><span></span><code><span class="err">brew tap osgeo/osgeo4mac</span>
 <span class="err">brew cask install qgis</span>
@@ -93,7 +92,6 @@ Economic Growth and Comparative Development            </a>
 <span class="err">brew install r</span>
 <span class="err">brew cask install rstudio</span>
 </code></pre></div>
-
 
 <p>There are many tools that can be installed via <code>Homebrew</code> whenever needed. Try it out!</p>
 <h3>iTerm2</h3>
@@ -132,21 +130,17 @@ Economic Growth and Comparative Development            </a>
 <div class="highlight"><pre><span></span><code><span class="err">net install adolist, from(http://fmwww.bc.edu/RePEc/bocode/a)</span>
 </code></pre></div>
 
-
 <p>To create a list of your packages</p>
 <div class="highlight"><pre><span></span><code><span class="err"> adolist store mystatapacks_latest.pkl</span>
 </code></pre></div>
-
 
 <p>To install the packages from the list</p>
 <div class="highlight"><pre><span></span><code><span class="err">adolist install mystatapacks_latest.pkl</span>
 </code></pre></div>
 
-
 <p>You can update an existing list by</p>
 <div class="highlight"><pre><span></span><code><span class="err"> adolist update mystatapacks_latest.pkl</span>
 </code></pre></div>
-
 
 <p><a href="https://www.dropbox.com/s/ryrskg415wkvyj5/mystatapacks_latest.pkl?dl=0">Here</a> is my latest <code>mystatapacks_latest.pkl</code> in case you want to have some useful packges installed.</p>
 <hr>
@@ -170,7 +164,6 @@ Economic Growth and Comparative Development            </a>
 <span class="n">r</span> <span class="o">-</span><span class="n">e</span> <span class="ss">&quot;IRkernel::installspec()&quot;</span>
 </code></pre></div>
 
-
 <p>This should create an environment with most of the packages we need. We can always install others down the road. </p>
 <p><code>Windows</code> users will need to follow <a href="https://kylebarron.dev/stata_kernel/getting_started/">additional instructions</a> to have the <code>Stata</code> kernel working.</p>
 <p>B. <strong>(Generally not recommended)</strong> download one of the following scripts </p>
@@ -189,12 +182,10 @@ Economic Growth and Comparative Development            </a>
 <span class="err">#conda-env create -f GeoPython3env.yml</span>
 </code></pre></div>
 
-
 <h4>MacOS</h4>
 <p>Instead of the previous options, you can download <a href="https://www.dropbox.com/s/8hz368xsh48390i/GeoPython3env-spec-file.txt?dl=0">this file</a> and execute</p>
 <div class="highlight"><pre><span></span><code><span class="err">conda create --name GeoPython3env --file GeoPython3env-spec-file.txt</span>
 </code></pre></div>
-
 
 <h3>After Installation is complete</h3>
 <p>This should create an environment with all the packages you will require for this course (and more!). </p>
@@ -202,11 +193,9 @@ Economic Growth and Comparative Development            </a>
 <div class="highlight"><pre><span></span><code><span class="err">source activate GeoPython38env</span>
 </code></pre></div>
 
-
 <p>or for <code>Python 2.x</code></p>
 <div class="highlight"><pre><span></span><code><span class="err">source activate GeoPython2env</span>
 </code></pre></div>
-
 
 <p>I would suggest using <code>GeoPython38env</code>, since it is the latest and most up-to-date version (I'll try to keep adding new versions as time passes).</p>
 <h2>Parallel Computing</h2>
@@ -214,19 +203,16 @@ Economic Growth and Comparative Development            </a>
 <div class="highlight"><pre><span></span><code><span class="err">ipcluster nbextension enable</span>
 </code></pre></div>
 
-
 <h2>Stata Kernel</h2>
 <p>We can use <code>Stata</code> within Jupyter Notebooks with the <a href="https://kylebarron.dev/stata_kernel/">Stata kernel</a>. I recommend you make sure it is installed and you have highlighting. To install (in case you do not use the <code>YAML</code> environment file above), execute</p>
 <div class="highlight"><pre><span></span><code><span class="err">pip install stata_kernel</span>
 <span class="err">python -m stata_kernel.install</span>
 </code></pre></div>
 
-
 <p>and then </p>
 <div class="highlight"><pre><span></span><code><span class="err">conda install -c conda-forge nodejs -y</span>
 <span class="err">jupyter labextension install jupyterlab-stata-highlight</span>
 </code></pre></div>
-
 
 <p><code>Windows</code> users will need to follow <a href="https://kylebarron.dev/stata_kernel/getting_started/">additional instructions</a> to have the <code>Stata</code> kernel working.</p>
 <h2>R kernel</h2>
@@ -234,23 +220,19 @@ Economic Growth and Comparative Development            </a>
 <div class="highlight"><pre><span></span><code><span class="err">conda install -c conda-forge -c r r-irkernel</span>
 </code></pre></div>
 
-
 <p>You can also install <code>R</code> and <code>R</code> packages by using <code>conda</code>. Simply execute</p>
 <div class="highlight"><pre><span></span><code><span class="err">conda install -c conda-forge -c r r</span>
 <span class="err">conda install -c conda-forge -c r r-PACKAGE_NAME</span>
 </code></pre></div>
 
-
 <p>For the <code>R-kernel</code> to be available you need to open <code>R</code> and execute</p>
 <div class="highlight"><pre><span></span><code><span class="c">IRkernel::installspec()</span>
 </code></pre></div>
-
 
 <h2>Running Stata or R in Python</h2>
 <p>We can also use <code>Stata</code> or <code>R</code> directly within <code>Python</code>. You only need to use the <code>%magic</code> for each after installing the required packages. For example for <code>Stata</code> you need  <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code></a>. Install by executing</p>
 <div class="highlight"><pre><span></span><code><span class="err">pip install ipystata</span>
 </code></pre></div>
-
 
 <p>Then in <code>jupyter</code> execute</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">ipystata</span> 
@@ -258,19 +240,16 @@ Economic Growth and Comparative Development            </a>
 <span class="n">config_stata</span><span class="p">(</span><span class="s1">&#39;Path to your Stata executable&#39;</span><span class="p">)</span>
 </code></pre></div>
 
-
 <p>Once configured you can use the <code>%%stata</code> magic. E.g.</p>
 <div class="highlight"><pre><span></span><code><span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="kn">import</span> <span class="nn">ipystata</span>  
 <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="o">%%</span><span class="n">stata</span>  
         <span class="n">display</span> <span class="s2">&quot;Hello, I am printed in Stata.&quot;</span>
 </code></pre></div>
 
-
 <p>More info in the <a href="https://github.com/TiesdeKok/ipystata"><code>ipystata</code> website</a>.</p>
 <p>Similarly, we can use <code>R</code> using <a href="https://rpy2.bitbucket.io/"><code>rpy2</code></a>. Install by executing</p>
 <div class="highlight"><pre><span></span><code><span class="err">conda install -c conda-forge -c r rpy2</span>
 </code></pre></div>
-
 
 <p>Then in jupyter execute</p>
 <div class="highlight"><pre><span></span><code><span class="k">In</span> <span class="p">[</span><span class="mi">1</span><span class="p">]:</span> <span class="o">%</span><span class="n">load_ext</span> <span class="n">rpy2</span><span class="p">.</span><span class="n">ipython</span>
@@ -278,7 +257,6 @@ Economic Growth and Comparative Development            </a>
 
         <span class="n">R</span><span class="p">.</span><span class="k">version</span>
 </code></pre></div>
-
 
 <p>More info in the <a href="https://rpy2.bitbucket.io/"><code>rpy2</code> website</a>.</p>
 <hr>
@@ -347,13 +325,13 @@ Economic Growth and Comparative Development            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/notebooks.html">
-                            Notebooks
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
+                        <a href="https://econgrowth.github.io/tag/notebooks.html">
+                            Notebooks
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
