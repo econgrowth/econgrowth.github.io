@@ -31,7 +31,7 @@
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://econgrowth.github.io/theme/css/bootstrap.slate.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://econgrowth.github.io/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="https://econgrowth.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://econgrowth.github.io/theme/css/pygments/default.css" rel="stylesheet">
@@ -120,14 +120,14 @@ Economic Growth and Comparative Development            </a>
                 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Using-Geographic-Information-Systems-(GIS)-in--and-">Using Geographic Information Systems (GIS) in <a href="http://www.qgis.org/"><img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 60px;" /></a><a href="http://www.qgis.org/"></a> and <a href="http://www.python.org/"><img alt="Python" src="../images/pics/python-logo.png" /></a><a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in--and-">¶</a></h1>
+<h1 id="Using-Geographic-Information-Systems-(GIS)-in--and-">Using Geographic Information Systems (GIS) in <a href="http://www.qgis.org/"><img src="../images/pics/QGis_Logo.png" alt="QGIS" style="width: 60px;" /></a><a href="http://www.qgis.org/" /> and <a href="http://www.python.org/"><img src="../images/pics/python-logo.png" alt="Python" /></a><a class="anchor-link" href="#Using-Geographic-Information-Systems-(GIS)-in--and-">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Geographic-Information-Systems-(GIS)">Geographic Information Systems (GIS)<a class="anchor-link" href="#Geographic-Information-Systems-(GIS)">¶</a></h2>
+<h2 id="Geographic-Information-Systems-(GIS)">Geographic Information Systems (GIS)<a class="anchor-link" href="#Geographic-Information-Systems-(GIS)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -135,106 +135,119 @@ Economic Growth and Comparative Development            </a>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>GIS refers to methods of storing, displaying and analyzing geogaphical information. These methods have become essential in economic analysis (as you have noticed from the reading list for our Ph.D. course on economic growth). For this reason, it is good that you acquaint yourself with these methods. They will prove very useful when doing research, especially to show the spatial distribution of your variables of interest, contructing new measures, or doing spatial analysis.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Software">Software<a class="anchor-link" href="#Software">¶</a></h1>
+<h1 id="Software">Software<a class="anchor-link" href="#Software">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Commercial">Commercial<a class="anchor-link" href="#Commercial">¶</a></h2><p>There are various GIS specialized programs and packages. <a href="www.esri.com">ESRI</a> produces ArcGIS, which is the most known and commonly used commercial software. It is very easy to use to produce maps and do simple computations. Most universities (including ours) offer it in their computer labs. The main disadvantages are that it requires a computer running Windows, it is costly, and extremely slow for computations. Of course this is changing, e.g., now you can use it online.</p>
+<h2 id="Commercial">Commercial<a class="anchor-link" href="#Commercial">&#182;</a></h2><p>There are various GIS specialized programs and packages. <a href="www.esri.com">ESRI</a> produces ArcGIS, which is the most known and commonly used commercial software. It is very easy to use to produce maps and do simple computations. Most universities (including ours) offer it in their computer labs. The main disadvantages are that it requires a computer running Windows, it is costly, and extremely slow for computations. Of course this is changing, e.g., now you can use it online.</p>
 <p>Nonetheless, I always suggest you use and learn open-source alternatives.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Open-Source">Open Source<a class="anchor-link" href="#Open-Source">¶</a></h2><p>There are many open source GIS projects, many of which are supported/gathered at <a href="http://www.osgeo.org/"><img alt="GRASS" src="../images/pics/OSGEO-logo.png" style="width: 80px;" /></a>. The most known and widely used seem to be <a href="http://grass.osgeo.org/"><img alt="GRASS" src="../images/pics/Grass-logo.png" style="width: 100px;" /></a> and <a href="http://www.qgis.org/"><img alt="QGIS" src="../images/pics/QGis_Logo.png" style="width: 50px;" /></a>, although Python is increasingly becoming the language of GIS. QGIS can be programmed in Python and many web-based GIS services and databases are programmed in Python. Furthermore, there are many new Python packages which allow you to import, export, analyze, visualize, etc. GIS data. THis notebook will serve as a basic introduction, which I hope to develop further with time. Many of the solutions provded here have been implemented by myself or taken from sources on the web (regretfully I did not keep track from where I took some ideas or snipplets of code, so I cannot provide due credit).</p>
+<h2 id="Open-Source">Open Source<a class="anchor-link" href="#Open-Source">&#182;</a></h2><p>There are many open source GIS projects, many of which are supported/gathered at <a href="http://www.osgeo.org/"><img src="../images/pics/OSGEO-logo.png" alt="GRASS" style="width: 80px;" /></a>. The most known and widely used seem to be <a href="http://grass.osgeo.org/"><img src="../images/pics/Grass-logo.png" alt="GRASS" style="width: 100px;" /></a> and <a href="http://www.qgis.org/"><img src="../images/pics/QGis_Logo.png" alt="QGIS" style="width: 50px;" /></a>, although Python is increasingly becoming the language of GIS. QGIS can be programmed in Python and many web-based GIS services and databases are programmed in Python. Furthermore, there are many new Python packages which allow you to import, export, analyze, visualize, etc. GIS data. THis notebook will serve as a basic introduction, which I hope to develop further with time. Many of the solutions provded here have been implemented by myself or taken from sources on the web (regretfully I did not keep track from where I took some ideas or snipplets of code, so I cannot provide due credit).</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Installation">Installation<a class="anchor-link" href="#Installation">¶</a></h1>
+<h1 id="Installation">Installation<a class="anchor-link" href="#Installation">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="QGIS">QGIS<a class="anchor-link" href="#QGIS">¶</a></h1><p>Install <a href="https://www.qgis.org">QGIS</a> using their installers. On OSX you may need to follow the instructions below.</p>
+<h1 id="QGIS">QGIS<a class="anchor-link" href="#QGIS">&#182;</a></h1><p>Install <a href="https://www.qgis.org">QGIS</a> using their installers. On OSX you may need to follow the instructions below.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Anaconda-(Suggested)">Anaconda (Suggested)<a class="anchor-link" href="#Anaconda-(Suggested)">¶</a></h1><p>If you followed the steps for installing the Continuum Anaconda Python Distribution and for creating the <code>GeoPythonXenv</code> (<a href="https://econgrowth.github.io/pages/Computation.html">presented here</a>), then you are basically set for working with GIS in Python + R.</p>
+<h1 id="Anaconda-(Suggested)">Anaconda (Suggested)<a class="anchor-link" href="#Anaconda-(Suggested)">&#182;</a></h1><p>If you followed the steps for installing the Continuum Anaconda Python Distribution and for creating the <code>GeoPythonXenv</code> (<a href="https://econgrowth.github.io/pages/Computation.html">presented here</a>), then you are basically set for working with GIS in Python + R.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Non-Anaconda-installation-(Discouraged---old-and-may-not-work-anymore)">Non Anaconda installation (Discouraged - old and may not work anymore)<a class="anchor-link" href="#Non-Anaconda-installation-(Discouraged---old-and-may-not-work-anymore)">¶</a></h1><p>Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed <a href="https://www.enthought.com/products/canopy/academic/">Canopy</a> with all the pakages provided by Enthought. Additionally, you will need to install <a href="http://grass.osgeo.org">GRASS</a>, <a href="https://www.qgis.org">QGIS</a>, and <a href="http://www.gdal.org/">GDAL/OGR</a>.</p>
+<h1 id="Non-Anaconda-installation-(Discouraged---old-and-may-not-work-anymore)">Non Anaconda installation (Discouraged - old and may not work anymore)<a class="anchor-link" href="#Non-Anaconda-installation-(Discouraged---old-and-may-not-work-anymore)">&#182;</a></h1><p>Here I will give you the basic idea of what you need to install to have a working GIS environment. I assume you have already installed <a href="https://www.enthought.com/products/canopy/academic/">Canopy</a> with all the pakages provided by Enthought. Additionally, you will need to install <a href="http://grass.osgeo.org">GRASS</a>, <a href="https://www.qgis.org">QGIS</a>, and <a href="http://www.gdal.org/">GDAL/OGR</a>.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Windows">Windows<a class="anchor-link" href="#Windows">¶</a></h3><p>Download the installers in each of these websites and you should be done!</p>
+<h3 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h3><p>Download the installers in each of these websites and you should be done!</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Mac-OSX">Mac OSX<a class="anchor-link" href="#Mac-OSX">¶</a></h3><p>There are various methods of getting these on your computer.</p>
+<h3 id="Mac-OSX">Mac OSX<a class="anchor-link" href="#Mac-OSX">&#182;</a></h3><p>There are various methods of getting these on your computer.</p>
 <ol>
 <li>Try the installers on each website</li>
 <li>Use the installers provided by <a href="http://www.kyngchaos.com/">Kyngchaos</a></li>
 <li>Use <a href="http://brew.sh/">HomeBrew</a></li>
 </ol>
 <p>I used to install using the installers provided by <a href="http://www.kyngchaos.com/">Kyngchaos</a>. But I have moved to using <a href="http://brew.sh/">HomeBrew</a>, which allows you install many other GNU projects. To do so, open a terminal window (I recommend getting <a href="http://www.iterm2.com/">iTerm2</a>, which is more powerful than the one provided by OSX) and run the following code (I think you will need to have Xcode and its command-line utilities installed)</p>
+
 <pre><code>ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew doctor
 
 </code></pre>
 <p>This should install HomeBrew on your system and let you know of any issues. Once you have done so and have a working homebrew installation, you will be able to install packages and programs using the <code>brew install</code> command. Before doing so, you should run the following commands</p>
+
 <pre><code>brew update
 brew tap homebrew/science
 
 </code></pre>
 <p>This will update HomeBrew's formulas to the latest version. Now issue the command</p>
+
 <pre><code> brew cask install qgis
 
 </code></pre>
 <p>You should be done and have teh latest vanilla version of <code>QGIS</code> in your Applications folder.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Not-a-vanilla-fan?">Not a vanilla fan?<a class="anchor-link" href="#Not-a-vanilla-fan?">¶</a></h3><p>Ok. sometimes you want <code>QGIS</code> with all the additional blows and whistles, e.g. integration with <code>GRASS</code>, etc. In that case, you need a bit more work. Luckily there are awesome people who are trying to keep this streamlined and working for all of us. Head to <a href="https://github.com/OSGeo/homebrew-osgeo4mac">osgeo4mac</a> and follow their instructions.</p>
-<h3 id="Note-on-GDAL-+-Canopy">Note on GDAL + Canopy<a class="anchor-link" href="#Note-on-GDAL-+-Canopy">¶</a></h3><p>It seems Canopy already has GDAL incorporated, at least so it seems on Mac OS X. But there is a bug that might prevent it from working, unless you add the following line on your <code>.profile</code></p>
+<h3 id="Not-a-vanilla-fan?">Not a vanilla fan?<a class="anchor-link" href="#Not-a-vanilla-fan?">&#182;</a></h3><p>Ok. sometimes you want <code>QGIS</code> with all the additional blows and whistles, e.g. integration with <code>GRASS</code>, etc. In that case, you need a bit more work. Luckily there are awesome people who are trying to keep this streamlined and working for all of us. Head to <a href="https://github.com/OSGeo/homebrew-osgeo4mac">osgeo4mac</a> and follow their instructions.</p>
+<h3 id="Note-on-GDAL-+-Canopy">Note on GDAL + Canopy<a class="anchor-link" href="#Note-on-GDAL-+-Canopy">&#182;</a></h3><p>It seems Canopy already has GDAL incorporated, at least so it seems on Mac OS X. But there is a bug that might prevent it from working, unless you add the following line on your <code>.profile</code></p>
+
 <pre><code> export GDAL_DATA=~/Library/Enthought/Canopy_64bit/User/share/gdal</code></pre>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data">Data<a class="anchor-link" href="#Data">¶</a></h1>
+<h1 id="Data">Data<a class="anchor-link" href="#Data">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -242,13 +255,14 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Ok...now that we have a working GIS desktop system, let us talk a little about types of data. All GIS data includes elements with their properties and their geographical information like location, as determined by e.g. latitude and longitude, address, zip code, etc. So, for example an element might be a country, its properties might be GDP per capita, Gini coefficient, etc. and its location. Another example might be a restaurant with its menu and prices, services (dine-in, take-out, delivery), area of service and location.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Formats">Formats<a class="anchor-link" href="#Formats">¶</a></h2><p>GIS comes in very different formats, althogh most of them can be categorizewd into two types <strong>Rasters</strong> and <strong>Vector</strong> formats.</p>
+<h2 id="Formats">Formats<a class="anchor-link" href="#Formats">&#182;</a></h2><p>GIS comes in very different formats, althogh most of them can be categorizewd into two types <strong>Rasters</strong> and <strong>Vector</strong> formats.</p>
 <ol>
 <li><strong>Rasters</strong> are basically matrices $R=[R_{ij}]$ of size $m\times n$ that hold numerical information, where each cell $R_{ij}$ shows the value of interest at a specific location $ij$. Where this location $ij$ is, is determined by the actual format and the projection of the data (this will be clearer below). </li>
 <li><strong>Vectors</strong> represent a geographical element geometrically and include additional information on it. An element can be represented as one of the following geometries:<ol>
@@ -259,29 +273,32 @@ brew tap homebrew/science
 </ol>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Examples-of-Raster-formats:">Examples of Raster formats:<a class="anchor-link" href="#Examples-of-Raster-formats:">¶</a></h2><ol>
+<h2 id="Examples-of-Raster-formats:">Examples of Raster formats:<a class="anchor-link" href="#Examples-of-Raster-formats:">&#182;</a></h2><ol>
 <li><strong>GeoTiff</strong>: Multipurpose raster format.</li>
 <li><strong>ESRI Grid</strong>: Main ESRI raster format.</li>
 <li><strong>Digital Elevation Model (DEM)</strong>: Used by the US Geological Survey to record elevation data.</li>
 <li><strong>Band Interleaved by Line, Band Interleaved by Pixel, Band Sequential (BIL, BIP, BSQ)</strong>: These data formats are typically used by remote sensing systems.</li>
 <li><strong>Digital Raster Graphic (DRG)</strong>: This format is used to store digital scans of paper maps.</li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Examples-of-Vector-formats:">Examples of Vector formats:<a class="anchor-link" href="#Examples-of-Vector-formats:">¶</a></h2><ol>
+<h2 id="Examples-of-Vector-formats:">Examples of Vector formats:<a class="anchor-link" href="#Examples-of-Vector-formats:">&#182;</a></h2><ol>
 <li><strong>Shapefile</strong>: An open specification, developed by ESRI, for storing and exchanging GIS data. A Shapefile actually consists of a collection of files all with the same base name, for example hawaii.shp, hawaii.shx, hawaii.dbf, and so on. </li>
 <li><strong>Simple Features</strong>: An OpenGIS standard for storing geographical data (points, lines, polygons) along with associated attributes.</li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -292,24 +309,26 @@ brew tap homebrew/science
 <li><strong>TIGER/Line</strong>: A text-based format previously used by the U.S. Census Bureau to describe geographic features such as roads, buildings, rivers, and coastlines. More recent data comes in the Shapefile format, so the TIGER/Line format is only used for earlier Census Bureau datasets.</li>
 <li><strong>Coverage</strong>: Proprietary data format used by ESRI's ARC/INFO system.</li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Other-formats:">Other formats:<a class="anchor-link" href="#Other-formats:">¶</a></h2><ol>
+<h2 id="Other-formats:">Other formats:<a class="anchor-link" href="#Other-formats:">&#182;</a></h2><ol>
 <li><strong>Well-known Text (WKT)</strong>: text-based format for representing a single geographic feature such as a polygon or line.</li>
 <li><strong>Well-known Binary (WKB)</strong>: similar to WKT uses binary data rather than text to represent a single geographic feature.</li>
 <li><strong>GeoJSON</strong>: An open format for encoding geographic data structures, based on the JSON data interchange format. This is becoming the internet's prefered format.</li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Sources-of-Data">Sources of Data<a class="anchor-link" href="#Sources-of-Data">¶</a></h1>
+<h1 id="Sources-of-Data">Sources of Data<a class="anchor-link" href="#Sources-of-Data">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -326,6 +345,7 @@ brew tap homebrew/science
 <li><a href="http://www.fao.org/geonetwork/srv/en/metadata.show?id=12691">Global Administrative Unit Layers</a></li>
 <li><a href="http://www.naturalearthdata.com/">Natural Earth</a>: Various vector and raster files with all kinds of geographical, cultural and socioeconomic variables</li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -341,6 +361,7 @@ brew tap homebrew/science
 <li><a href="http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&amp;_pageLabel=msi_portal_page_62&amp;pubCode=0015">World Port Index</a></li>
 <li><a href="http://eros.usgs.gov/elevation-products">USGS elevation maps</a></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -350,9 +371,10 @@ brew tap homebrew/science
 <ul>
 <li><a href="https://ozak.github.io/Caloric-Suitability-Index/">Caloric Suitability Index CSI</a>: Agricultural suitability data</li>
 <li><a href="https://www.prio.org/Data/">Peace Research Institute Oslo (PRIO) Conflict Data</a></li>
-<li><a href="https://acleddata.com/curated-data-files/">The Armed Conflict Location & Event Data Project (ACLED)</a></li>
+<li><a href="https://acleddata.com/curated-data-files/">The Armed Conflict Location &amp; Event Data Project (ACLED)</a></li>
 <li><a href="https://www.start.umd.edu/gtd/">Global Terrorism Database (START-GTD)</a></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -369,13 +391,14 @@ brew tap homebrew/science
 <li><a href="http://www.icr.ethz.ch/data/other/greg">Geo-referencing of Ethnic Groups</a></li>
 </ul>
 <p>See also <a href="http://en.wikipedia.org/wiki/List_of_GIS_data_sources">Wikipedia links</a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Creating-maps-and-exploring-data">Creating maps and exploring data<a class="anchor-link" href="#Creating-maps-and-exploring-data">¶</a></h1>
+<h1 id="Creating-maps-and-exploring-data">Creating maps and exploring data<a class="anchor-link" href="#Creating-maps-and-exploring-data">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -389,6 +412,7 @@ brew tap homebrew/science
 <li><a href="https://nelson.wisc.edu/sage/data-and-models/atlas/data.php?incdataset=Suitability%20for%20Agriculture">Ramankutty's Suitability Index</a></li>
 <li><a href="http://ngdc.noaa.gov/eog/data/web_data/v4composites/F182012.v4.tar">Lights Data for 2012</a></li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -396,7 +420,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now, open QGIS. You should see something like this</p>
-<p><a href="../images/pics/GIS/QGIS-main.png"><img alt="QGIS open" src="../images/pics/GIS/QGIS-main.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-main.png"><img src="../images/pics/GIS/QGIS-main.png" alt="QGIS open" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -408,7 +433,8 @@ brew tap homebrew/science
 <li>Use <code>Finder</code> or <code>Windows Explorer</code> to navigate to the file and <code>double-click</code> on it.</li>
 <li>Use the <code>Layer</code> menu in QGIS</li>
 </ul>
-<p><a href="../images/pics/GIS/QGIS-Layer-menu.png"><img alt="QGIS Layer Menu" src="../images/pics/GIS/QGIS-Layer-menu.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Layer-menu.png"><img src="../images/pics/GIS/QGIS-Layer-menu.png" alt="QGIS Layer Menu" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -418,14 +444,15 @@ brew tap homebrew/science
 <ul>
 <li>Use the toolbar on the left</li>
 </ul>
-<p><a href="./images./pics/GIS/QGIS-file-toolbar.png"><img alt="QGIS File Toolbar" src="../images/pics/GIS/QGIS-file-toolbar.png" style="width: 20px;" /></a></p>
+<p><a href="./images./pics/GIS/QGIS-file-toolbar.png"><img src="../images/pics/GIS/QGIS-file-toolbar.png" alt="QGIS File Toolbar" style="width: 20px;" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Working-with-vector-layers">Working with vector layers<a class="anchor-link" href="#Working-with-vector-layers">¶</a></h2>
+<h2 id="Working-with-vector-layers">Working with vector layers<a class="anchor-link" href="#Working-with-vector-layers">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -433,7 +460,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's start by adding the vector file for your country of origin using the <code>add vector layer</code> button in the toolbar.</p>
-<p><a href="../images/pics/GIS/QGIS-add-vector-layer.png"><img alt="QGIS add vector layer" src="../images/pics/GIS/QGIS-add-vector-layer.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-add-vector-layer.png"><img src="../images/pics/GIS/QGIS-add-vector-layer.png" alt="QGIS add vector layer" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -441,7 +469,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I have added the full GADM dataset, so it looks like this</p>
-<p><a href="../images/pics/GIS/QGIS-GADM.png"><img alt="GADM layer in QGIS" src="../images/pics/GIS/QGIS-GADM.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-GADM.png"><img src="../images/pics/GIS/QGIS-GADM.png" alt="GADM layer in QGIS" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -450,12 +479,13 @@ brew tap homebrew/science
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now we can use various tools available within QGIS to learn about the data, select the data, analyze the data, etc.</p>
 <ol>
-<li><p>The handtool for panning: <a href="../images/pics/GIS/QGIS-handtool.png"><img alt="QGIS-handtool" src="../images/pics/GIS/QGIS-handtool.png" /></a></p>
+<li><p>The handtool for panning: <a href="../images/pics/GIS/QGIS-handtool.png"><img src="../images/pics/GIS/QGIS-handtool.png" alt="QGIS-handtool" /></a></p>
 <ul>
 <li>Try it out, use the tool to move your country around the screen.</li>
 </ul>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -463,12 +493,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><p>Zoom in/out/to selection/full: <a href="../images/pics/GIS/QGIS-zoom-toolbar.png"><img alt="QGIS-Zoom" src="../images/pics/GIS/QGIS-zoom-toolbar.png" /></a></p>
+<li><p>Zoom in/out/to selection/full: <a href="../images/pics/GIS/QGIS-zoom-toolbar.png"><img src="../images/pics/GIS/QGIS-zoom-toolbar.png" alt="QGIS-Zoom" /></a></p>
 <ul>
 <li>Try it out, by zooming around your city of birth.</li>
 </ul>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -476,12 +507,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><p>Identify Features: <a href="../images/pics/GIS/QGIS-identify-features.png"><img alt="QGIS-identify-features" src="../images/pics/GIS/QGIS-identify-features.png" /></a></p>
+<li><p>Identify Features: <a href="../images/pics/GIS/QGIS-identify-features.png"><img src="../images/pics/GIS/QGIS-identify-features.png" alt="QGIS-identify-features" /></a></p>
 <ul>
 <li>Try it out, click on the feature you just zoomed into. Did you zoom into the correct feature?</li>
 </ul>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -489,12 +521,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
-<li><p>Select Features: <a href="../images/pics/GIS/QGIS-select-features.png"><img alt="QGIS-select-features" src="../images/pics/GIS/QGIS-select-features.png" /></a></p>
+<li><p>Select Features: <a href="../images/pics/GIS/QGIS-select-features.png"><img src="../images/pics/GIS/QGIS-select-features.png" alt="QGIS-select-features" /></a></p>
 <ul>
 <li>Try it out, select the feature of the region where you were born.</li>
 </ul>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
@@ -503,8 +536,9 @@ brew tap homebrew/science
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Besides the geometrical information that we observe, most Shape files have other information relating to each feature. This information is contained in the <em>Attribute Table</em>, which can be accessed with</p>
 <ul>
-<li>the <code>Open Attribute Table</code> button <a href="../images/pics/GIS/QGIS-attribute-table.png"><img alt="QGIS-attribute-table" src="../images/pics/GIS/QGIS-attribute-table.png" /></a></li>
+<li>the <code>Open Attribute Table</code> button <a href="../images/pics/GIS/QGIS-attribute-table.png"><img src="../images/pics/GIS/QGIS-attribute-table.png" alt="QGIS-attribute-table" /></a></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -514,7 +548,8 @@ brew tap homebrew/science
 <ul>
 <li>By <code>right-clicking</code> on the name of the layer in the left panel</li>
 </ul>
-<p><a href="../images/pics/GIS/QGIS-attribute-table2.png"><img alt="QGIS-attribute-table2" src="../images/pics/GIS/QGIS-attribute-table2.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-attribute-table2.png"><img src="../images/pics/GIS/QGIS-attribute-table2.png" alt="QGIS-attribute-table2" /></a></p>
+
 </div>
 </div>
 </div>
@@ -530,33 +565,38 @@ brew tap homebrew/science
 <li>the identification number of the region in the country (Administrative Level 1) to which the feature belongs <code>ID_1</code></li>
 </ul>
 <p>etc.</p>
-<p><a href="../images/pics/GIS/QGIS-attribute-table3.png"><img alt="QGIS-attribute-table3" src="../images/pics/GIS/QGIS-attribute-table3.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-attribute-table3.png"><img src="../images/pics/GIS/QGIS-attribute-table3.png" alt="QGIS-attribute-table3" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We can use this information to color our maps, or to select features for further analysis. I will use the <code>select feature using an expression</code> button <img alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" /> to select all features which have the ISO-3 code for Kenya. Once you click on the <img alt="QGIS-select-feature-attributes-button" src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" /> button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression</p>
+<p>We can use this information to color our maps, or to select features for further analysis. I will use the <code>select feature using an expression</code> button <img src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" alt="QGIS-select-feature-attributes-button"> to select all features which have the ISO-3 code for Kenya. Once you click on the <img src="../images/pics/GIS/QGIS-select-feature-attributes-button.png" alt="QGIS-select-feature-attributes-button"> button, you will see the following window, where you can write the expression to be used to select features. In this case I wrote the expression</p>
+
 <pre><code>'ISO'='KEN'
 
 </code></pre>
 <p>to select all features with Kenya's ISO-3 code.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"><img alt="QGIS-select-features-by-ISO" src="../images/pics/GIS/QGIS-select-features-by-ISO.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-select-features-by-ISO.png"><img src="../images/pics/GIS/QGIS-select-features-by-ISO.png" alt="QGIS-select-features-by-ISO" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Sometimes we will want to work with a subset of features, especially if the data we are working has many features, like the GADM data. To select a subset of the features and only work with those, use the <code>Layer->Query</code> option in the <code>Menu</code> as shown below</p>
-<p><a href="../images/pics/GIS/QGIS-Query.png"><img alt="QGIS-Query" src="../images/pics/GIS/QGIS-Query.png" /></a></p>
+<p>Sometimes we will want to work with a subset of features, especially if the data we are working has many features, like the GADM data. To select a subset of the features and only work with those, use the <code>Layer-&gt;Query</code> option in the <code>Menu</code> as shown below</p>
+<p><a href="../images/pics/GIS/QGIS-Query.png"><img src="../images/pics/GIS/QGIS-Query.png" alt="QGIS-Query" /></a></p>
+
 </div>
 </div>
 </div>
@@ -564,11 +604,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This opens a window where you can write expression as the previous one, to select features by their attributes. These are <code>SQL</code> expressions and have to conform to <code>SQL</code>'s grammar (we will not go into this at this point). Once I execute the same expression as above</p>
+
 <pre><code>'ISO'='KEN'
 
 </code></pre>
 <p>QGIS leaves only the features in Kenya for analysis.</p>
-<p><a href="../images/pics/GIS/QGIS-Query-KEN.png"><img alt="QGIS-Query-KEN" src="../images/pics/GIS/QGIS-Query-KEN.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Query-KEN.png"><img src="../images/pics/GIS/QGIS-Query-KEN.png" alt="QGIS-Query-KEN" /></a></p>
+
 </div>
 </div>
 </div>
@@ -576,32 +618,35 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let us zoom into these features by <code>right-clicking</code> on the name of the layer and choosing <code>Zoom to Layer Extent</code>. This shows the extent of Kenya alone.</p>
-<p><a href="../images/pics/GIS/QGIS-zoomed-KEN.png"><img alt="QGIS-zoomed-KEN" src="../images/pics/GIS/QGIS-zoomed-KEN.png" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-zoomed-KEN.png"><img src="../images/pics/GIS/QGIS-zoomed-KEN.png" alt="QGIS-zoomed-KEN" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Other important tools can be found in <code>Layer -> Properties</code> or by <code>double-clicking</code> on the layer's name</p>
+<p>Other important tools can be found in <code>Layer -&gt; Properties</code> or by <code>double-clicking</code> on the layer's name</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">¶</a></h3><ol>
+<h3 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h3><ol>
 <li>Load the complete GADM dataset.</li>
 <li>Select the regions of your country of origin, so that you will work only on these.</li>
 <li>Save the result to a new layer/shapefile called <code>your_country.shp</code></li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Vector-Menu">Vector Menu<a class="anchor-link" href="#Vector-Menu">¶</a></h2>
+<h2 id="Vector-Menu">Vector Menu<a class="anchor-link" href="#Vector-Menu">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -609,23 +654,25 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The <code>Vector</code> menu has many tools that can be applied to vector layers. Let's use some of these to create new layers.</p>
-<p>Using the <code>Vector -> Geometry Tools -> Singlepart to Mutliparts</code> we can generate a new layer and shape file where features are aggregated according to some characteristic. Let us use this tool to aggregate administrative level 2 features to the administrative level 0 (Country) level. Thus,  each feature will be a country (administrative level 0) instead of the current administrative level 2.</p>
-<p><a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"><img alt="QGIS-SinglePart-MultiPart" src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png" /></a></p>
+<p>Using the <code>Vector -&gt; Geometry Tools -&gt; Singlepart to Mutliparts</code> we can generate a new layer and shape file where features are aggregated according to some characteristic. Let us use this tool to aggregate administrative level 2 features to the administrative level 0 (Country) level. Thus,  each feature will be a country (administrative level 0) instead of the current administrative level 2.</p>
+<p><a href="../images/pics/GIS/QGIS-SinglePart-MultiPart.png"><img src="../images/pics/GIS/QGIS-SinglePart-MultiPart.png" alt="QGIS-SinglePart-MultiPart" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Using the <code>Vector -> Geometry Tools -> Mutliparts to singlepart</code> we can generate a new layer and shape file where features are disaggregated.</p>
-<p><a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"><img alt="QGIS-MultiPart-SinglePart" src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png" /></a></p>
+<p>Using the <code>Vector -&gt; Geometry Tools -&gt; Mutliparts to singlepart</code> we can generate a new layer and shape file where features are disaggregated.</p>
+<p><a href="../images/pics/GIS/QGIS-MultiPart-SinglePart.png"><img src="../images/pics/GIS/QGIS-MultiPart-SinglePart.png" alt="QGIS-MultiPart-SinglePart" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">¶</a></h3>
+<h3 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -637,25 +684,28 @@ brew tap homebrew/science
 <li>Select the cities that belong to your country and create a new shape file with the selection named <code>your_country_places.shp</code>.</li>
 <li>Load the <code>your_country.shp</code> file you had created in the previous exercise and compute the centroid for each Adminitrative level 1 in your country and export the layer to the file <code>your_country_centroids1.shp</code>.</li>
 <li><p>Search for your place of birth among the most populated places. Where you born in a populated place? If not, identify the closest most populated place. To do so, use <a href="https://www.google.com">Google</a> or <a href="http://www.wikipedia.org/">Wikipedia</a> to find the latitude and longitude of your place of birth. Using your mouse and the <code>coordinate</code> window at the bottom</p>
-<p><a href="../images/pics/GIS/QGIS-Coordinates.png"><img alt="QGIS-Coordinates" src="../images/pics/GIS/QGIS-Coordinates.png" style="width: 300px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Coordinates.png"><img src="../images/pics/GIS/QGIS-Coordinates.png" alt="QGIS-Coordinates" style="width: 300px;" /></a></p>
 <p>to search for your location of birth.</p>
 </li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Better yet, using the <code>Plugins->Manage and Install Plugins</code> menu, install the <code>ZoomToCoordinates</code> plugin</p>
-<p><a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"><img alt="QGIS-ZoomToCoordinatesPlugin" src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" style="width: 800px;" /></a></p>
+<p>Better yet, using the <code>Plugins-&gt;Manage and Install Plugins</code> menu, install the <code>ZoomToCoordinates</code> plugin</p>
+<p><a href="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png"><img src="../images/pics/GIS/QGIS-ZoomToCoordinatesPlugin.png" alt="QGIS-ZoomToCoordinatesPlugin" style="width: 800px;" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>and use it to find your place of birth as shown below <a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"><img alt="QGIS-ZoomToCoordinates" src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" style="width: 800px;" /></a></p>
+<p>and use it to find your place of birth as shown below <a href="../images/pics/GIS/QGIS-ZoomToCoordinates.png"><img src="../images/pics/GIS/QGIS-ZoomToCoordinates.png" alt="QGIS-ZoomToCoordinates" style="width: 800px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -667,14 +717,15 @@ brew tap homebrew/science
 <li>Generate the distance matrix among the most populated places</li>
 <li>Generate the distance matrix between most populated places and the centroids</li>
 </ol>
-<h4 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h4><p><em>Make sure you can correctly identify the features. For example using ISO codes, ID numbers, etc. If the shape file does not have an ID identifier, it is best to create one, so that you can correctly identify the features. To do so, use the <code>Field Calculator</code> by double-clicking on the name of the layer, then choosing <code>Fields</code>. After that you need to select the pencil icon to enable editing mode.</em></p>
+<h4 id="Note">Note<a class="anchor-link" href="#Note">&#182;</a></h4><p><em>Make sure you can correctly identify the features. For example using ISO codes, ID numbers, etc. If the shape file does not have an ID identifier, it is best to create one, so that you can correctly identify the features. To do so, use the <code>Field Calculator</code> by double-clicking on the name of the layer, then choosing <code>Fields</code>. After that you need to select the pencil icon to enable editing mode.</em></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Working-with-Rasters">Working with Rasters<a class="anchor-link" href="#Working-with-Rasters">¶</a></h2>
+<h2 id="Working-with-Rasters">Working with Rasters<a class="anchor-link" href="#Working-with-Rasters">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -682,7 +733,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let us load the Ramankutty raster using the <code>add raster layer</code> button in the toolbar.</p>
-<p><a href="../images/pics/GIS/QGIS-add-raster-layer.png"><img alt="QGIS add raster layer" src="../images/pics/GIS/QGIS-add-raster-layer.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-add-raster-layer.png"><img src="../images/pics/GIS/QGIS-add-raster-layer.png" alt="QGIS add raster layer" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -690,7 +742,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><code>Double-click</code> on the name of the raster in order to change the coloring scheme.</p>
-<p><a href="../images/pics/GIS/QGIS-raster-color-scheme.png"><img alt="QGIS-raster-color-scheme" src="../images/pics/GIS/QGIS-raster-color-scheme.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-raster-color-scheme.png"><img src="../images/pics/GIS/QGIS-raster-color-scheme.png" alt="QGIS-raster-color-scheme" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -698,7 +751,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>So it looks something like this</p>
-<p><a href="../images/pics/GIS/QGIS-raster-with-color.png"><img alt="QGIS-raster-with-color" src="../images/pics/GIS/QGIS-raster-with-color.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-raster-with-color.png"><img src="../images/pics/GIS/QGIS-raster-with-color.png" alt="QGIS-raster-with-color" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -706,15 +760,17 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Load your <code>your_country.shp</code> and <code>your_country_places.shp</code> on top of the Ramankutty data. It might look something like this.</p>
-<p><a href="../images/pics/GIS/QGIS-Raster-KEN.png"><img alt="QGIS-Raster-KEN" src="../images/pics/GIS/QGIS-Raster-KEN.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Raster-KEN.png"><img src="../images/pics/GIS/QGIS-Raster-KEN.png" alt="QGIS-Raster-KEN" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Since we do not want to work with all the Ramankutty data, but only with the data for our country, let us <code>clip</code> the part of the Ramankutty data that belongs to our country. To do this, use the <code>Raster->Extraction->Clipper</code> tool.</p>
-<p><a href="../images/pics/GIS/QGIS-Clipper.png"><img alt="QGIS-Clipper" src="../images/pics/GIS/QGIS-Clipper.png" style="width: 1000px;" /></a></p>
+<p>Since we do not want to work with all the Ramankutty data, but only with the data for our country, let us <code>clip</code> the part of the Ramankutty data that belongs to our country. To do this, use the <code>Raster-&gt;Extraction-&gt;Clipper</code> tool.</p>
+<p><a href="../images/pics/GIS/QGIS-Clipper.png"><img src="../images/pics/GIS/QGIS-Clipper.png" alt="QGIS-Clipper" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -722,7 +778,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In the window that comes up, choose a name for the clipped raster <code>suit_your_country</code> and choose the <code>save as GeoTiff</code> option, so that your file is saved as in GeoTiff format. Then click on the <code>Mask layer</code> button, make sure <code>your_country</code> layer is chosen as the mask. If you want choose a different <code>No data value</code>. Then click <code>ok</code>.</p>
-<p><a href="../images/pics/GIS/QGIS-clip-KEN.png"><img alt="QGIS-clip-KEN" src="../images/pics/GIS/QGIS-clip-KEN.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-clip-KEN.png"><img src="../images/pics/GIS/QGIS-clip-KEN.png" alt="QGIS-clip-KEN" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -730,11 +787,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This will clip the Ramankutty data to the extent of your country of origin. Notice that in the big text box there is a command written, something like</p>
+
 <pre><code>gdalwarp -q -cutline "gadm2.shp|layerid=0|subset=\"ISO\" = 'KEN'" -crop_to_cutline -of GTiff "suit/w001001.adf" GitHub/CompEcon/notebooks/QGIS/suit-KEN.tif
 
 </code></pre>
 <p>This is a the command QGIS uses to create the clip. QGIS is actually calling GDAL to perform this operation. This command line will be very useful when you are planning to use Python or other scripting languages to perform an operation many times. You can do it by hand once and copy the command executed by QGIS and use it to create an iterable version...more on this later.</p>
-<h3 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h3><p>You might have to assign a projection to the Suitability Raster. To do so, use the <code>Raster->Projection->Assign Projection</code> option in the menu.</p>
+<h3 id="Note">Note<a class="anchor-link" href="#Note">&#182;</a></h3><p>You might have to assign a projection to the Suitability Raster. To do so, use the <code>Raster-&gt;Projection-&gt;Assign Projection</code> option in the menu.</p>
+
 </div>
 </div>
 </div>
@@ -742,7 +801,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The output should look like this</p>
-<p><a href="../images/pics/GIS/QGIS-KEN-Raster.png"><img alt="QGIS-KEN-Raster" src="../images/pics/GIS/QGIS-KEN-Raster.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-KEN-Raster.png"><img src="../images/pics/GIS/QGIS-KEN-Raster.png" alt="QGIS-KEN-Raster" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -750,7 +810,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Notice that given the large size of the cells in the raster, the clipping tool creates a lot of measurement error. It might be better to decrease the size of cells an then clip, so that the clipping is less erroneous. Let's try setting the cell size to $5''$ instead of $0.5^o$. To do so, <code>right-click</code> on the raster name and select <code>Save as</code>. Then set the <em>Resolution</em> to $5''=1/12=0.08333$ for both <code>Horizontal</code> and <code>Vertical</code>.</p>
-<p><a href="../images/pics/GIS/QGIS-change-raster-size.png"><img alt="QGIS-change-raster-size" src="../images/pics/GIS/QGIS-change-raster-size.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-change-raster-size.png"><img src="../images/pics/GIS/QGIS-change-raster-size.png" alt="QGIS-change-raster-size" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -758,27 +819,31 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now use the clip tool again. Much better! Obviously, the smaller the cell size, the more similar the clipped raster and the polygon will look like.</p>
-<p><a href="../images/pics/GIS/QGIS-KEN-Raster5.png"><img alt="QGIS-KEN-Raster5" src="../images/pics/GIS/QGIS-KEN-Raster5.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-KEN-Raster5.png"><img src="../images/pics/GIS/QGIS-KEN-Raster5.png" alt="QGIS-KEN-Raster5" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Note:">Note:<a class="anchor-link" href="#Note:">¶</a></h3><p><em>Care has to be taken when converting raster's cells size, since values have to be interpolated. QGIS seems to have taken away your choice for setting it. Luckily, GDAL can help out. You can use its tools to change the cells size, the projection, clip, etc. We will see some tools in another lecture.</em></p>
-<p>Let us use this raster to assign the average suitability in each administrative region. But before doing so, we need to reproject both the raster and shape files to a format that ensures the areas are correctly take into account. One such projection is the equal area projection. Right click on the raster or shape and select <code>save as...</code>. Then in the <code>CRS</code> option choose <code>Selected CRS</code> and click on <code>browse</code> and choose the following CRS (or create it if not present by using the <code>Settings->Custom CRS</code> menu)</p>
+<h3 id="Note:">Note:<a class="anchor-link" href="#Note:">&#182;</a></h3><p><em>Care has to be taken when converting raster's cells size, since values have to be interpolated. QGIS seems to have taken away your choice for setting it. Luckily, GDAL can help out. You can use its tools to change the cells size, the projection, clip, etc. We will see some tools in another lecture.</em></p>
+<p>Let us use this raster to assign the average suitability in each administrative region. But before doing so, we need to reproject both the raster and shape files to a format that ensures the areas are correctly take into account. One such projection is the equal area projection. Right click on the raster or shape and select <code>save as...</code>. Then in the <code>CRS</code> option choose <code>Selected CRS</code> and click on <code>browse</code> and choose the following CRS (or create it if not present by using the <code>Settings-&gt;Custom CRS</code> menu)</p>
+
 <pre><code>+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs
 
 </code></pre>
-<p><a href="../images/pics/GIS/QGIS-Cylindrical.png"><img alt="QGIS-Cylindrical" src="../images/pics/GIS/QGIS-Cylindrical.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Cylindrical.png"><img src="../images/pics/GIS/QGIS-Cylindrical.png" alt="QGIS-Cylindrical" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now save the file adding the postfix <code>cyl</code> so that you know it is the cylindrical equal area rojected one. Now, select <code>Raster->Zonal Statistics->Zonal Statistics</code>.</p>
-<p><a href="../images/pics/GIS/QGIS-Zonal-Stats.png"><img alt="QGIS-Zonal-Stats" src="../images/pics/GIS/QGIS-Zonal-Stats.png" style="width: 1000px;" /></a></p>
+<p>Now save the file adding the postfix <code>cyl</code> so that you know it is the cylindrical equal area rojected one. Now, select <code>Raster-&gt;Zonal Statistics-&gt;Zonal Statistics</code>.</p>
+<p><a href="../images/pics/GIS/QGIS-Zonal-Stats.png"><img src="../images/pics/GIS/QGIS-Zonal-Stats.png" alt="QGIS-Zonal-Stats" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -786,13 +851,14 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Select the cylindrical versions of the raster and shape files and <code>suitcyl</code> as the <code>Output column prefix</code>. Now, in the attribute table you will find three new columns with the prefix <code>suitcyl</code> that show the <code>sum</code>, <code>count</code>, and <code>mean</code> suitability in in each feature. If you repeat the analysis with the unprojected (non-cyl) versions of the raster and shape files, you will see that the results vary (sometimes significantly). Whenever you do this type of analysis, it is important to make sure you are using the correct projection for the analysis.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Other-Raster-Tools">Other Raster Tools<a class="anchor-link" href="#Other-Raster-Tools">¶</a></h3>
+<h3 id="Other-Raster-Tools">Other Raster Tools<a class="anchor-link" href="#Other-Raster-Tools">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -800,13 +866,14 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In the <code>Raster</code> menu you will find other useful tools to work with rasters. Especially useful is the <code>Raster Calculator</code>, with which you can do computations on one or more rasters.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">¶</a></h2>
+<h2 id="Exercises">Exercises<a class="anchor-link" href="#Exercises">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -818,21 +885,23 @@ brew tap homebrew/science
 <li>Compute the average light in each region in your country.</li>
 <li>Generate a buffer of 100kms around each populated place and compute the average suitability and night lights for these buffers.</li>
 </ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Adding-Information-and-Using-Colors">Adding Information and Using Colors<a class="anchor-link" href="#Adding-Information-and-Using-Colors">¶</a></h1>
+<h1 id="Adding-Information-and-Using-Colors">Adding Information and Using Colors<a class="anchor-link" href="#Adding-Information-and-Using-Colors">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now that you have the average agricultural suitability for each administrative region. Let's color code it so we can visually observe the regional differences. For this double-click on the <code>your_country_cyl</code> layer, which should open a new window in the <code>style</code> tab of the <code>Layer->Properties</code> menu.</p>
-<p><a href="../images/pics/GIS/QGIS-Style-Properties.png"><img alt="QGIS-Style-Properties" src="../images/pics/GIS/QGIS-Style-Properties.png" style="width: 1000px;" /></a></p>
+<p>Now that you have the average agricultural suitability for each administrative region. Let's color code it so we can visually observe the regional differences. For this double-click on the <code>your_country_cyl</code> layer, which should open a new window in the <code>style</code> tab of the <code>Layer-&gt;Properties</code> menu.</p>
+<p><a href="../images/pics/GIS/QGIS-Style-Properties.png"><img src="../images/pics/GIS/QGIS-Style-Properties.png" alt="QGIS-Style-Properties" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -840,7 +909,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now, click on <code>Single Symbol</code> and choose <code>Graduated</code>. This allows us to use colors to show the different values of a field/variable of interest.</p>
-<p><a href="../images/pics/GIS/QGIS-Style-Category.png"><img alt="QGIS-Style-Category" src="../images/pics/GIS/QGIS-Style-Category.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Style-Category.png"><img src="../images/pics/GIS/QGIS-Style-Category.png" alt="QGIS-Style-Category" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -848,7 +918,8 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Next let us select the field of interest in the attribues table, namely, <code>suitmean</code>. To do so, click on <code>column</code> and choose the variable/field of interest, inthis case <code>suitmean</code>.</p>
-<p><a href="../images/pics/GIS/QGIS-Style-Field.png"><img alt="QGIS-Style-Field" src="../images/pics/GIS/QGIS-Style-Field.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-Style-Field.png"><img src="../images/pics/GIS/QGIS-Style-Field.png" alt="QGIS-Style-Field" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
@@ -856,10 +927,13 @@ brew tap homebrew/science
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>You can choose how many gradations to draw, e.g. increasing it from 5 to 10; change the color ramp, or the mode of creating the gradation. Try it out. You should get something like this</p>
-<p><a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"><img alt="QGIS-KEN-Graduated-suit" src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" style="width: 1000px;" /></a></p>
+<p><a href="../images/pics/GIS/QGIS-KEN-Graduated-suit.png"><img src="../images/pics/GIS/QGIS-KEN-Graduated-suit.png" alt="QGIS-KEN-Graduated-suit" style="width: 1000px;" /></a></p>
+
 </div>
 </div>
 </div>
+ 
+
 
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
@@ -911,7 +985,7 @@ brew tap homebrew/science
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
               <ul class="list-group" id="social">
-                <li class="list-group-item"><a href="https://github.com/econgrowth"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="https://github.com/ozak"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
                 <li class="list-group-item"><a href="https://twitter.com/OmerOzakEcon"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
                 <li class="list-group-item"><a href="https://linkedin.com/in/omerozak"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
                 <li class="list-group-item"><a href="https://www.researchgate.net/profile/Oemer_Oezak"><i class="fa fa-researchgate-square fa-lg"></i> Researchgate</a></li>
@@ -943,6 +1017,11 @@ brew tap homebrew/science
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/macroeconomics.html">
                             Macroeconomics
                         </a>
@@ -950,11 +1029,6 @@ brew tap homebrew/science
                     <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-4">

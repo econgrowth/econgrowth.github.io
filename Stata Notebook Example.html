@@ -31,7 +31,7 @@
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://econgrowth.github.io/theme/css/bootstrap.slate.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://econgrowth.github.io/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="https://econgrowth.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://econgrowth.github.io/theme/css/pygments/default.css" rel="stylesheet">
@@ -120,7 +120,8 @@ Economic Growth and Comparative Development            </a>
                 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1>Working with <img alt="Stata" src="https://www.stata.com/includes/images/stata-fb.jpg" width="200" /> in <img alt="Jupyter" src="https://raw.githubusercontent.com/adebar/awesome-jupyter/master/logo.png" width="250/" /></h1>
+<h1>Working with <img src="https://www.stata.com/includes/images/stata-fb.jpg" alt="Stata" width="200" /> in <img src="https://raw.githubusercontent.com/adebar/awesome-jupyter/master/logo.png" alt="Jupyter" width="250/"></h1>
+
 </div>
 </div>
 </div>
@@ -128,13 +129,14 @@ Economic Growth and Comparative Development            </a>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>You can work with a <code>Jupyter</code> notebook using <code>Stata</code> just as you would using Python. Text and math can be written in Markdown as we have done in the other notebooks. So, use your usual <code>Stata</code> code in <code>code cells</code>, produce figures etc., as if you were in the <code>Stata</code> console, but make it nice by using markdown to explain what you are doing.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="A-simple-example">A simple example<a class="anchor-link" href="#A-simple-example">¶</a></h1>
+<h1 id="A-simple-example">A simple example<a class="anchor-link" href="#A-simple-example">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -142,52 +144,70 @@ Economic Growth and Comparative Development            </a>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's run a simple <code>Stata</code> example using one of their help files.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [1]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span><span class="k">sysuse</span> auto<span class="m">.</span>dta
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span><span class="k">sysuse</span> auto<span class="m">.</span>dta
 </pre></div>
+
+    </div>
 </div>
 </div>
-</div>
+
 <div class="output_wrapper">
 <div class="output">
+
+
 <div class="output_area">
-<div class="prompt"></div>
+
+    <div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>(1978 Automobile Data)
 </pre>
 </div>
 </div>
+
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Basic-information">Basic information<a class="anchor-link" href="#Basic-information">¶</a></h2><p>Let's summarize and describe the data.</p>
+<h2 id="Basic-information">Basic information<a class="anchor-link" href="#Basic-information">&#182;</a></h2><p>Let's summarize and describe the data.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [3]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span><span class="k">summ</span>
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span><span class="k">summ</span>
 </pre></div>
+
+    </div>
 </div>
 </div>
-</div>
+
 <div class="output_wrapper">
 <div class="output">
+
+
 <div class="output_area">
-<div class="prompt"></div>
+
+    <div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
     Variable |        Obs        Mean    Std. Dev.       Min        Max
@@ -209,23 +229,32 @@ displacement |         74    197.2973    91.83722         79        425
 </pre>
 </div>
 </div>
+
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [4]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span><span class="k">desc</span>
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span><span class="k">desc</span>
 </pre></div>
+
+    </div>
 </div>
 </div>
-</div>
+
 <div class="output_wrapper">
 <div class="output">
+
+
 <div class="output_area">
-<div class="prompt"></div>
+
+    <div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 Contains data from /Applications/Stata/ado/base/a/auto.dta
@@ -253,13 +282,15 @@ Sorted by: foreign
 </pre>
 </div>
 </div>
+
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Regressions">Regressions<a class="anchor-link" href="#Regressions">¶</a></h2>
+<h2 id="Regressions">Regressions<a class="anchor-link" href="#Regressions">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -267,34 +298,42 @@ Sorted by: foreign
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's run a simple regression</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [8]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span><span class="k">reg</span> price mpg rep78 headroom trunk weight length turn displacement gear_ratio foreign, r
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span><span class="k">reg</span> price mpg rep78 headroom trunk weight length turn displacement gear_ratio foreign, r
 </pre></div>
+
+    </div>
 </div>
 </div>
-</div>
+
 <div class="output_wrapper">
 <div class="output">
+
+
 <div class="output_area">
-<div class="prompt"></div>
+
+    <div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 Linear regression                               Number of obs     =         69
                                                 F(10, 58)         =      11.47
-                                                Prob > F          =     0.0000
+                                                Prob &gt; F          =     0.0000
                                                 R-squared         =     0.5989
                                                 Root MSE          =     1997.3
 
 ------------------------------------------------------------------------------
              |               Robust
-       price |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+       price |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
 -------------+----------------------------------------------------------------
          mpg |  -21.80518   84.00518    -0.26   0.796    -189.9598    146.3495
        rep78 |   184.7935   337.0935     0.55   0.586    -489.9724    859.5594
@@ -311,32 +350,42 @@ displacement |   11.54012   7.065004     1.63   0.108    -2.602017    25.68227
 </pre>
 </div>
 </div>
+
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Plots">Plots<a class="anchor-link" href="#Plots">¶</a></h2>
+<h2 id="Plots">Plots<a class="anchor-link" href="#Plots">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [9]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span><span class="k">scatter</span> price mpg, mlabel(make)
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span><span class="k">scatter</span> price mpg, mlabel(make)
 </pre></div>
+
+    </div>
 </div>
 </div>
-</div>
+
 <div class="output_wrapper">
 <div class="output">
+
+
 <div class="output_area">
-<div class="prompt"></div>
-<div class="output_html rendered_html output_subarea">
-<iframe frameborder="0" height="436" scrolling="no" srcdoc='&lt;html&gt;&lt;body&gt;&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+                <iframe frameborder="0" scrolling="no" height="436" width="600" srcdoc='&lt;html&gt;&lt;body&gt;&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;!-- This is a Stata 16.1 generated SVG file (http://www.stata.com) --&gt;
 
 &lt;svg version="1.1" width="600px" height="436px" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
@@ -592,23 +641,31 @@ displacement |   11.54012   7.065004     1.63   0.108    -2.602017    25.68227
 	&lt;text x="3687.87" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle"&gt;40&lt;/text&gt;
 	&lt;text x="2124.91" y="2729.16" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle"&gt;Mileage (mpg)&lt;/text&gt;
 &lt;/svg&gt;
-&lt;/body&gt;&lt;/html&gt;' width="600"></iframe>
+&lt;/body&gt;&lt;/html&gt;'></iframe>
+
+</div>
+
+</div>
+
 </div>
 </div>
-</div>
-</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-stata"><pre><span></span>
+    <div class="input_area">
+<div class=" highlight hl-stata"><pre><span></span>
 </pre></div>
+
+    </div>
 </div>
 </div>
+
 </div>
-</div>
+ 
+
 
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
@@ -660,7 +717,7 @@ displacement |   11.54012   7.065004     1.63   0.108    -2.602017    25.68227
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
               <ul class="list-group" id="social">
-                <li class="list-group-item"><a href="https://github.com/econgrowth"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="https://github.com/ozak"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
                 <li class="list-group-item"><a href="https://twitter.com/OmerOzakEcon"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
                 <li class="list-group-item"><a href="https://linkedin.com/in/omerozak"><i class="fa fa-linkedin-square fa-lg"></i> Linkedin</a></li>
                 <li class="list-group-item"><a href="https://www.researchgate.net/profile/Oemer_Oezak"><i class="fa fa-researchgate-square fa-lg"></i> Researchgate</a></li>
@@ -692,6 +749,11 @@ displacement |   11.54012   7.065004     1.63   0.108    -2.602017    25.68227
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/macroeconomics.html">
                             Macroeconomics
                         </a>
@@ -699,11 +761,6 @@ displacement |   11.54012   7.065004     1.63   0.108    -2.602017    25.68227
                     <li class="list-group-item tag-1">
                         <a href="https://econgrowth.github.io/tag/notebooks.html">
                             Notebooks
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
