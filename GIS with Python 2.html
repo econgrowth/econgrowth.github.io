@@ -642,7 +642,7 @@ Populating the interactive namespace from numpy and matplotlib
 <span class="c1">#headers = {&#39;User-Agent&#39;: &#39;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36&#39;}</span>
 <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36&#39;</span><span class="p">,</span> <span class="s1">&#39;Accept&#39;</span><span class="p">:</span> <span class="s1">&#39;text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#39;</span><span class="p">}</span>
 
-<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip&#39;</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries.zip&#39;</span>
 <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
 <span class="n">countries</span> <span class="o">=</span> <span class="n">gp</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">))</span>
 <span class="c1">#countries = gpd.read_file(&#39;https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip&#39;)</span>
@@ -2952,8 +2952,8 @@ Name: GeoRaster, dtype: object</pre>
             <li class="list-group-item"><a href="https://econgrowth.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
-                            Macroeconomics
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
@@ -2962,8 +2962,8 @@ Name: GeoRaster, dtype: object</pre>
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
+                        <a href="https://econgrowth.github.io/tag/macroeconomics.html">
+                            Macroeconomics
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
