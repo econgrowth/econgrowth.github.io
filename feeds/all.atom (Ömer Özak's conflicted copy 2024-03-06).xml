@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Archives - Economic Growth and Comparative Development</title>
+    <title>Text-Mining and Social Network Data - Economic Growth and Comparative Development</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,16 @@
 
     <link href="https://econgrowth.github.io/images/favicomatic/favicon.ico" rel="icon">
 
+<link rel="canonical" href="https://econgrowth.github.io/pages/Text-Mining and Social Network Data.html">
 
         <meta name="author" content="Ömer Özak" />
+        <meta name="description" content="Literature using Text-Mining and Social Network Data Gentzkow, Matthew, Jesse M. Shapiro, and Matt Taddy. “Measuring group differences in high-dimensional choices: Method and application to congressional speech.” Econometrica 87, no. 4 (2019): 1307-1340. Supporting Material, including open access version of paper: (Shapiro&#39;s Website) Abstract We study the problem of measuring …" />
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="Economic Growth and Comparative Development" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Economic Growth and Comparative Development"/>
-        <meta property="og:url" content="https://econgrowth.github.io"/>
-        <meta property="og:description" content="Economic Growth and Comparative Development"/>
+    <meta property="og:site_name" content="Economic Growth and Comparative Development" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Text-Mining and Social Network Data"/>
+    <meta property="og:url" content="https://econgrowth.github.io/pages/Text-Mining and Social Network Data.html"/>
+    <meta property="og:description" content="Literature using Text-Mining and Social Network Data Gentzkow, Matthew, Jesse M. Shapiro, and Matt Taddy. “Measuring group differences in high-dimensional choices: Method and application to congressional speech.” Econometrica 87, no. 4 (2019): 1307-1340. Supporting Material, including open access version of paper: (Shapiro&#39;s Website) Abstract We study the problem of measuring …" />
 
 
     <!-- Bootstrap -->
@@ -71,57 +72,27 @@ Economic Growth and Comparative Development            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-      <h1>Archives for Economic Growth and Comparative Development</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2022-03-02T23:20:00-06:00">Wed 02 March 2022</time></span>
-                    <a href="https://econgrowth.github.io/IntroCGE.html">Introduction to CGE</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2020-06-02T10:20:00-05:00">Tue 02 June 2020</time></span>
-                    <a href="https://econgrowth.github.io/GIS with Python 2.html">GIS with Python 2</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2020-06-02T10:20:00-05:00">Tue 02 June 2020</time></span>
-                    <a href="https://econgrowth.github.io/GIS with Python 3.html">GIS with Python 3</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2020-06-02T10:20:00-05:00">Tue 02 June 2020</time></span>
-                    <a href="https://econgrowth.github.io/Stata Notebook Example.html">Stata Notebook Example</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2020-06-02T10:20:00-05:00">Tue 02 June 2020</time></span>
-                    <a href="https://econgrowth.github.io/Stata in Python Notebook.html">Stata in Python Notebook</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/Dynamic Programming.html">Dynamic Programming in Python</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/Dynamic Programming Numba.html">Faster Dynamic Programming with Numba</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/Economic Data Analysis.html">Economic Data Analysis in Python</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/GIS with Python.html">GIS with Python</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/GIS with QGIS.html">GIS with QGIS</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/IntroPython.html">Introduction to Python</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-29T10:20:00-06:00">Thu 29 December 2016</time></span>
-                    <a href="https://econgrowth.github.io/ipympl.html">Playing with ipympl</a>
-                </p>
+    <section id="content" class="body">
+        <h1 class="entry-title">Text-Mining and Social Network Data</h1>
+        
+        <div class="entry-content">
+            <h1>Literature using Text-Mining and Social Network Data</h1>
+<hr>
+<p><a href="https://doi.org/10.3982/ECTA16566">Gentzkow, Matthew, Jesse M. Shapiro, and Matt Taddy. “Measuring group differences in high-dimensional choices: Method and application to congressional speech.” Econometrica 87, no. 4 (2019): 1307-1340.</a> </p>
+<p>Supporting Material, including open access version of paper: <a href="https://scholar.harvard.edu/shapiro/publications/measuring-group-differences-high-dimensional-choices-method-and-application">(Shapiro's Website)</a></p>
+<p><strong>Abstract</strong>
+We study the problem of measuring group differences in choices when the dimensionality of the choice set is large. We show that standard approaches suffer from a severe finite-sample bias, and we propose an estimator that applies recent advances in machine learning to address this bias. We apply this method to measure trends in the partisanship of congressional speech from 1873 to 2016, defining partisanship to be the
+ease with which an observer could infer a congressperson’s party from a single utterance. Our estimates imply that partisanship is far greater in recent years than in the past, and that it increased sharply in the early 1990s after remaining low and relatively constant over the preceding century.</p>
+<hr>
+<p><a href="https://doi.org/10.1162/rest_a_01160">Boxell, Levi, Matthew Gentzkow, and Jesse M. Shapiro. “Cross-country trends in affective polarization.” Review of Economics and Statistics (2022)</a></p>
+<p>Supporting Material, including open access version of paper: <a href="https://scholar.harvard.edu/shapiro/publications/cross-country-trends-affective-polarization">(Shapiro's Website)</a></p>
+<p><strong>Abstract</strong>
+We measure trends in affective polarization in twelve OECD countries over the past four decades. According to our baseline estimates, the US experienced the largest increase in polarization over this period. Five countries experienced a smaller increase in polarization. Six countries experienced a decrease in polarization. We relate trends in polarization to trends in potential explanatory factors.</p>
+<hr>
+<hr>
+<p><a href="https://doi.org/10.1073/pnas.2108801119">Arseniev-Koehler, A., Cochran, S. D., Mays, V. M., Chang, K. W., &amp; Foster, J. G. (2022). Integrating topic modeling and word embedding to characterize violent deaths. Proceedings of the National Academy of Sciences, 119(10), e2108801119</a></p>
+<p><strong>Abstract</strong>
+There is an escalating need for methods to identify latent patterns in text data from many domains. We introduce a method to identify topics in a corpus and represent documents as topic sequences. Discourse atom topic modeling (DATM) draws on advances in theoretical machine learning to integrate topic modeling and word embedding, capitalizing on their distinct capabilities. We first identify a set of vectors (“discourse atoms”) that provide a sparse representation of an embedding space. Discourse atoms can be interpreted as latent topics; through a generative model, atoms map onto distributions over words. We can also infer the topic that generated a sequence of words. We illustrate our method with a prominent example of underutilized text: the US National Violent Death Reporting System (NVDRS). The NVDRS summarizes violent death incidents with structured variables and unstructured narratives. We identify 225 latent topics in the narratives (e.g., preparation for death and physical aggression); many of these topics are not captured by existing structured variables. Motivated by known patterns in suicide and homicide by gender and recent research on gender biases in semantic space, we identify the gender bias of our topics (e.g., a topic about pain medication is feminine). We then compare the gender bias of topics to their prevalence in narratives of female versus male victims. Results provide a detailed quantitative picture of reporting about lethal violence and its gendered nature. Our method offers a flexible and broadly applicable approach to model topics in text data.</p>
         </div>
     </section>
         </div>
@@ -169,13 +140,13 @@ Economic Growth and Comparative Development            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/ipython.html">
-                            IPython
+                        <a href="https://econgrowth.github.io/tag/notebooks.html">
+                            Notebooks
                         </a>
                     </li>
                     <li class="list-group-item tag-1">
-                        <a href="https://econgrowth.github.io/tag/notebooks.html">
-                            Notebooks
+                        <a href="https://econgrowth.github.io/tag/ipython.html">
+                            IPython
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
